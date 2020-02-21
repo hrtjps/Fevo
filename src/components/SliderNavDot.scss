@@ -1,0 +1,19 @@
+.dots {
+  display: flex;
+  .dot {
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    border: solid 1px #979797;
+    border-radius: 50%;
+    margin-right: 14px;
+    cursor: pointer;
+    &:hover {
+      border: solid 1px var(--fevo-blue);
+    }
+    &.active {
+      background-color: var(--fevo-blue);
+      border: solid 1px var(--fevo-blue);
+    }
+  }
+}

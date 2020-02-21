@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  .menu {
+    a {
+      text-decoration: none;
+      font-family: "Colfax Light";
+      color: white;
+      letter-spacing: -0.3px;
+      text-align: center;
+      margin-right: 40px;
+    }
+    .active-link {
+      font-family: "Colfax Bold";
+      color: var(--fevo-blue);
+    }
+  }
+}

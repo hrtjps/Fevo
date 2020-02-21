@@ -2,9 +2,11 @@ import React, { Suspense } from "react";
 import Loading from "../components/Loading";
 import { Switch, Redirect, Route } from "react-router-dom";
 import routes from "../routes";
+import Header from "./Header";
 const Layout = () => {
   return (
     <div className="app">
+      <Header />
       <div className="app-body">
         <main className="main">
           <Suspense fallback={<Loading />}>
