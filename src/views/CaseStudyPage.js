@@ -10,7 +10,6 @@ import {dataSelector} from "../modules/app";
 import { NavLink } from "react-router-dom";
 
 const CaseStudyPage = ({data}) => {
-  console.log(data);
 
   return (
     <>

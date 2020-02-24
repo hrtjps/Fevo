@@ -9,6 +9,47 @@
   align-items: center;
   padding: 48px;
   .menu {
+    display: flex;
+    .btn-link {
+      text-decoration: none;
+    }
+    .dropdown-toggle {
+      padding: 0 0;
+      position: relative;
+      margin-right: 40px;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 10px;
+        width: 2px;
+        height: 8px;
+        transition: all 0.5s;
+
+        right: 9px;
+        transform: rotate(-45deg);
+        background-color: white;
+        border: none !important;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 10px;
+        width: 2px;
+        height: 8px;
+        transition: all 0.5s;
+        right: 4px;
+        transform: rotate(45deg);
+        background-color: white;
+      }
+    }
+    .dropdown-menu {
+      background-color: black;
+      .dropdown-item {
+        &:hover {
+          background-color: #323333;
+        }
+      }
+    }
     a {
       text-decoration: none;
       font-family: "Colfax Light";

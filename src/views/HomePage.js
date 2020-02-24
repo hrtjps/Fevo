@@ -22,11 +22,11 @@ const HomePage = () => {
 
   return (
     <>
-      <section className="hero-section">
-        <div className="hero-container half-computer">
+      <section className="hero-section common-4-6-pan">
+        <div className="hero-container left-pan">
           <img src={halfComputer} alt="computer" />
         </div>
-        <div className="hero-container hero-content" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
+        <div className="hero-container right-pan" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
           <h1>The Buy Button<span className="of-the">of the</span></h1>
           <h1>Experience Economy</h1>
           <div className="content">
@@ -36,8 +36,8 @@ const HomePage = () => {
           <SliderNavDot dots={4} />
         </div>
       </section>
-      <section className="collective-section">
-        <div className="sub-title" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
+      <section className="collective-section common-4-6-pan">
+        <div className="sub-title left-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
           <div className="sub-title-content">
             <h2>Collective<br/> Commerce:</h2>
             <h2 className="sub-content">
@@ -46,7 +46,7 @@ const HomePage = () => {
             </h2>
           </div>
         </div>
-        <div className="content-container" >
+        <div className="right-pan" >
           <div className="content">
             The game has changed for social experiences. Using 
             Fevo, consumers buy as individuals, share purchases 

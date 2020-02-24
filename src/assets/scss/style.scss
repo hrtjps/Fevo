@@ -187,3 +187,59 @@ section {
   background-size: cover;
   background-position: center;
 }
+
+
+.sub-title {
+  padding-bottom: 180px;
+  padding-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .sub-title-content {
+    position: relative;
+    padding-bottom: 60px;
+    &::after {
+      position: absolute;
+      bottom: 0px;
+      content: "";  
+      width: 70px;
+      min-width: 70px;
+      height: 3px;
+      background-color: #ffffff;
+    }
+  
+    &.top-bar {
+      padding-bottom: 0;
+      padding-top: 60px;
+      &::after {
+        top: 0;
+      }
+  
+    }
+    &.center {
+      &::after {
+        left: calc(50% - 35px);
+      }
+    }
+  }
+}
+
+
+.content {
+  font-size: 21px;
+  line-height: 1.48;
+  max-width: 600px;
+}
+
+.common-4-6-pan {
+  display: flex;
+  width: 100%;
+  .left-pan {
+    width: 40%;
+    padding: 240px 120px;
+  }
+  .right-pan {
+    padding: 240px 120px;
+    width: 60%;
+  }
+}

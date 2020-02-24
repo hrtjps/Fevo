@@ -26,6 +26,7 @@ const Layout = () => {
                 );
               })}
               <Redirect from="/" to="/home" />
+              <Redirect from="/brands" to="/brands/about-fevo-brand" />
             </Switch>
           </Suspense>
         </main>
