@@ -1,128 +1,69 @@
-.about-fevo-hero-section {
+.fans-hero-section {
   width: 100%;
   padding-top: 85px;
   height: 700px;
   display: flex;
   align-items: center;
-  .about-fevo-hero-container {
+  .fans-hero-container {
+    .left-pan {
+      padding-right: 50px;
+      padding-top: 100px;
+    }
+    .right-pan {
+      padding-top: 100px;
+    }
     h1 {
-      color: var(--fevo-blue);
+      color: var(--fevo-yellow);
     }
   }
 }
-.amplify-section {
-  background-color: var(--fevo-blue);
+.experience-section {
   height: 700px;
-  display: flex;
-  align-items: center;
-  .sub-title {
-    height: 100%;
-    display: flex;
-    align-items: center;
+  color: #070707;
+  background-color: var(--fevo-yellow);
+  .left-pan {
+    text-align: right;
+    padding-right: 66px;
+  }
+  .right-pan {
     background-position: center;
     background-size: cover;
   }
 }
-.social-section {
+.planning-section {
   height: 700px;
-  background-color: #101010;
-  .content {
-    margin-bottom: 78px;
-  }
-  .get-started {
-    font-family: "Colfax Medium";
-    font-size: 24px;
-    line-height: 1.38;
-    color: var(--fevo-blue);
-    svg  {
-      color: #979797;
-      margin-left: 20px;
-      border: solid 2px #979797;
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-    }
-  }
-}
-.down-arrow {
-  display: flex;
-  justify-content: center;
-  font-size: 21px;
+  background-color: #1c1c1c;
 
-  padding: 78px;
-}
-.launch-section {
-  padding: 96px;
-  .title {
-    text-align: center;
-    font-size: 48px;
-    line-height: 1.21;
-    letter-spacing: -0.55px;
-    color: #f2cc01;
-  }
-  .sub-title {
+  .left-pan {
     padding: 50px;
-    .sub-title-content {
-      max-width: 980px;
-      font-size: 21px;
-      line-height: 1.33;
-      text-align: center;
-      color: var(--very-light-grey);
-    }
-  }
-  .launch-items {
-    .launch-item { 
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-      opacity: 0.5;
-      img {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      .item-name {
-        font-size: 21px;
-        font-family: "Colfax Medium";
-        line-height: 1.33;
-        text-align: center;
-        color: var(--very-light-grey);
-      }
-      &.active {
-        opacity: 1;
-      }
-    }
-  }
-  .access-img {
     display: flex;
+    align-items: center;
     justify-content: center;
-    img {
-      width: 100%;
-      max-width: 500px;
-    }
   }
-  .access-items {
+  .right-pan {
+    background-position: center;
+    background-size: cover;
+    // padding: 85px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .access-item {
-      font-size: 21px;
-      line-height: 1.14;
-      margin-bottom: 20px;
-      display: flex;
-      align-items: flex-start;
-      svg {
-        font-size: 30px;
-        color: #59b174;
-        margin-right: 18px;
-      }
+
+    h1 {
+      margin-bottom: 40px;
     }
-  }
-  .stats-container {
-    .sub-title {
-      margin-bottom: 70px;
+    .content {
+      margin-bottom: 40px;
+    }
+    .lets-go {
+      font-size: 21px;
+      line-height: 1.33;
+      color: var(--fevo-blue);
+      margin-bottom: 40px;
+    }
+    .links {
+      a {
+        margin-right: 22px;
+      }
     }
   }
 }
