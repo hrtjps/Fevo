@@ -1,0 +1,128 @@
+.about-fevo-hero-section {
+  width: 100%;
+  padding-top: 85px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  .about-fevo-hero-container {
+    h1 {
+      color: var(--fevo-blue);
+    }
+  }
+}
+.amplify-section {
+  background-color: var(--fevo-blue);
+  height: 700px;
+  display: flex;
+  align-items: center;
+  .sub-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.social-section {
+  height: 700px;
+  background-color: #101010;
+  .content {
+    margin-bottom: 78px;
+  }
+  .get-started {
+    font-family: "Colfax Medium";
+    font-size: 24px;
+    line-height: 1.38;
+    color: var(--fevo-blue);
+    svg  {
+      color: #979797;
+      margin-left: 20px;
+      border: solid 2px #979797;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+
+  padding: 78px;
+}
+.launch-section {
+  padding: 96px;
+  .title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.21;
+    letter-spacing: -0.55px;
+    color: #f2cc01;
+  }
+  .sub-title {
+    padding: 50px;
+    .sub-title-content {
+      max-width: 980px;
+      font-size: 21px;
+      line-height: 1.33;
+      text-align: center;
+      color: var(--very-light-grey);
+    }
+  }
+  .launch-items {
+    .launch-item { 
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.5;
+      img {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .item-name {
+        font-size: 21px;
+        font-family: "Colfax Medium";
+        line-height: 1.33;
+        text-align: center;
+        color: var(--very-light-grey);
+      }
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+  .access-img {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+  .access-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .access-item {
+      font-size: 21px;
+      line-height: 1.14;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+      svg {
+        font-size: 30px;
+        color: #59b174;
+        margin-right: 18px;
+      }
+    }
+  }
+  .stats-container {
+    .sub-title {
+      margin-bottom: 70px;
+    }
+  }
+}

@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faArrowDown, faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 
-import './AboutFevoBrandsPage.scss';
+import './AboutFevoFansPage.scss';
 import heroBgImg from '../../assets/bg-images/about_fevo-brands/group-4.png';
 import prjImg1 from '../../assets/bg-images/about_fevo-brands/image-1_4.png';
 import prjImg2 from '../../assets/bg-images/about_fevo-brands/image-1_3.png';
@@ -15,10 +15,9 @@ import amplifyBgImg from '../../assets/bg-images/home/rectangle.png';
 import {dataSelector} from "../../modules/app";
 import fevoBlackCloth from '../../assets/bg-images/home/fevo-black-cloth.png';
 import 'react-circular-progressbar/dist/styles.css';
-import FevoStateItem from "../../components/FevoStateItem";
 
 
-const AboutFevoBrandsPage = ({data}) => {
+const AboutFevoFansPage = ({data}) => {
 
   return (
     <>
@@ -152,13 +151,6 @@ const AboutFevoBrandsPage = ({data}) => {
             </div>
           </div>
           <div className="row">
-            {
-              data.fevoStateItems.map((item, i)=>(
-                <div className="col-6" key={i}>
-                  <FevoStateItem item={item}/>
-                </div>
-              ))
-            }
           </div>
         </div>
       </section>
@@ -174,4 +166,4 @@ const mapProps = {
   
 };
 const enhance = connect(mapState, mapProps);
-export default enhance(AboutFevoBrandsPage);
+export default enhance(AboutFevoFansPage);

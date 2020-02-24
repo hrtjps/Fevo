@@ -25,47 +25,39 @@ const Header = () => {
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
-            <DropdownItem>
-              <NavLink
-                to="/brands/about-fevo-brand"
-                activeClassName="active-link"
-                exact
-              >
-                About Fevo - Brands
-              </NavLink>
-            </DropdownItem>
-            <DropdownItem>
-              <NavLink
-                to="/brands/about-fevo-fans"
-                activeClassName="active-link"
-                exact
-              >
-                About Fevo - Fands
-              </NavLink>
-            </DropdownItem>
+            <NavLink
+              to="/brands/about-fevo"
+              activeClassName="active-link"
+              exact
+            >
+              About Fevo - Brands
+            </NavLink>
+            <NavLink
+              to="/brands/about-fevo"
+              activeClassName="active-link"
+              exact
+            >
+              other
+            </NavLink>
           </DropdownMenu>
         </Dropdown>
         <Dropdown>
           <DropdownToggle variant="link">
-            <NavLink to="/fans" activeClassName="active-link" exact>
+            <NavLink to="/fans" activeClassName="active-link">
               For Fans
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
-            <DropdownItem>
-              <NavLink
-                to="/brands/about-fevo"
-                activeClassName="active-link"
-                exact
-              >
-                Blog Single
-              </NavLink>
-            </DropdownItem>
-            <DropdownItem>
-              <NavLink to="/brands/brand" activeClassName="active-link" exact>
-                Brands
-              </NavLink>
-            </DropdownItem>
+            <NavLink
+              to="/fans/about-fevo"
+              activeClassName="active-link"
+              exact
+            >
+              About Fevo - Fans
+            </NavLink>
+            <NavLink to="/fans/brand" activeClassName="active-link" exact>
+              Brands
+            </NavLink>
           </DropdownMenu>
         </Dropdown>
         <NavLink to="/case-study" activeClassName="active-link" exact>

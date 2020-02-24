@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./PleasureWorking.scss";
 import { connect } from "react-redux";
@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const PleasureWorking = ({data}) => {
-  const [curNo, setCurNo] = useState(0);
   return (
     <div className="working-container">
       <div className="title">
@@ -18,7 +17,7 @@ const PleasureWorking = ({data}) => {
           {
             data.workingItems.map((e, i) => {
               return (
-                <div key={i} className="working-item" onClick={()=>setCurNo(i)}>
+                <div key={i} className="working-item">
                   <img src={e.img} alt=""/>
                 </div>
               )
