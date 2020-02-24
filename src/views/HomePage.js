@@ -10,8 +10,11 @@ import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
 import fevoWayBgImg from '../assets/bg-images/home/group-2.png';
 import learfieldImg from '../assets/icons/learfield.png';
 
+import {dataSelector} from "../modules/app";
+
 import SliderNavDot from "../components/SliderNavDot";
 import { NavLink } from "react-router-dom";
+import PleasureWorking from "../components/PleasureWorking";
 
 const HomePage = () => {
 
@@ -99,16 +102,19 @@ const HomePage = () => {
               <div className="evp-of-sales">EVP of Sales & Service at Learfield IMG College</div>
             </div>
           </div>
-          <div className="d-flex justify-content-center slider-navs">
-            <SliderNavDot dots={4} />
-          </div>
+        </div>
+        
+        <div className="slider-navs">
+          <PleasureWorking />
         </div>
       </section>
     </>
   );
 };
 
-const mapState = state => ({});
+const mapState = state => ({
+  data: dataSelector(state)
+});
 const mapProps = {
   
 };

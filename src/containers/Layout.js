@@ -3,6 +3,7 @@ import Loading from "../components/Loading";
 import { Switch, Redirect, Route } from "react-router-dom";
 import routes from "../routes";
 import Header from "./Header";
+import Footer from "./Footer";
 const Layout = () => {
   return (
     <div className="app">
@@ -29,6 +30,7 @@ const Layout = () => {
           </Suspense>
         </main>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -131,6 +131,14 @@
     url("../fonts/georgiaz.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HelveticaNeue"),
+    url("../fonts/HelveticaNeueLt.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: "Colfax Regular";
@@ -173,4 +181,9 @@ h2, .h2 {
 .row {
   margin-right: 0;
   margin-left: 0;
+}
+
+section {
+  background-size: cover;
+  background-position: center;
 }
