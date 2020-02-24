@@ -10,7 +10,7 @@ import npTicketIcon from '../assets/icons/np-ticket.png';
 import npUsersIcon from '../assets/icons/np-users.png';
 import npRevenueIcon from '../assets/icons/np-revenue.png';
 import cartImg from '../assets/bg-images/case-study-single/product-shot-bucks-1.png';
-import pacersImg from '../assets/bg-images/case-study-single/img-3.png';
+import pacersImg from '../assets/bg-images/case-study-home/group-6_3.png';
 import pacersLogo from '../assets/icons/pngkey-com-pacers-logo.png';
 import img1 from '../assets/bg-images/case-study-single/img-1.png';
 import img2 from '../assets/bg-images/case-study-single/img-2.png';

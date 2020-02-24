@@ -7,6 +7,8 @@ import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
 import './HomePage.scss';
 import halfComputer from '../assets/bg-images/home/group-4.png';
 import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
+import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
+
 import fevoWayBgImg from '../assets/bg-images/home/group-2.png';
 import learfieldImg from '../assets/icons/learfield.png';
 
@@ -35,7 +37,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="collective-section">
-        <div className="sub-title" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
+        <div className="sub-title" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
           <div className="sub-title-content">
             <h2>Collective<br/> Commerce:</h2>
             <h2 className="sub-content">

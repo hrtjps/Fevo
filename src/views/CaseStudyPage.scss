@@ -1,120 +1,64 @@
 .case-hero-section {
-  height: calc(100vh - 150px);
-  min-height: calc(100vh - 150px);
+  height: 650px;
+  min-height: 650px;
   display: flex;
   width: 100%;
+  color: #040404;
   .case-hero-container {
-    padding-top: 85px;
+    padding: 85px 120px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     position: relative;
+    h1 {
+      margin-bottom: 30px;
+    }
     .overview-link {
       position: absolute;
       bottom: 85px;
       a {
-        color: white;
+        color: #040404;
         text-decoration: none;
         svg {
           margin-right: 17px;
         }
       }
     }
-  }
-}
-.results-section {
-  padding: 55px;
-  .title {
-    text-align: center;
-    font-size: 21px;
-    line-height: 1.62;
-    letter-spacing: -0.43px;
-    margin-bottom: 72px;
-  }
-  .result-item {
-    text-align: center;
-    .value {
-      font-size: 60px;
-      line-height: 0.8;
-      letter-spacing: -1.2px;
-      color: #7ac09b;
-      margin-bottom: 15px;
+    .featured {
+      font-size: 18px;
+      line-height: 1.56;
+      color: #0c0b0b;
+      margin-bottom: 20px;
     }
-    .name {
+    .featured-logos {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 21px;
-      color: #838383;
       img {
-        margin-right: 8px;
+        height: 55px;
+        margin-right: 50px;
       }
     }
   }
 }
-.bucks-content-section {
-  padding: 23px;
-  display: flex;
-  background-color: white;
-  .bucks-content {
-    padding: 100px;
-    padding-top: 70px;
-    .bucks-content-header {
-      display: flex;
-      align-items: center;
-      font-size: 21px;
-      line-height: 1.33;
-      color: #0c0c0c;
-      img {
-        margin-right: 25px;
-      }
-      margin-bottom: 68px;
-    }
-    p {
-      font-size: 21px;
-      line-height: 1.48;
-      letter-spacing: -0.43px;
-      color: var(--black);
+.case-item-section {
+  padding: 240px 120px ;
+  h1 {
+    margin-bottom: 50px;
+  }
+  a {
+    color: var(--fevo-blue);  
+    font-size: 18px;
+    line-height: 1.56;
+    text-decoration: none;
+    font-family: "Colfax Medium";
+    svg {
+      color: white;
+      margin-left: 20px;
     }
   }
-}
-.imgs-section {
-  height: 500px;
-  display: flex;
-  .img-1 {
-    width: 33%;
-    // height: 500px;
-    border-right: solid 2px white;
-    border-bottom: solid 2px white;
-  }
-  .img-2 {
-    width: 67%;
-    border-bottom: solid 2px white;
-  }
-}
-.paccers-section {
-  padding: 70px 120px;
-  border-bottom: 5px solid #383939;
-  .view-next-link {
-    margin-bottom: 70px;
-    font-size: 21px;
-    line-height: 1.33;
-    a {
-      color: var(--fevo-blue);
-      margin: 0 20px;
-    }
-  }
-  .indiana-pacers {
-    font-size: 72px;
-    line-height: 1;
-    letter-spacing: -1px;
-    margin-bottom: 70px;
-  }
-  .pacers-logo {
+  .item-logo {
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 }
