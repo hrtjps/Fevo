@@ -14,7 +14,7 @@ const Newsletter = ({data, darkTheme}) => {
         <div className="description">Sign up to receive market insights on today’s latest hot topics</div>
         <input className="form-control" placeholder="Your name"/>
         <input className="form-control" placeholder="Your email address"/>
-        <button className="form-control">SUBSCRIBE NOW</button>
+        <button className="form-control custom-button">SUBSCRIBE NOW</button>
       </div>
       <div className="posts">
         <div className="blog-title">Popular posts</div>

@@ -55,7 +55,40 @@
         font-weight: 500;
         line-height: 1;
         letter-spacing: -0.42px;
-        margin-bottom: 25px;
+      }
+      .form-control, .input-group {
+        max-width: 320px;
+        height: 40px;
+      }
+      .label {
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 7px;
+        font-family: "Colfax Medium";
+        font-size: 18px;
+        line-height: 1.56;
+        letter-spacing: -0.54px;
+        color: #0a0a0a;
+      }
+      label {
+        font-size: 18px;
+        line-height: 1.89;
+        letter-spacing: -0.54px;
+        color: #0a0a0a;
+        margin-left: 0;
+        &::before, &::after {
+          left: -35px;
+          top: 8px
+        }
+      }
+      textarea {
+        height: 165px;
+        width: 100%;
+        max-width: unset !important;
+      }
+      .custom-button {
+        height: 53px;
+        width: 220px;
       }
 
     }

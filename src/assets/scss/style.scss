@@ -298,3 +298,16 @@ section {
 .modal-open {
   padding-right: 0 !important;
 }
+
+.custom-button {
+  background-color: var(--fevo-blue);
+  color: white;
+  font-family: "Colfax Medium";
+  border: none;
+  transition: border-color background-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  &:focus {
+    color: white;
+    background-color: #0f93c7f6;
+  }
+}
