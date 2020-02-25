@@ -31,7 +31,7 @@ const CaseStudyPage = ({data}) => {
           <div className="overview-link">
             <NavLink to="#">
               <FontAwesomeIcon icon={faArrowDown}/>
-              Overview & Results
+              Blog
             </NavLink>
           </div>
         </div>

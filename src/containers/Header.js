@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
-import DropdownItem from "react-bootstrap/DropdownItem";
 const Header = () => {
   return (
     <div className="header">
@@ -26,18 +25,18 @@ const Header = () => {
           </DropdownToggle>
           <DropdownMenu>
             <NavLink
-              to="/brands/about-fevo"
+              to="/brands"
               activeClassName="active-link"
               exact
             >
-              About Fevo - Brands
+              Brands
             </NavLink>
             <NavLink
               to="/brands/about-fevo"
               activeClassName="active-link"
               exact
             >
-              other
+              About Fevo - Brands
             </NavLink>
           </DropdownMenu>
         </Dropdown>
@@ -56,7 +55,7 @@ const Header = () => {
               About Fevo - Fans
             </NavLink>
             <NavLink to="/fans/brand" activeClassName="active-link" exact>
-              Brands
+              Fans
             </NavLink>
           </DropdownMenu>
         </Dropdown>

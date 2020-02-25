@@ -1,0 +1,47 @@
+.blog-hero-section {
+  width: 100%;
+  padding-top: 85px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  .blog-hero-container {
+    height: 100%;
+    position: relative;
+    padding: 85px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      
+    }
+    .subtitle {
+      font-size: 21px;
+      line-height: 1.33;
+    }
+    .overview-link {
+      position: absolute;
+      bottom: 85px;
+      a {
+        color: white;
+        text-decoration: none;
+        svg {
+          margin-right: 17px;
+        }
+      }
+    }
+
+  }
+}
+
+.blogs-section {
+  background-color: white;
+  padding: 110px 55px;
+  display: flex;
+  .blogs {
+    flex-grow: 1;
+    padding: 0 55px;
+  }
+  .subscribe {
+    padding: 0 55px;
+  }
+}
