@@ -4,9 +4,11 @@
   height: 700px;
   display: flex;
   align-items: center;
+  justify-content: center;
   .video-hero-container {
     height: 100%;
     position: relative;
+    max-width: 1500px;
     // padding: 85px 120px;
     // display: flex;
     // flex-direction: column;
@@ -24,6 +26,7 @@
     }
     .right-pan {
       padding: 120px;
+      // max-width: 880px;
 
     }
     .overview-link {

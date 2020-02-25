@@ -242,3 +242,46 @@ export const testimonialItems = [
     content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur"
   },
 ]
+
+export const faqItems = [
+  {
+    question: "Are my tickets verified?",
+    answer: "Absolutely! Fevo’s tickets come straight from the artists, teams or venues themselves, so your tickets are guaranteed, every time."
+  },
+  {
+    question: "What if I did not receive my confirmation email?",
+    answer: "If you did not receive your confirmation email, please be sure to check your spam/junk folder just in case. If it is not there, we are happy to resend it again."
+  },
+  {
+    question: "What if I entered an incorrect email address or need to update it? ",
+    answer: "Once tickets have been sent out, your email address will need to be updated through ticket office directly."
+  },
+  {
+    question: "Why can I only select a certain number of tickets?",
+    answer: "This is because there are a limited amount of tickets available consecutively. For example, if you wish to purchase 2 tickets and you’re only allowed to select 1, this means there are only single seats scattered around the venue. There are no consecutive seats available together."
+  },
+  {
+    question: "Can you resend my tickets?",
+    answer: "Yes, if for some reason you did not receive your tickets or accidentally deleted them, we can send them again. If an email address was entered incorrectly at checkout, it will need to be updated on the account before tickets can be resent."
+  },
+  {
+    question: "When will I receive my tickets?",
+    answer: "Tickets are sent out 24 hours before the event. For a limited number of offers, they will be sent out instantly after purchase."
+  },
+  {
+    question: "Do I need to print my tickets?",
+    answer: "Sometimes! Be sure to pay close attention to the instructions on your ticket confirmation email! That information will tell you exactly how your tickets need to be presented - whether they need to be printed, have an accompanying photo ID, etc"
+  },
+  {
+    question: "My confirmation email says it will receive instructions to access tickets through my account but I do not have one, so how can I login?",
+    answer: `When tickets are distributed for these events an account is automatically created for you using the email you purchased your tickets with. You will receive an email 1-2 days before the event with your seating assignment and instructions on how to login to the account. It’s a simple process that requires you to use the “forgot password?” tool to create a new one and at that point login with your email. If you have not received an email to reset your password please visit the "contact us" section of the teams account manager for further assistance in resetting your password.`
+  },
+  {
+    question: "If the section I purchased is sold out, can I still grow my group?",
+    answer: "All sales are final, unless the event is canceled due to unforeseen circumstances."
+  },
+  {
+    question: "How long will it take for my refund to go through?",
+    answer: "If a refund is approved, the funds will return back on your card in 3-5 business days once issued."
+  },
+]
