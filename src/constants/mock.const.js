@@ -33,6 +33,13 @@ import instagramImg4 from '../assets/bg-images/blogs/instagramImg-4.png';
 import instagramImg5 from '../assets/bg-images/blogs/instagramImg-5.png';
 import instagramImg6 from '../assets/bg-images/blogs/instagramImg-6.png';
 
+import pressLogo1 from '../assets/icons/cnn-logo.png';
+import pressLogo2 from '../assets/icons/mashable.png';
+import pressLogo3 from '../assets/icons/cbs-logo.png';
+import pressLogo4 from '../assets/icons/nytimes-logo.png';
+import pressLogo5 from '../assets/icons/la-times.png';
+import pressLogo6 from '../assets/icons/wired.png';
+
 export const workingItems = [
   { img: yankeesLogo },
   { img: dolphinsCategoryLogo },
@@ -172,5 +179,38 @@ export const instagramImgs = [
   },
   {
     img: instagramImg6,
+  },
+]
+
+export const pressItems = [
+  {
+    img: pressLogo1,
+    title: "Press Headline Title Lorem Ipsum ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
+  },
+  {
+    img: pressLogo2,
+    title: "Press Headline Title Lorem Ipsum ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
+  },
+  {
+    img: pressLogo3,
+    title: "Press Headline Title Lorem Ipsum ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
+  },
+  {
+    img: pressLogo4,
+    title: "Press Headline Title Lorem Ipsum ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
+  },
+  {
+    img: pressLogo5,
+    title: "Press Headline Title Lorem Ipsum ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
+  },
+  {
+    img: pressLogo6,
+    title: "Press Headline Title Lorem Ipsum ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
   },
 ]

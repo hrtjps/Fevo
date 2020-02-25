@@ -4,18 +4,18 @@ import { connect } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './CaseStudySinglePage.scss';
-import heroBgImg from '../assets/bg-images/case-study-single/hero.png';
-import fevoCloth from '../assets/bg-images/home/fevo-black-cloth.png'
-import npTicketIcon from '../assets/icons/np-ticket.png';
-import npUsersIcon from '../assets/icons/np-users.png';
-import npRevenueIcon from '../assets/icons/np-revenue.png';
-import cartImg from '../assets/bg-images/case-study-single/product-shot-bucks-1.png';
-import pacersImg from '../assets/bg-images/case-study-home/group-6_3.png';
-import pacersLogo from '../assets/icons/pngkey-com-pacers-logo.png';
-import img1 from '../assets/bg-images/case-study-single/img-1.png';
-import img2 from '../assets/bg-images/case-study-single/img-2.png';
-import bucksIcon from '../assets/icons/milwaukee-bucks-green.png'
-import {dataSelector} from "../modules/app";
+import heroBgImg from '../../assets/bg-images/case-study-single/hero.png';
+import fevoCloth from '../../assets/bg-images/home/fevo-black-cloth.png'
+import npTicketIcon from '../../assets/icons/np-ticket.png';
+import npUsersIcon from '../../assets/icons/np-users.png';
+import npRevenueIcon from '../../assets/icons/np-revenue.png';
+import cartImg from '../../assets/bg-images/case-study-single/product-shot-bucks-1.png';
+import pacersImg from '../../assets/bg-images/case-study-home/group-6_3.png';
+import pacersLogo from '../../assets/icons/pngkey-com-pacers-logo.png';
+import img1 from '../../assets/bg-images/case-study-single/img-1.png';
+import img2 from '../../assets/bg-images/case-study-single/img-2.png';
+import bucksIcon from '../../assets/icons/milwaukee-bucks-green.png'
+import {dataSelector} from "../../modules/app";
 import { faArrowDown, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 

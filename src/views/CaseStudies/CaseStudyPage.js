@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import './CaseStudyPage.scss';
-import heroBgImg from '../assets/bg-images/case-study-home/fevo-bg-white.png';
-import {dataSelector} from "../modules/app";
+import heroBgImg from '../../assets/bg-images/case-study-home/fevo-bg-white.png';
+import {dataSelector} from "../../modules/app";
 import { NavLink } from "react-router-dom";
 
 const CaseStudyPage = ({data}) => {

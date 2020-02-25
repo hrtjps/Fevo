@@ -1,0 +1,52 @@
+.press-item {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .press-img {
+    width: 160px;
+    display: flex;
+    align-items: center;
+  }
+  .press-content {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .content {
+      flex-grow: 1;
+      max-width: 664px;
+      font-size: 21px;
+      line-height: 1.33;
+      letter-spacing: -0.62px;
+      color: #9c9c9c;
+      .title {
+        font-family: "Colfax Medium";
+        font-size: 24px;
+        line-height: 1.25;
+        letter-spacing: -0.33px;
+        color: #25282d;
+      }
+    }
+    .read-story {
+      font-family: "Colfax Medium";
+      font-size: 18px;
+      line-height: 1.67;
+      letter-spacing: -0.25px;
+      color: var(--fevo-blue);
+
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      img {
+        margin-left: 30px;
+      }
+    }
+  }
+}
