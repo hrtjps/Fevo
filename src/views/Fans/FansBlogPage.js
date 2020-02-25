@@ -1,14 +1,13 @@
 import React from "react";
-
 import { connect } from "react-redux";
-
 import {dataSelector} from "../../modules/app";
 import Blogs from "../../components/Blogs";
 
-
-const BrandsBlogPage = ({data}) => {
+const FansBlogPage = ({data}) => {
   return (
-    <Blogs data={data} />
+    <>
+      <Blogs darkTheme data={data}/>
+    </>
   );
 };
 
@@ -19,4 +18,4 @@ const mapProps = {
   
 };
 const enhance = (connect(mapState, mapProps));
-export default enhance(BrandsBlogPage);
+export default enhance(FansBlogPage);

@@ -1,7 +1,26 @@
 .newsletter-container {
   min-width: 320px;
   width: 320px;
-  
+  &.dark {
+    .blog-title {
+      color: white;
+    }
+    .newsletter {
+      background-color: black;
+    }
+    
+    .social-item {  
+      svg {
+        color: var(--fevo-blue);
+      }
+      &:hover {
+        svg {
+          color: #556274;
+        }
+
+      }
+    }
+  }
   .form-control {
     width: 100%;
     height: 53px;
@@ -24,6 +43,7 @@
     width: 100%;
     padding: 30px 25px;
     background-color: #232323;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,4 +147,5 @@
       }
     }
   }
+
 }

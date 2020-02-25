@@ -7,7 +7,28 @@
 }
 
 .blog-section {
+  position: relative;
   background-color: white;
+  &.dark {
+    background-color: #1c1c1c;
+    .blog {
+      h1, h2 {
+        color: white;
+      }
+      color: #d4d4d4;
+    }
+    .social-item {  
+      svg {
+        color: var(--fevo-blue);
+      }
+      &:hover {
+        svg {
+          color: #556274;
+        }
+
+      }
+    }
+  }
   padding: 110px 55px;
   display: flex;
   .blog {

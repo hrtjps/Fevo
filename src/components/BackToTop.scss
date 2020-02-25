@@ -1,0 +1,26 @@
+.back-top {
+  position: absolute;
+  right: 100px;
+  bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Colfax Medium";
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: -0.33px;
+  color: var(--fevo-blue);
+
+  svg {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    border: solid 2px var(--fevo-blue);
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  cursor: pointer;
+}

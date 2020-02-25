@@ -34,7 +34,11 @@
 }
 
 .blogs-section {
+  position: relative;
   background-color: white;
+  &.dark {
+    background-color: #1c1c1c;
+  }
   padding: 110px 55px;
   display: flex;
   .blogs {

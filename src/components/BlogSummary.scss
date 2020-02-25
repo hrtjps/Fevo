@@ -1,9 +1,18 @@
 .blog-item {
   h2 {
     color: #171717;
+    &.dark {
+      color: white;
+    }
     margin-bottom: 12px;
   }
   color: #666666;
+  &.dark {
+    color: #d4d4d4;
+    .btn-outline-secondary {
+      color: var(--fevo-blue);
+    }
+  }
   margin-bottom: 95px;
   .blog-info {
     display: flex;

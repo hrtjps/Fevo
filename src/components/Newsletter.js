@@ -6,9 +6,9 @@ import { dataSelector } from "../modules/app";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faTwitter, faPinterestP, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { NavLink } from "react-router-dom";
-const Newsletter = ({data, item}) => {
+const Newsletter = ({data, darkTheme}) => {
   return (
-    <div className="newsletter-container">
+    <div className={darkTheme?"newsletter-container dark":"newsletter-container"} >
       <div className="newsletter">
         <div className="email-newsletter">Email newsletter</div>
         <div className="description">Sign up to receive market insights on today’s latest hot topics</div>
@@ -21,14 +21,13 @@ const Newsletter = ({data, item}) => {
         {
           data.blogItems.map((item, i)=>(
             <div className="post-item" key={i}>
-              <NavLink to={`/brands/view/${i}`} className="blog-title">{item.title}</NavLink>
+              <NavLink to={`/${darkTheme?'fans':'brands'}/view/${i}`} className="blog-title">{item.title}</NavLink>
               <div className="info">
                 By <span className="author">{item.author}</span> - {item.posted}
               </div>
             </div>
           ))
         }
-        
       </div>
       
       <div className="tags">

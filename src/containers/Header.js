@@ -26,20 +26,12 @@ const Header = () => {
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem as="div">
-              <NavLink 
-                to="/brands"
-                activeClassName="active-link"
-                exact
-              >
-                Brands
+              <NavLink to="/brands" activeClassName="active-link" exact>
+                Blog for Brands
               </NavLink>  
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink
-                to="/brands/about-fevo"
-                activeClassName="active-link"
-                exact
-              >
+              <NavLink to="/brands/about-fevo" activeClassName="active-link" exact>
                 About Fevo - Brands
               </NavLink>
             </DropdownItem>
@@ -53,17 +45,13 @@ const Header = () => {
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem as="div">
-              <NavLink
-                to="/fans/about-fevo"
-                activeClassName="active-link"
-                exact
-              >
-                About Fevo - Fans
+              <NavLink to="/fans" activeClassName="active-link" exact>
+                Blog for Fans
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans/brand" activeClassName="active-link" exact>
-                Fans
+              <NavLink to="/fans/about-fevo" activeClassName="active-link" exact >
+                About Fevo - Fans
               </NavLink>
             </DropdownItem>
           </DropdownMenu>
