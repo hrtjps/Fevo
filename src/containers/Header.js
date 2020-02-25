@@ -20,7 +20,7 @@ const Header = () => {
         </NavLink>
         <Dropdown>
           <DropdownToggle as="div">
-            <NavLink to="/brands" activeClassName="active-link">
+            <NavLink to="/brands" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               For Brands
             </NavLink>
           </DropdownToggle>
@@ -35,11 +35,16 @@ const Header = () => {
                 About Fevo - Brands
               </NavLink>
             </DropdownItem>
+            <DropdownItem as="div">
+              <NavLink to="/brands/video-testimonials" activeClassName="active-link" exact>
+                Video Testimonials
+              </NavLink>
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <Dropdown>
           <DropdownToggle as="div">
-            <NavLink to="/fans" activeClassName="active-link">
+            <NavLink to="/fans" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               For Fans
             </NavLink>
           </DropdownToggle>

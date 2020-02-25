@@ -1,0 +1,26 @@
+
+.testimonial-item {
+  width: 100%;
+  max-width: 1300px;
+  margin-bottom: 80px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  .testimonial-content {
+    padding: 0 85px;
+    font-family: "Colfax Light";
+    font-size: 21px;
+    line-height: 1.33;
+    letter-spacing: -0.62px;
+    color: var(--very-light-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .testimonial-title {
+      font-size: 36px;
+      line-height: 0.78;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+  }
+}

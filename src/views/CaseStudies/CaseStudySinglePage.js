@@ -23,8 +23,8 @@ const CaseStudySinglePage = () => {
 
   return (
     <>
-      <section className="case-hero-section" style={{backgroundImage: `url(${heroBgImg})`}}>
-        <div className="case-hero-container" >
+      <section className="case-item-hero-section" style={{backgroundImage: `url(${heroBgImg})`}}>
+        <div className="case-item-hero-container" >
           <h1>Milwaukee Bucks</h1>
           <div className="overview-link">
             <NavLink to="#">

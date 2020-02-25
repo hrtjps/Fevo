@@ -214,3 +214,31 @@ export const pressItems = [
     content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. "
   },
 ]
+
+export const testimonialItems = [
+  {
+    url: '',
+    title: "Testimonial Title #1 ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur"
+  },
+  {
+    url: '',
+    title: "Testimonial Title #2 ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur"
+  },
+  {
+    url: '',
+    title: "Testimonial Title #3 ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur"
+  },
+  {
+    url: '',
+    title: "Testimonial Title #4 ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur"
+  },
+  {
+    url: '',
+    title: "Testimonial Title #5 ",
+    content: "consectetur adipiscing elit. Integer bibendum ut ligula vel lacinia. Donec blandit tincidunt felis non rhoncus. consectetur"
+  },
+]
