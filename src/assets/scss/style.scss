@@ -244,3 +244,54 @@ section {
     width: 60%;
   }
 }
+
+.social-item {  
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 0.7px #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  svg {
+    font-size: 19px;
+    color: #556274;
+  }
+  &:hover {
+    svg {
+      color: var(--fevo-blue);
+    }
+
+  }
+}
+
+.blog-title {
+  font-family: "Colfax Medium";
+  font-size: 18px;
+  line-height: 1.44;
+  color: #171717;
+  margin-bottom: 25px;
+}
+
+.post-item {
+  width: 100%;
+  .blog-title {
+    text-decoration: none;
+    display: block;
+    &:hover {
+      color: var(--fevo-blue);
+    }
+  }
+  .info {  
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 25px;
+    .author {
+      font-family: "Colfax Medium";
+      color: var(--fevo-blue);
+    }
+  }
+}

@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
+import DropdownItem from "react-bootstrap/DropdownItem";
 const Header = () => {
   return (
     <div className="header">
@@ -18,45 +19,53 @@ const Header = () => {
           Home
         </NavLink>
         <Dropdown>
-          <DropdownToggle variant="link">
+          <DropdownToggle as="div">
             <NavLink to="/brands" activeClassName="active-link">
               For Brands
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
-            <NavLink
-              to="/brands"
-              activeClassName="active-link"
-              exact
-            >
-              Brands
-            </NavLink>
-            <NavLink
-              to="/brands/about-fevo"
-              activeClassName="active-link"
-              exact
-            >
-              About Fevo - Brands
-            </NavLink>
+            <DropdownItem as="div">
+              <NavLink 
+                to="/brands"
+                activeClassName="active-link"
+                exact
+              >
+                Brands
+              </NavLink>  
+            </DropdownItem>
+            <DropdownItem as="div">
+              <NavLink
+                to="/brands/about-fevo"
+                activeClassName="active-link"
+                exact
+              >
+                About Fevo - Brands
+              </NavLink>
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <Dropdown>
-          <DropdownToggle variant="link">
+          <DropdownToggle as="div">
             <NavLink to="/fans" activeClassName="active-link">
               For Fans
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
-            <NavLink
-              to="/fans/about-fevo"
-              activeClassName="active-link"
-              exact
-            >
-              About Fevo - Fans
-            </NavLink>
-            <NavLink to="/fans/brand" activeClassName="active-link" exact>
-              Fans
-            </NavLink>
+            <DropdownItem as="div">
+              <NavLink
+                to="/fans/about-fevo"
+                activeClassName="active-link"
+                exact
+              >
+                About Fevo - Fans
+              </NavLink>
+            </DropdownItem>
+            <DropdownItem as="div">
+              <NavLink to="/fans/brand" activeClassName="active-link" exact>
+                Fans
+              </NavLink>
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <NavLink to="/case-study" activeClassName="active-link" exact>

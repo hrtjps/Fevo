@@ -12,7 +12,8 @@ import BlogSummary from "../../components/BlogSummary";
 import Newsletter from "../../components/Newsletter";
 
 
-const BrandsBlogPage = ({data}) => {
+const BrandsBlogPage = ({history, data}) => {
+
 
   return (
     <>
@@ -32,7 +33,7 @@ const BrandsBlogPage = ({data}) => {
         <div className="blogs">
           {
             data.blogItems.map((item, i) => (
-              <BlogSummary item={item} key={i} />
+              <BlogSummary item={{...item, id: i}} key={i}/>
             ))
           }
         </div>
@@ -51,5 +52,5 @@ const mapState = state => ({
 const mapProps = {
   
 };
-const enhance = connect(mapState, mapProps);
+const enhance = (connect(mapState, mapProps));
 export default enhance(BrandsBlogPage);

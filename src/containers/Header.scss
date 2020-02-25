@@ -44,15 +44,8 @@
     }
     .dropdown-menu {
       background-color: black;
-      width: max-content;
-      a {
-        display: block;
-        width: 100%;
-        text-align: left;
-        padding: 5px 20px;
-        &:hover {
-          background-color: #323333;
-        }
+      .dropdown-item:hover {
+        background-color: #323333;
       }
     }
     a {

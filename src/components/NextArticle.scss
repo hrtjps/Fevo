@@ -1,0 +1,22 @@
+.next-item {
+  border: solid 1px #d9d9d9;
+  padding: 20px;
+  display: flex;
+  .next-item-img {
+    width: 250px !important;
+    margin-right: 40px;
+    margin-bottom: 0 !important;
+  }
+  .post-item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .blog-title {
+      margin-bottom: 10px;
+    }
+    .info {
+      margin-bottom: 0;
+    }
+  }
+}

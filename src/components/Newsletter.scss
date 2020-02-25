@@ -40,13 +40,6 @@
       text-align: center;
     }
   }
-  .title {
-    font-family: "Colfax Medium";
-    font-size: 18px;
-    line-height: 1.44;
-    color: #171717;
-    margin-bottom: 25px;
-  }
   .posts {
     margin-bottom: 60px;
     .post-item {
@@ -70,7 +63,7 @@
   
   .tags {
     margin-bottom: 70px;
-    .title {
+    .blog-title {
       padding-bottom: 25px;
       border-bottom:solid 1px #e5e5e5;
       margin-bottom: 25px;
@@ -95,7 +88,7 @@
   }
   .instagram {
     margin-bottom: 78px;
-    .title {
+    .blog-title {
       margin-bottom: 40px;
     }
     .insta-items {
@@ -109,7 +102,7 @@
     }
   }
   .keep-in-touch {
-    .title {
+    .blog-title {
       text-align: center;
       position: relative;
       &::after {
@@ -133,27 +126,5 @@
         background-color: #d8d8d8;
       }
     }
-    .social-item {  
-      min-width: 40px;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      border: solid 0.7px #e5e5e5;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      svg {
-        font-size: 19px;
-        color: #556274;
-      }
-      &:hover {
-        svg {
-          color: var(--fevo-blue);
-        }
-
-      }
-    }
-    
   }
 }
