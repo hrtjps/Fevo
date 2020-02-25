@@ -43,3 +43,19 @@
     }
   }
 }
+.video-modal-body {
+  position: relative;  
+  border: solid 2px #979797;
+  .close-btn {
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    font-size: 72px;
+    color:  #5c5c5c;
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  
+  }
+}

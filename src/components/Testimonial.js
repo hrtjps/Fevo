@@ -8,7 +8,7 @@ const Testimonial = ({ item }) => {
     <div className="testimonial-item">
       <div className="row">
         <div className="col-6">
-          <VideoTag url={item.url} />
+          <VideoTag url={item.url}/>
         </div>
         <div className="col-6 testimonial-content">
           <div className="testimonial-title">{item.title}</div>
