@@ -77,7 +77,7 @@ const AboutFevoBrandsPage = ({data}) => {
       </section>
       <section className="launch-section" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
         <div className="launch-container">
-          <div className="title">Launch Your Campaign in Three Clicks</div>
+          <h2 className="title">Launch Your Campaign in Three Clicks</h2>
           <div className="sub-title">
             <div className="sub-title-content top-bar center">
               You can build and launch your own offer pages with customizable images, 
@@ -112,17 +112,17 @@ const AboutFevoBrandsPage = ({data}) => {
           </div>
         </div>
         <div className="access-container">
-          <div className="title">Access all your buyer data with WeFevo Reporting</div>
+          <h2 className="title">Access all your buyer data with WeFevo Reporting</h2>
           <div className="sub-title">
             <div className="sub-title-content top-bar center">
               Take control of your ticket sales with access to real-time data.
             </div>
           </div>
           <div className="row">
-            <div className="col-5 access-img">
+            <div className="col-12 col-md-5 access-img">
               <img src={accessImg} alt=""/>
             </div>
-            <div className="col-7 access-items">
+            <div className="col-12 col-md-7 access-items">
               <div className="access-item">
                 <FontAwesomeIcon icon={faCheckCircle}/>
                 Live data and reporting on all your events, offers, and fans
@@ -142,7 +142,7 @@ const AboutFevoBrandsPage = ({data}) => {
           </div>
         </div>
         <div className="stats-container">
-          <div className="title">Great stats across the board from our 200+ live events partners</div>
+          <h2 className="title">Great stats across the board from our 200+ live events partners</h2>
           <div className="sub-title">
             <div className="sub-title-content top-bar center">
               Fevo connects your group sales and marketing efforts, facilitating 
@@ -154,7 +154,7 @@ const AboutFevoBrandsPage = ({data}) => {
           <div className="row">
             {
               data.fevoStateItems.map((item, i)=>(
-                <div className="col-6" key={i}>
+                <div className="col-12 col-sm-6" key={i}>
                   <FevoStateItem item={item}/>
                 </div>
               ))

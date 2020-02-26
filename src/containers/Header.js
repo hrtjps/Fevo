@@ -41,7 +41,6 @@ const Header = ({history}) => {
               Home
             </NavLink>
           </DropdownItem>
-          <Dropdown.Divider />
           <DropdownItem as="div">
             <NavLink to="/brands/about-fevo" activeClassName="active-link" exact>
               About Fevo
@@ -67,7 +66,6 @@ const Header = ({history}) => {
               Work With Fevo
             </NavLink>  
           </DropdownItem>
-          <Dropdown.Divider />
           <DropdownItem as="div">
             <NavLink to="/fans/about-fevo" activeClassName="active-link" exact >
               About Fevo - Fans
@@ -83,7 +81,6 @@ const Header = ({history}) => {
               Order Support
             </NavLink>
           </DropdownItem>
-          <Dropdown.Divider />
           <DropdownItem as="div">
             <NavLink to="/case-study" activeClassName="active-link" exact>
               Case Studies
