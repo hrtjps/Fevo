@@ -43,7 +43,7 @@ const CaseStudyPage = ({data}) => {
               <div className="row">
                 <div className="col-7">
                   <h1>{item.title}</h1>
-                  <NavLink to={`/case-study/${id}`}>
+                  <NavLink to={`/brands/case-study/${id}`}>
                     View Case Study 
                     <FontAwesomeIcon icon={faArrowRight} />
                   </NavLink>
