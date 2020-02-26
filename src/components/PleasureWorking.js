@@ -45,18 +45,22 @@ const chunk= (arr) => {
 
 const PleasureWorking = ({data}) => {
   const [index, setIndex] = useState(0);
+  const [direction, setDirection] = useState(null);
   const [workingItems, setWorkingItems]=useState(chunk(data.workingItems))
   const changeSize = () => {
     setWorkingItems(chunk(data.workingItems));
   }
   const prev=()=>{
     setIndex((index+1)%workingItems.length);
+    setDirection("prev");
   }
   const next=()=>{
     setIndex((index+workingItems.length-1)%workingItems.length);
+    setDirection("next");
   }
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
+    setDirection(e.direction);
   };
   useEffect(()=>{
     // changeSize();
@@ -72,7 +76,7 @@ const PleasureWorking = ({data}) => {
       </div>
       <div className="carousel-body">
         <Carousel indicators={false} controls={false} activeIndex={index}
-          interval={null} onSelect={handleSelect}>
+          interval={null} onSelect={handleSelect} direction={direction}>
         {
           workingItems.map((e, i) => {
             return (
