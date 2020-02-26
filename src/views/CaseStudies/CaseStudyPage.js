@@ -41,14 +41,14 @@ const CaseStudyPage = ({data}) => {
           return (
             <section className="case-item-section" style={{backgroundImage: `url(${item.bgImg})`}} key={id}>
               <div className="row">
-                <div className="col-7">
+                <div className="col-12 col-sm-7 mb-5">
                   <h1>{item.title}</h1>
                   <NavLink to={`/case-study/${id}`}>
                     View Case Study 
                     <FontAwesomeIcon icon={faArrowRight} />
                   </NavLink>
                 </div>
-                <div className="col-5 item-logo">
+                <div className="col-12 col-sm-5 item-logo">
                   <img src={item.img} alt={item.title} />
                 </div>
               </div>
