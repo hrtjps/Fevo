@@ -55,6 +55,9 @@ const PleasureWorking = ({data}) => {
   const next=()=>{
     setIndex((index+workingItems.length-1)%workingItems.length);
   }
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   useEffect(()=>{
     // changeSize();
     window.addEventListener('resize', changeSize);
@@ -68,7 +71,8 @@ const PleasureWorking = ({data}) => {
         We’ve had the pleasure working with
       </div>
       <div className="carousel-body">
-        <Carousel indicators={false} controls={false} activeIndex={index} interval={null} >
+        <Carousel indicators={false} controls={false} activeIndex={index}
+          interval={null} onSelect={handleSelect}>
         {
           workingItems.map((e, i) => {
             return (

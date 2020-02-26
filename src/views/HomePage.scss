@@ -3,12 +3,19 @@
   min-height: 100vh;
   display: flex;
   width: 100%;
+  @media (max-width: 890px) {
+    height: unset;
+  }
   .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 80px;
+    @media (max-width: 890px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
   }
   .left-pan {
     background-color: #070606;
@@ -17,6 +24,13 @@
     padding-right: 0;
     img {
       width: 100%;
+    }
+    @media (max-width: 890px) {
+      height: 50vh;
+      img {
+        width: unset;
+        height: 100%;
+      }
     }
   }
   .right-pan {

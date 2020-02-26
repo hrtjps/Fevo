@@ -7,8 +7,7 @@ import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
 import DropdownItem from "react-bootstrap/DropdownItem";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faArrowDown, faCheckCircle, faBars} from "@fortawesome/free-solid-svg-icons";
-import { DropdownDivider } from "react-bootstrap/Dropdown";
+import { faBars} from "@fortawesome/free-solid-svg-icons";
 const Header = ({history}) => {
   const dark=(history.location.pathname === "/case-study")?true:false;
   const [top, setTop]=useState(true);

@@ -1,34 +1,104 @@
-.footer {
-  display: flex;
-  align-items: center;
+.footer-section {
   padding: 48px;
-  .fevo {
-    font-family: "HelveticaNeue";
-    font-size: 12px;
-    line-height: 2.75;
-    letter-spacing: -0.36px;
-    color: #555353;
-    margin-left: 22px;
+  .signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    .sign-up {
+      width: 210px;
+      font-family: "Colfax Medium";
+      font-size: 18px;
+      line-height: 1.44;
+      color: #ffffff;
+      margin-bottom: 20px;
+      @media (max-width: 890px) {
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    input {
+      max-width: 438px;
+      margin-right: 4px;
+    }
+    .custom-button {
+      max-width: 273px;
+    }
+    .form-control {
+      height: 53px;
+      margin-bottom: 20px;
+      
+      @media (max-width: 890px) {
+        margin-right: 0;
+        max-width: 100%;
+      }
+    }
   }
-  .menu {
-    a {
-      text-decoration: none;
-      font-family: "Colfax Light";
-      color: white;
-      letter-spacing: -0.3px;
-      text-align: center;
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .logo {
+      margin-right: 22px;
+    }
+    .fevo {
+      font-family: "HelveticaNeue";
+      font-size: 12px;
+      line-height: 2.75;
+      letter-spacing: -0.36px;
+      color: #555353;
       margin-right: 40px;
+      @media (max-width: 890px) {
+        margin-bottom: 20px;
+      }
     }
-    .active-link {
-      font-family: "Colfax Bold";
-      color: var(--fevo-blue);
+    .logo-container {
+      display: flex;
+      @media (max-width: 890px) {
+        flex-direction: column;
+      }
     }
-    margin-left: 40px;
-  }
-  .socials {
-    margin-left: auto;
-    a {
-      margin-right: 10px;
+    .menu {
+      display: flex;
+      @media (max-width: 890px) {
+        margin-bottom: 20px;
+      }
+      .sub-menu {
+        display: flex;
+        @media (max-width: 890px) {
+          flex-direction: column;
+        }
+      }
+      a {
+        text-decoration: none;
+        font-family: "Colfax Light";
+        color: white;
+        letter-spacing: -0.3px;
+        text-align: left;
+        margin-right: 40px;
+        white-space: nowrap;
+        @media (max-width: 890px) {
+          padding: 10px 0;
+        }
+      }
+      .active-link {
+        font-family: "Colfax Bold";
+        color: var(--fevo-blue);
+      }
+    }
+    .socials {
+      display: flex;
+      margin-left: auto;
+      a {
+        margin-right: 10px;
+      }
+
+      @media (max-width: 890px) {
+        margin-left: unset;
+      }
     }
   }
 }
