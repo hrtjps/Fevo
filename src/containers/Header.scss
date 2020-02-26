@@ -30,11 +30,12 @@
     padding: 0 0;
     margin-top: -1px;
     margin-left: -1px;
+    border-radius: 0;
 
     .dropdown-item{
       height: 43px;
       border-radius: 0;
-      padding: 8px;
+      padding: 0 8px !important;
       a {
         text-decoration: none;
         display: flex;
@@ -111,31 +112,10 @@
     }
     .dropdown-menu {
       width: 238px;
-      background-color: #d8d8d8;
-      padding: 0 0;
-      margin-top: -1px;
-      margin-left: -1px;
-
       .dropdown-item{
         border-bottom: solid 1px #979797;
-        height: 43px;
-        border-radius: 0;
-        padding: 8px;
-        a {
-          display: flex;
-          width: 100%;
-          color: #0c0b0b;
-          height: 100%;
-          align-items: center;
-          justify-content: flex-start;
-          
-        }
-        &:hover {
-          background-color: var(--fevo-blue);
-          a {
-            color: white;
-          }
-          
+        &:last-child {
+          border-bottom: none;
         }
       }
     }

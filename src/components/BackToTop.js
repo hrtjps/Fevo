@@ -9,8 +9,14 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 
 const BackToTop = () => {
+  const scropllTop=()=>{
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
   return (
-    <div className="back-top">
+    <div className="back-top" onClick={scropllTop}>
       <FontAwesomeIcon icon={faArrowUp} />
       Back to Top
     </div>
