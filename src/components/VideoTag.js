@@ -21,7 +21,7 @@ const VideoTag = ({ url, onPlay, modal }) => {
       
       <Modal show={show} onHide={()=>setShow(false)} centered size="lg">
         <div className="video-modal-body">
-          <div className="close-btn" onClick={()=>setShow(false)}>X</div>
+          <div className="close-btn" onClick={()=>setShow(false)}>x</div>
           <div className="video-tag">
             <div className="video-content">
               <div className="play-button" onClick={()=>{playVideo()}}>

@@ -24,6 +24,16 @@
       width: 138px;
       min-width: 138px;
       height: 138px;
+      @media (max-width: 890px) {
+        width: 80px;
+        min-width: 80px;
+        height: 80px;
+      }
+      @media (max-width: 500px) {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+      }
       border-radius: 50%;
       border: solid 1px #979797;
       background-color: #ffffff;
@@ -48,10 +58,16 @@
   border: solid 2px #979797;
   .close-btn {
     position: absolute;
-    right: -100px;
-    top: -100px;
+    z-index: 1;
+    right: -80px;
+    top: -80px;
     font-size: 72px;
+    line-height: 50px;
     color:  #5c5c5c;
+    @media (max-width: 890px) {
+      right: 10px;
+      top: 5px;
+    }
     cursor: pointer;
     &:hover {
       color: white;
