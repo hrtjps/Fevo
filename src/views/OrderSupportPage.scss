@@ -2,6 +2,9 @@
   width: 100%;
   padding-top: 85px;
   height: 700px;
+  @media (max-width: 890px) {
+    height: unset;
+  }
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,17 +15,28 @@
     max-width: 1200px;
     // padding: 120px;
     padding-top: 180px;
+    @media (max-width: 1500px) {
+      padding: 60px 60px;
+    }
+    @media (max-width: 890px) {
+      text-align: left;
+      padding: 30px 30px;
+    }
     h1 {
       margin-bottom: 20px;
     }
     .subtitle {
       font-size: 21px;
       line-height: 1.33;
+      margin-bottom: 40px;
       color: var(--very-light-grey);
     }
     .overview-link {
       position: absolute;
       bottom: 35px;
+      @media (max-width: 890px) {
+        bottom: 30px;
+      }
       a {
         color: white;
         text-decoration: none;
@@ -39,6 +53,13 @@
   position: relative;
   background-color: white;
   padding: 110px 55px;
+  @media (max-width: 1200px) {
+    padding: 60px 30px;
+  }
+  @media (max-width: 890px) {
+    text-align: left;
+    padding: 30px 30px;
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,6 +69,13 @@
     .support-form {
       background-color: #f7f7f7;
       padding: 40px;
+      
+      @media (max-width: 1200px) {
+        padding: 30px;
+      }
+      @media (max-width: 890px) {
+        padding: 20px;
+      }
       margin-bottom: 110px;
       .order-support {
         font-family: "Colfax Medium";
@@ -85,7 +113,7 @@
         }
       }
       textarea {
-        height: 165px;
+        height: 165px !important;
         width: 100%;
         max-width: unset !important;
       }

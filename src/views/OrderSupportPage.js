@@ -34,7 +34,7 @@ const OrderSupportPage = ({ data}) => {
               Order Support
             </div>
             <div className="row">
-              <div className="col-4">
+              <div className="col-12 col-md-4">
                 <div className="label">Issue Type</div>
                 <FormControl as="select">
                   <option>- Select one -</option>
@@ -42,17 +42,17 @@ const OrderSupportPage = ({ data}) => {
                   <option>2</option>
                 </FormControl>
               </div>
-              <div className="col-8">
+              <div className="col-12 col-md-8">
                 <div className="label">Please select the option that most closely applies to your situation:</div>
                 <div className="row">
-                  <div className="col-6 ">
+                  <div className="col-12 col-sm-6 ">
                     <FormCheck custom type="radio" id="situation1" name="situation" label="Haven’t received my ticket(s)"></FormCheck>
                     <FormCheck custom type="radio" id="situation2" name="situation" label="Can’t access my ticket(s)"></FormCheck>
                     <FormCheck custom type="radio" id="situation3" name="situation" label="Trouble purchasing my ticket(s)"></FormCheck>
                     <FormCheck custom type="radio" id="situation4" name="situation" label="Group-related question"></FormCheck>
                     <FormCheck custom type="radio" id="situation5" name="situation" label="Seating adjustment"></FormCheck>
                   </div>
-                  <div className="col-6 ">
+                  <div className="col-12 col-sm-6 ">
                     <FormCheck custom type="radio" id="situation6" name="situation" label="Benefit redemption"></FormCheck>
                     <FormCheck custom type="radio" id="situation7" name="situation" label="Refund request"></FormCheck>
                     <FormCheck custom type="radio" id="situation8" name="situation" label="General question"></FormCheck>
@@ -68,11 +68,11 @@ const OrderSupportPage = ({ data}) => {
               </div>
             </div>
             <div className="row">
-              <div className="col-4">
+              <div className="col-12 col-sm-6 col-md-4">
                 <div className="label">Event Name</div>
                 <FormControl as="input"></FormControl>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-6 col-md-4">
                 <div className="label">Date of Event</div>
                 <InputGroup>
                   <FormControl as="input"></FormControl>
@@ -84,15 +84,15 @@ const OrderSupportPage = ({ data}) => {
                 </InputGroup>
 
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-6 col-md-4">
                 <div className="label">Contact Email</div>
                 <FormControl as="input" ></FormControl>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-6 col-md-4">
                 <div className="label">Email Used to Purchase</div>
                 <FormControl as="input"></FormControl>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-6 col-md-4">
                 <div className="label">Order Number</div>
                 <FormControl as="input"></FormControl>
               </div>
