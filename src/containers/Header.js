@@ -7,14 +7,13 @@ import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
 import DropdownItem from "react-bootstrap/DropdownItem";
 const Header = ({history}) => {
-  console.log(history.location.pathname);
   const dark=(history.location.pathname === "/case-study")?true:false;
   const [top, setTop]=useState(true);
   
   const scrollEvent = () => {
-    const isTop = window.scrollY < 100
+    const isTop = window.scrollY < 100;
     if( isTop !== top) {
-      setTop(isTop)
+      setTop(isTop);
     }
   }
   useEffect(()=>{
@@ -22,7 +21,7 @@ const Header = ({history}) => {
     return () => {
       document.removeEventListener('scroll', scrollEvent)
     }
-  }, [top, setTop])
+  })
   return (
     <div className={top?"header":"header top"}>
       <div className="logo">
@@ -30,7 +29,7 @@ const Header = ({history}) => {
           <img src={Logo} alt="FEVO LOGO" />
         </NavLink>
       </div>
-      <div className={dark?"menu dark":"menu"} >
+      <div className={(!dark || !top)?"menu":"menu dark"} >
         <NavLink to="/" activeClassName="active-link" exact>
           Home
         </NavLink>

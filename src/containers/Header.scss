@@ -10,9 +10,11 @@
   padding: 48px 48px;
   background-color: transparent;
   transition: all ease .5s;
+  box-shadow: none;
   &.top {
     padding: 5px 48px;
     background-color: black;
+    box-shadow: 0 1px 6px 0 rgba(110, 113, 120, 0.78);
   }
   .menu {
     display: flex;

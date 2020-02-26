@@ -4,12 +4,7 @@ import { connect } from "react-redux";
 
 import './CompanyPage.scss';
 import heroBgImg from '../assets/bg-images/company/group-2.png';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
-import BackToTop from "../components/BackToTop";
-import { FormControl, FormCheck, InputGroup } from "react-bootstrap";
 import { dataSelector } from "../modules/app";
-import { Button } from "react-bootstrap";
 import clothImg from '../assets/bg-images/home/fevo-black-cloth.png'
 import PleasureWorking from "../components/PleasureWorking";
 

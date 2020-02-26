@@ -7,9 +7,7 @@ import Blog from "../../components/Blog";
 
 
 const BrandsBlogSinglePage = ({match}) => {
-  console.log(match);
   const id = match.params.id;
-
   return (
     <Blog id={id} />
   );
