@@ -7,7 +7,6 @@ import heroBgImg from '../assets/bg-images/order-support/group-4.png';
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
-import calendarIcon from '../assets/icons/calendar-icon.png'
 import BackToTop from "../components/BackToTop";
 import { FormControl, FormCheck, InputGroup } from "react-bootstrap";
 import { dataSelector } from "../modules/app";
@@ -36,7 +35,7 @@ const OrderSupportPage = ({ data}) => {
             </div>
             <div className="row">
               <div className="col-4">
-                <div class="label">Issue Type</div>
+                <div className="label">Issue Type</div>
                 <FormControl as="select">
                   <option>- Select one -</option>
                   <option>1</option>

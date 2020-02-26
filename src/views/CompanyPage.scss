@@ -1,0 +1,85 @@
+.company-hero-section {
+  width: 100%;
+  padding-top: 85px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .company-hero-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    max-width: 1200px;
+    .left-pan {
+      padding: 150px 0px 35px 0px;
+      h1 {
+        margin-bottom: 20px;
+        color: var(--fevo-yellow);
+      }
+    }
+    .right-pan {
+      padding: 120px;
+      padding-top: 150px;
+      font-size: 21px;
+      line-height: 1.48;
+      color: #fcfcfc;
+
+    }
+
+  }
+}
+
+.working-section {
+  padding-top: 70px;
+  padding-bottom: 120px;
+
+  background-position: center;
+  background-size: cover;
+}
+.member-section {
+  position: relative;
+  background-color: #1c1c1c;
+  padding: 110px 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #25282d;
+  .member-container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    .team {
+      max-width: 314px;
+      font-family: "Colfax Light";
+      font-size: 21px;
+      line-height: 1.33;
+      letter-spacing: -0.62px;
+      color: var(--very-light-grey);
+      .our-team {
+        font-family: "Colfax Regular";
+        color: white;
+        margin-bottom: 10px;
+      }
+    }
+    .member-item {
+      width: 220px;
+      min-width: 220px;
+      font-size: 21px;
+      line-height: 1.33;
+      color: #9c9c9c;
+      margin-bottom: 50px;
+      margin-left: 68px;
+      .member-photo {
+        height: 300px;
+        background-color: #282828;
+        margin-bottom: 25px;
+      }
+      .member-name {
+        font-family: "Colfax Medium";
+        color: white;
+      }
+
+    }
+  }
+}

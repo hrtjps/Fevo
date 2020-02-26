@@ -285,3 +285,81 @@ export const faqItems = [
     answer: "If a refund is approved, the funds will return back on your card in 3-5 business days once issued."
   },
 ]
+
+export const teamMembers = [
+  {
+    img: "",
+    name: "Ari Dae",
+    role: "CEO"
+  },
+  {
+    img: "",
+    name: "Eric Chu",
+    role: "CTO"
+  },
+  {
+    img: "",
+    name: "Roman Gun   ",
+    role: "CPO"
+  },
+  {
+    img: "",
+    name: "Doug Fowler",
+    role: "EVP, Partner Success"
+  },
+  {
+    img: "",
+    name: "Himanshu Kothari",
+    role: "CFO"
+  },
+  {
+    img: "",
+    name: "Josh Rose",
+    role: "CBO"
+  },
+  {
+    img: "",
+    name: "Betty Tran",
+    role: "CMO"
+  },
+  {
+    img: "",
+    name: "Colin Casey",
+    role: "EVP, Partner Development"
+  },
+  {
+    img: "",
+    name: "Geordie Stewart",
+    role: "CSO",
+  },
+  {
+    img: "",
+    name: "Kristine Ko",
+    role: "EVP, Partner Solutions"
+  },
+  {
+    img: "",
+    name: "Jared Effron",
+    role: "EVP, Investor R&P"
+  },
+  {
+    img: "",
+    name: "Hannah Alter ",
+    role: "EVP, Operations"
+  },
+  {
+    img: "",
+    name: "Marguerite Pravata",
+    role: "SVP, Operations"
+  },
+  {
+    img: "",
+    name: "Michelle Helene",
+    role: "SVP, Design"
+  },
+  {
+    img: "",
+    name: "Josh Tannenbaum",
+    role: "SVP, Settlement & Service"
+  },
+]

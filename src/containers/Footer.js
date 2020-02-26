@@ -14,14 +14,14 @@ const Footer = () => {
               © 2019 Fevo. All rights reserved.
             </div>
             <div className="menu">
-                <NavLink to="/" >Home</NavLink>
-                <NavLink to="/brands" >Company</NavLink>
-                <NavLink to="/fans" >Case Studies</NavLink>
-                <NavLink to="/case-studies" >Support</NavLink>
-                <NavLink to="/press" >Press</NavLink>
-                <NavLink to="/career" >Careers</NavLink>
-                <NavLink to="/terms" >Terms</NavLink>
-                <NavLink to="/privacy-policy" >Privacy Policy</NavLink>
+                <NavLink to="/" activeClassName="active-link" exact>Home</NavLink>
+                <NavLink to="/company" activeClassName="active-link" exact>Company</NavLink>
+                <NavLink to="/case-study" activeClassName="active-link" exact>Case Studies</NavLink>
+                <NavLink to="/order-support" activeClassName="active-link" exact>Support</NavLink>
+                <NavLink to="/press" activeClassName="active-link" exact>Press</NavLink>
+                <NavLink to="/career" activeClassName="active-link" exact>Careers</NavLink>
+                <NavLink to="/terms" activeClassName="active-link" exact>Terms</NavLink>
+                <NavLink to="/privacy-policy" activeClassName="active-link" exact>Privacy Policy</NavLink>
             </div>
             <div className="socials">
               <NavLink to="#"><img src={Instagram} alt="Instagram" /></NavLink>
