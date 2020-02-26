@@ -1,5 +1,9 @@
 .footer-section {
   padding: 48px;
+  
+  @media (max-width: 890px) {
+    padding: 30px;
+  }
   .signup-form {
     display: flex;
     flex-wrap: wrap;

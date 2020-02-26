@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   &:last-child {
     margin-bottom: 0;
   }
@@ -13,6 +13,7 @@
     width: 160px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
   }
   .press-content {
     display: flex;
@@ -33,6 +34,7 @@
         letter-spacing: -0.33px;
         color: #25282d;
       }
+      margin-bottom: 20px;
     }
     .read-story {
       font-family: "Colfax Medium";

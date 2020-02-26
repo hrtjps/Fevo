@@ -23,7 +23,7 @@ const Blog = ({id, data, darkTheme}) => {
         <div className="blog">
           <h1>{blog.title}</h1>
           <div className="blog-info">
-            <div className="d-flex">
+            <div className="d-flex flex-wrap">
               <div className="cat">By <span className="author">{blog.author}</span></div>
               <div className="cat">{blog.posted}</div>
               <div className="cat">{blog.comments} comments</div>
@@ -53,7 +53,9 @@ const Blog = ({id, data, darkTheme}) => {
         <div className="subscribe">
           <Newsletter darkTheme={darkTheme}/>
         </div>
-        <BackToTop />
+      </section>
+      <section className="bottom">
+        <BackToTop/>
       </section>
     </>
   );

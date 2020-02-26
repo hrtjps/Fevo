@@ -30,10 +30,22 @@
     }
   }
   padding: 110px 55px;
+  @media (max-width: 1200px) {
+    padding: 60px 0px;
+  }
+  @media (max-width: 890px) {
+    padding: 50px 0px;
+  }
   display: flex;
+  @media (max-width: 890px) {
+    flex-wrap: wrap;
+  }
   .blog {
     flex-grow: 1;
     padding: 0 55px;
+    @media (max-width: 1200px) {
+      padding: 0 30px;
+    }
     h1 {
       color: #171717;
       margin-bottom: 12px;
@@ -45,6 +57,7 @@
     margin-bottom: 95px;
     .blog-info {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
       font-size: 14px;
@@ -97,6 +110,13 @@
   }
   .subscribe {
     padding: 0 55px;
+    @media (max-width: 1200px) {
+      padding: 0 30px;
+    }
   }
   
+}
+
+.bottom {
+  background-color: white;
 }

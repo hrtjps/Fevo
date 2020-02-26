@@ -16,6 +16,7 @@
   margin-bottom: 95px;
   .blog-info {
     display: flex;
+    flex-wrap: wrap;
     font-size: 14px;
     margin-bottom: 33px;
     .author {

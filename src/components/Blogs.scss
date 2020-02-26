@@ -1,13 +1,22 @@
-.blog-hero-section {
+.blogs-hero-section {
   width: 100%;
   padding-top: 85px;
   height: 650px;
+  @media (max-width: 1200px) {
+    height: unset;
+  }
   display: flex;
   align-items: center;
-  .blog-hero-container {
+  .blogs-hero-container {
     height: 100%;
     position: relative;
     padding: 85px 120px;
+    @media (max-width: 1200px) {
+      padding: 60px 60px;
+    }
+    @media (max-width: 890px) {
+      padding: 50px 30px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,10 +26,14 @@
     .subtitle {
       font-size: 21px;
       line-height: 1.33;
+      margin-bottom: 40px;
     }
     .overview-link {
       position: absolute;
       bottom: 85px;
+      @media (max-width: 1200px) {
+        bottom: 40px;
+      }
       a {
         color: white;
         text-decoration: none;
@@ -40,12 +53,30 @@
     background-color: #1c1c1c;
   }
   padding: 110px 55px;
+  @media (max-width: 1200px) {
+    padding: 60px 0px;
+  }
+  @media (max-width: 890px) {
+    padding: 50px 0px;
+  }
   display: flex;
+  @media (max-width: 890px) {
+    flex-wrap: wrap;
+  }
   .blogs {
     flex-grow: 1;
     padding: 0 55px;
+    @media (max-width: 1200px) {
+      padding: 0 30px;
+    }
   }
   .subscribe {
     padding: 0 55px;
+    @media (max-width: 1200px) {
+      padding: 0 30px;
+    }
   }
+}
+.bottom {
+  background-color: white;
 }

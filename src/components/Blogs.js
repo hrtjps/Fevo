@@ -14,8 +14,8 @@ import BackToTop from "./BackToTop";
 const Blogs = ({ data, darkTheme}) => {
   return (
     <>
-      <section className="blog-hero-section" style={{backgroundImage: `url(${heroBgImg})`}}>
-        <div className="blog-hero-container" >
+      <section className="blogs-hero-section" style={{backgroundImage: `url(${heroBgImg})`}}>
+        <div className="blogs-hero-container" >
           <h1>Stay in the Know</h1>
           <div className="subtitle">Best practices, insights, and hot topics  </div>
           <div className="overview-link">
@@ -37,6 +37,8 @@ const Blogs = ({ data, darkTheme}) => {
         <div className="subscribe">
           <Newsletter darkTheme={darkTheme}/>
         </div>
+      </section>
+      <section className="bottom">
         <BackToTop/>
       </section>
     </>
