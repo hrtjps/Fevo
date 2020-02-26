@@ -43,7 +43,7 @@ const OrderSupportPage = ({ data}) => {
                 </FormControl>
               </div>
               <div className="col-8">
-                <div class="label">Please select the option that most closely applies to your situation:</div>
+                <div className="label">Please select the option that most closely applies to your situation:</div>
                 <div className="row">
                   <div className="col-6 ">
                     <FormCheck custom type="radio" id="situation1" name="situation" label="Haven’t received my ticket(s)"></FormCheck>

@@ -1,12 +1,14 @@
 import React from "react";
 import "./Header.scss";
 import Logo from "../assets/icons/fevo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
 import DropdownItem from "react-bootstrap/DropdownItem";
-const Header = () => {
+const Header = ({history}) => {
+  console.log(history.location.pathname);
+  const dark=(history.location.pathname === "/case-study")?true:false;
   return (
     <div className="header">
       <div className="logo">
@@ -14,7 +16,7 @@ const Header = () => {
           <img src={Logo} alt="FEVO LOGO" />
         </NavLink>
       </div>
-      <div className="menu">
+      <div className={dark?"menu dark":"menu"} >
         <NavLink to="/" activeClassName="active-link" exact>
           Home
         </NavLink>
@@ -31,7 +33,7 @@ const Header = () => {
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/brands/case-study" activeClassName="active-link" exact>
+              <NavLink to="/case-study" activeClassName="active-link" exact>
                 Case Studies
               </NavLink>  
             </DropdownItem>
@@ -90,4 +92,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default withRouter(Header);

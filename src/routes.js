@@ -30,8 +30,8 @@ const routes = [
   { path: "/brands/about-fevo", exact: true, name: "About Fevo - Brands", component: AboutFevoBrandsPage },
   { path: "/brands/video-testimonials", exact: true, name: "About Fevo - Brands", component: VideoTetimonialsPage },
   
-  { path: "/brands/case-study", exact: true, name: "Case Study", component: CaseStudyPage },
-  { path: "/brands/case-study/:id", exact: true, name: "Case Study - Single", component: CaseStudySinglePage },
+  { path: "/case-study", exact: true, name: "Case Study", component: CaseStudyPage },
+  { path: "/case-study/:id", exact: true, name: "Case Study - Single", component: CaseStudySinglePage },
   
   { path: "/press", exact: true, name: "Press", component: PressPage },
   { path: "/order-support", exact: true, name: "Order Support", component: OrderSupportPage },

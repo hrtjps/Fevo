@@ -17,6 +17,9 @@
       padding: 10px;
       position: relative;
       margin-right: 40px;
+      a {
+        margin-right: 20px;
+      }
       &::after {
         content: "";
         position: absolute;
@@ -25,7 +28,7 @@
         height: 8px;
         transition: all 0.5s;
 
-        right: 19px;
+        right: 20px;
         transform: rotate(-45deg);
         background-color: white;
         border: none !important;
@@ -37,7 +40,7 @@
         width: 2px;
         height: 8px;
         transition: all 0.5s;
-        right: 14px;
+        right: 15px;
         transform: rotate(45deg);
         background-color: white;
       }
@@ -85,12 +88,25 @@
     }
     a {
       text-decoration: none;
-      font-family: "Colfax Light";
+      font-family: "Colfax Regular";
       color: white;
       letter-spacing: -0.3px;
       text-align: center;
-      margin-right: 40px;
+      margin-right: 25px;
       padding: 10px
+    }
+    &.dark {
+      a {
+        color: #0c0c0c;
+      }
+      .dropdown-toggle {
+        &::after {
+          background-color: black;
+        }
+        &::before {
+          background-color: black;
+        }
+      }
     }
     .active-link {
       font-family: "Colfax Bold";
