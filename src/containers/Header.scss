@@ -14,18 +14,18 @@
       text-decoration: none;
     }
     .dropdown-toggle {
-      padding: 0 0;
+      padding: 10px;
       position: relative;
       margin-right: 40px;
       &::after {
         content: "";
         position: absolute;
-        bottom: 10px;
+        bottom: 19px;
         width: 2px;
         height: 8px;
         transition: all 0.5s;
 
-        right: 9px;
+        right: 19px;
         transform: rotate(-45deg);
         background-color: white;
         border: none !important;
@@ -33,19 +33,54 @@
       &::before {
         content: "";
         position: absolute;
-        bottom: 10px;
+        bottom: 19px;
         width: 2px;
         height: 8px;
         transition: all 0.5s;
-        right: 4px;
+        right: 14px;
         transform: rotate(45deg);
         background-color: white;
       }
+      &[aria-expanded="true"]{
+        background-color: #d8d8d8;
+        a{color: black;}
+        &::before{
+          background-color: black;
+        }
+        &::after{
+          background-color: black;
+        }
+
+      }
     }
     .dropdown-menu {
-      background-color: black;
-      .dropdown-item:hover {
-        background-color: #323333;
+      width: 238px;
+      background-color: #d8d8d8;
+      padding: 0 0;
+      margin-top: -1px;
+      margin-left: -1px;
+
+      .dropdown-item{
+        border-bottom: solid 1px #979797;
+        height: 43px;
+        border-radius: 0;
+        padding: 8px;
+        a {
+          display: flex;
+          width: 100%;
+          color: #0c0b0b;
+          height: 100%;
+          align-items: center;
+          justify-content: flex-start;
+          
+        }
+        &:hover {
+          background-color: var(--fevo-blue);
+          a {
+            color: white;
+          }
+          
+        }
       }
     }
     a {
@@ -55,10 +90,11 @@
       letter-spacing: -0.3px;
       text-align: center;
       margin-right: 40px;
+      padding: 10px
     }
     .active-link {
       font-family: "Colfax Bold";
-      color: var(--fevo-blue);
+      color: var(--fevo-blue) !important;
     }
   }
 }
