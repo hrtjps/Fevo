@@ -2,6 +2,9 @@
   width: 100%;
   padding-top: 85px;
   height: 700px;
+  @media (max-width: 1200px) {
+    height: unset;
+  }
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +15,12 @@
     max-width: 1200px;
     .left-pan {
       padding: 150px 0px 35px 0px;
+      @media (max-width: 1200px) {
+        padding: 120px 30px;
+      }
+      @media (max-width: 890px) {
+        padding: 60px 30px;
+      }
       h1 {
         margin-bottom: 20px;
         color: var(--fevo-yellow);
@@ -20,6 +29,12 @@
     .right-pan {
       padding: 120px;
       padding-top: 150px;
+      @media (max-width: 1200px) {
+        padding: 80px;
+      }
+      @media (max-width: 890px) {
+        padding: 60px 30px;
+      }
       font-size: 21px;
       line-height: 1.48;
       color: #fcfcfc;
@@ -35,11 +50,20 @@
 
   background-position: center;
   background-size: cover;
+
+  display: flex;
+  justify-content: center;
 }
 .member-section {
   position: relative;
   background-color: #1c1c1c;
   padding: 110px 55px;
+  @media (max-width: 1200px) {
+    padding: 60px 60px;
+  }
+  @media (max-width: 890px) {
+    padding: 60px 30px;
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,6 +80,7 @@
       line-height: 1.33;
       letter-spacing: -0.62px;
       color: var(--very-light-grey);
+      margin-bottom: 50px;
       .our-team {
         font-family: "Colfax Regular";
         color: white;
@@ -70,6 +95,10 @@
       color: #9c9c9c;
       margin-bottom: 50px;
       margin-left: 68px;
+      @media (max-width: 690px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
       .member-photo {
         height: 300px;
         background-color: #282828;
