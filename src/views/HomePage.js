@@ -39,10 +39,9 @@ const HomePage = () => {
       <section className="collective-section common-4-6-pan">
         <div className="sub-title left-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
           <div className="sub-title-content">
-            <h2>Collective<br/> Commerce:</h2>
+            <h2>Collective Commerce:</h2>
             <h2 className="sub-content">
-              This is How <br/>
-              It’s Done. 
+              This is How It’s Done. 
             </h2>
           </div>
         </div>

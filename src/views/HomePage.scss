@@ -5,6 +5,7 @@
   width: 100%;
   @media (max-width: 890px) {
     height: unset;
+    min-height: unset;
   }
   .hero-container {
     display: flex;
@@ -45,6 +46,10 @@
       line-height: 1.42;
       color: #ffffff;
       font-family: "Colfax Light";
+      
+      @media (max-width: 890px) {
+        margin-bottom: 50px;
+      }
     }
   }
 }
@@ -62,6 +67,9 @@
 
 .content-container {
   padding: 130px;
+  @media (max-width: 890px) {
+    padding: 60px
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,12 +89,24 @@
     padding-top: 200px;
     padding-bottom: 200px;
     padding-right: 65px;
+    @media (max-width: 890px) {
+      padding: 60px 60px 60px 60px;
+    }
+    @media (max-width: 500px) {
+      padding: 30px 30px 30px 30px;
+    }
     align-items: flex-end;
+    @media (max-width: 890px) {
+      align-items: flex-start;
+    }
     width: 100%;
     .content {
       text-align: right;
       max-width: 440px;
       margin-bottom: 60px;
+      @media (max-width: 890px) {
+        text-align: left;
+      }
     }
     .for-content-navs {
       a {
@@ -109,6 +129,12 @@
   .sub-title {
     padding-top: 200px;
     padding-left: 65px;
+    @media (max-width: 890px) {
+      padding: 60px 60px 60px 60px;
+    }
+    @media (max-width: 500px) {
+      padding: 30px 30px 30px 30px;
+    }
     justify-content: flex-start;
   }
 
@@ -119,7 +145,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
-  padding: 120px 0;
+  padding: 120px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,9 +155,12 @@
       margin-bottom: 80px;
     }
     .jake {
-      margin-bottom: 80px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
       img {
         margin-right: 33px;
+        margin-bottom: 20px;
       }
       .jake-bye {
         font-size: 21px;
