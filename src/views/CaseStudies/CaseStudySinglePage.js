@@ -39,7 +39,7 @@ const CaseStudySinglePage = () => {
           Teh Results
         </div>
         <div className="row">
-          <div className="col-4 result-item">
+          <div className="col-12 col-sm-4 mb-5 mb-sm-0 result-item">
             <div className="value">
               938
             </div>
@@ -48,7 +48,7 @@ const CaseStudySinglePage = () => {
               Tickets Sold
             </div>
           </div>
-          <div className="col-4 result-item">
+          <div className="col-12 col-sm-4 mb-5 mb-sm-0 result-item">
             <div className="value">
               $38K+
             </div>
@@ -57,7 +57,7 @@ const CaseStudySinglePage = () => {
               Revenue
             </div>
           </div>
-          <div className="col-4 result-item">
+          <div className="col-12 col-sm-4 mb-5 mb-sm-0 result-item">
             <div className="value">
               46%
             </div>
@@ -106,7 +106,7 @@ const CaseStudySinglePage = () => {
       </section>
       <section className="paccers-section" style={{backgroundImage: `url(${pacersImg})`}}>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-6 mb-5">
             <div className="view-next-link">
               View Next: 
               <NavLink to="#">Case Study 04/05 </NavLink>
@@ -117,7 +117,7 @@ const CaseStudySinglePage = () => {
             </div>
 
           </div>
-          <div className="col-6 pacers-logo">
+          <div className="col-12 col-sm-6 pacers-logo">
             <img src={pacersLogo} alt=""/>
           </div>
         </div>

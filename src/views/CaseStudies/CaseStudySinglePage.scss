@@ -4,6 +4,7 @@
   display: flex;
   width: 100%;
   .case-item-hero-container {
+    padding: 30px;
     padding-top: 85px;
     width: 100%;
     display: flex;
@@ -26,6 +27,9 @@
 }
 .results-section {
   padding: 55px;
+  @media (max-width: 1200px) {
+    padding: 30px;
+  }
   .title {
     text-align: center;
     font-size: 21px;
@@ -57,10 +61,19 @@
 .bucks-content-section {
   padding: 23px;
   display: flex;
+  @media (max-width: 890px) {
+    flex-wrap: wrap;
+  }
   background-color: white;
   .bucks-content {
     padding: 100px;
     padding-top: 70px;
+    @media (max-width: 1200px) {
+      padding: 60px 60px;
+    }
+    @media (max-width: 890px) {
+      padding: 50px 20px;
+    }
     .bucks-content-header {
       display: flex;
       align-items: center;
@@ -79,6 +92,16 @@
       color: var(--black);
     }
   }
+  .cart {
+    min-width: 467px;
+   
+    @media (max-width: 500px) {
+      min-width: 100%;
+    } 
+    img {
+      width: 100%;
+    }
+  }
 }
 .imgs-section {
   height: 500px;
@@ -88,14 +111,26 @@
     // height: 500px;
     border-right: solid 2px white;
     border-bottom: solid 2px white;
+    @media (max-width: 890px) {
+      width: 100%;
+    }
   }
   .img-2 {
     width: 67%;
+    @media (max-width: 890px) {
+      width: 100%;
+    }
     border-bottom: solid 2px white;
   }
 }
 .paccers-section {
   padding: 70px 120px;
+  @media (max-width: 1200px) {
+    padding: 60px 60px;
+  }
+  @media (max-width: 890px) {
+    padding: 60px 20px;
+  }
   border-bottom: 5px solid #383939;
   .view-next-link {
     margin-bottom: 70px;
