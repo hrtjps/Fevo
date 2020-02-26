@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.scss";
 import Logo from "../assets/icons/fevo.png";
 import { NavLink, withRouter } from "react-router-dom";
@@ -9,8 +9,22 @@ import DropdownItem from "react-bootstrap/DropdownItem";
 const Header = ({history}) => {
   console.log(history.location.pathname);
   const dark=(history.location.pathname === "/case-study")?true:false;
+  const [top, setTop]=useState(true);
+  
+  const scrollEvent = () => {
+    const isTop = window.scrollY < 100
+    if( isTop !== top) {
+      setTop(isTop)
+    }
+  }
+  useEffect(()=>{
+    document.addEventListener('scroll', scrollEvent)
+    return () => {
+      document.removeEventListener('scroll', scrollEvent)
+    }
+  }, [top, setTop])
   return (
-    <div className="header">
+    <div className={top?"header":"header top"}>
       <div className="logo">
         <NavLink to="/" activeClassName="active-link" exact>
           <img src={Logo} alt="FEVO LOGO" />
