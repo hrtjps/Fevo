@@ -59,7 +59,7 @@
   }
 }
 .bucks-content-section {
-  padding: 23px;
+  padding: 30px;
   display: flex;
   @media (max-width: 890px) {
     flex-wrap: wrap;
@@ -72,7 +72,7 @@
       padding: 60px 60px;
     }
     @media (max-width: 890px) {
-      padding: 50px 30px;
+      padding: 50px 0px;
     }
     .bucks-content-header {
       display: flex;
@@ -80,6 +80,9 @@
       font-size: 21px;
       line-height: 1.33;
       color: #0c0c0c;
+      @media (max-width: 890px) {
+        flex-wrap: wrap;
+      }
       img {
         margin-right: 25px;
       }
@@ -106,6 +109,10 @@
 .imgs-section {
   height: 500px;
   display: flex;
+  
+  @media (max-width: 890px) {
+    flex-wrap: wrap;;
+  }
   .img-1 {
     width: 33%;
     // height: 500px;
