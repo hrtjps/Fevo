@@ -289,7 +289,7 @@ export const faqItems = [
 export const teamMembers = [
   {
     img: "",
-    name: "Ari Dae",
+    name: "Ari Daie",
     role: "CEO"
   },
   {

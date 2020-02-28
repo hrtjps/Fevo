@@ -10,7 +10,7 @@
   padding: 48px 48px;
   
   @media (max-width: 890px) {
-    padding: 30px 30px;
+    padding: 30px 20px;
   }
   background-color: transparent;
   transition: all ease .5s;
@@ -18,7 +18,7 @@
   &.top {
     padding: 5px 48px;
     @media (max-width: 890px) {
-      padding: 5px 30px;
+      padding: 5px 20px;
     }
     background-color: black;
     box-shadow: 0 1px 6px 0 rgba(110, 113, 120, 0.78);
@@ -66,6 +66,9 @@
         
       }
     }
+  }
+  .logo a {
+    padding: 0
   }
 
   .menu {
@@ -124,12 +127,6 @@
     }
     .dropdown-menu {
       width: 238px;
-      .dropdown-item{
-        border-bottom: solid 1px #979797;
-        &:last-child {
-          border-bottom: none;
-        }
-      }
     }
     &.dark {
       a {
@@ -169,10 +166,16 @@
 }
 
 #menuModal {
+  // margin-left: 20px;
+  // margin-right: 20px;
+  
+  // margin: 0;
   margin-top: 80px;
-  margin-left: auto;
-  margin-right: 20px;
-  width: max-content;
+  // padding: 0;
+  // width: 100%;
+  height: 100%;
+
+  // width: max-content;
   
   a {
     text-decoration: none;
@@ -188,4 +191,12 @@
 .active-link {
   font-family: "Colfax Bold" !important;
   color: var(--fevo-blue) !important;
+}
+
+
+.dropdown-item{
+  border-bottom: solid 1px #979797;
+  &:last-child {
+    border-bottom: none;
+  }
 }
