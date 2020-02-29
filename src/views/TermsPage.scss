@@ -1,0 +1,38 @@
+
+.terms-sec {
+  background-color: #101010;
+  width: 100%; 
+  // max-width: 1440px;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+  @media (max-width: 899px) {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+  .terms-section {
+    font-family: 'Colfax Medium';
+    font-size: 24px;
+  }
+  .terms-text {
+    margin-top: 75px;
+    @media (max-width: 899px) {
+      margin-top: 25px;
+    }
+  }
+  
+  .terms-bullet {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  .terms-section-part {
+    font-family: 'Colfax Medium';
+    font-size: 22px;
+  }
+}

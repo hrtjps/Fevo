@@ -1,6 +1,8 @@
 import React from "react";
 import OrderSupportPage from "./views/OrderSupportPage";
 import CompanyPage from "./views/CompanyPage";
+import TermsPage from "./views/TermsPage";
+import PrivacyPage from "./views/PrivacyPage";
 
 const HomePage = React.lazy(() => import("./views/HomePage"));
 const CaseStudySinglePage = React.lazy(() => import("./views/CaseStudies/CaseStudySinglePage"));
@@ -37,6 +39,8 @@ const routes = [
   { path: "/order-support", exact: true, name: "Order Support", component: OrderSupportPage },
   
   { path: "/company", exact: true, name: "Company", component: CompanyPage },
+  { path: "/terms", exact: true, name: "Terms", component: TermsPage },
+  { path: "/privacy-policy", exact: true, name: "Privacy Policy", component: PrivacyPage },
 ];
 
 export default routes;
