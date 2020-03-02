@@ -37,59 +37,65 @@ const NewHeader = ({history}) => {
       </div>
       <Modal show={show} onHide={()=>setShow(false)} size="sm" id="menuModal" backdrop>
         <div className="">
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/" activeClassName="active-link" exact>
-              Home
+          <DropdownItem as="div">
+            <NavLink to="/purpose/live-events" activeClassName="active-link" exact>
+              Live Events
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/brands/about-fevo" activeClassName="active-link" exact>
-              About Fevo
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/case-study" activeClassName="active-link" exact>
-              Case Studies
+          <DropdownItem as="div">
+            <NavLink to="/purpose/consumer-goods" activeClassName="active-link" exact>
+              Consumer Goods
             </NavLink>  
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/brands/video-testimonials" activeClassName="active-link" exact>
-              Testimonials
+          <DropdownItem as="div">
+            <NavLink to="/purpose/content" activeClassName="active-link" exact>
+              Content
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/brands" activeClassName="active-link" exact>
-              Blog
-            </NavLink>  
-          </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/brands" activeClassName="active-link" exact>
-              Work With Fevo
-            </NavLink>  
-          </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/fans/about-fevo" activeClassName="active-link" exact >
-              About Fevo - Fans
+          
+          <DropdownItem as="div">
+            <NavLink to="/product/coco" activeClassName="active-link" exact >
+              Coco
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/fans" activeClassName="active-link" exact>
-              Blog
+          <DropdownItem as="div">
+            <NavLink to="/product/wefevo" activeClassName="active-link" exact>
+              WeFevo
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="#" activeClassName="active-link" exact >
-              Order Support
+          <DropdownItem as="div">
+            <NavLink to="/partners/clients" activeClassName="active-link" exact >
+              Clients
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/case-study" activeClassName="active-link" exact>
+          <DropdownItem as="div">
+            <NavLink to="/partners/integrations" activeClassName="active-link" exact>
+              Integrations
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem as="div">
+            <NavLink to="/partners/case-studies" activeClassName="active-link" exact>
               Case Studies
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
-            <NavLink to="/press" activeClassName="active-link" exact>
+          <DropdownItem as="div">
+            <NavLink to="/about/team" activeClassName="active-link" exact >
+              Team
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem as="div">
+            <NavLink to="/about/press" activeClassName="active-link" exact>
               Press
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem as="div">
+            <NavLink to="/about/blog" activeClassName="active-link" exact>
+              Blog
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem as="div">
+            <NavLink to="/about/content" activeClassName="active-link" exact>
+              Connect
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div" onClick={()=>setShow(false)}>
@@ -106,23 +112,23 @@ const NewHeader = ({history}) => {
         </NavLink>
         <Dropdown>
           <DropdownToggle as="div">
-            <NavLink to="/brands" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
+            <NavLink to="/purpose" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               Purpose
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem as="div">
-              <NavLink to="/brands/about-fevo" activeClassName="active-link" exact>
+              <NavLink to="/purpose/live-events" activeClassName="active-link" exact>
                 Live Events
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/case-study" activeClassName="active-link" exact>
+              <NavLink to="/purpose/consumer-goods" activeClassName="active-link" exact>
                 Consumer Goods
               </NavLink>  
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/brands/video-testimonials" activeClassName="active-link" exact>
+              <NavLink to="/purpose/content" activeClassName="active-link" exact>
                 Content
               </NavLink>
             </DropdownItem>
@@ -130,18 +136,18 @@ const NewHeader = ({history}) => {
         </Dropdown>
         <Dropdown>
           <DropdownToggle as="div">
-            <NavLink to="/fans" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
+            <NavLink to="/product" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               Product
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem as="div">
-              <NavLink to="/fans/about-fevo" activeClassName="active-link" exact >
+              <NavLink to="/product/coco" activeClassName="active-link" exact >
                 Coco
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans" activeClassName="active-link" exact>
+              <NavLink to="/product/wefevo" activeClassName="active-link" exact>
                 WeFevo
               </NavLink>
             </DropdownItem>
@@ -149,23 +155,23 @@ const NewHeader = ({history}) => {
         </Dropdown>
         <Dropdown>
           <DropdownToggle as="div">
-            <NavLink to="/fans" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
+            <NavLink to="/partners" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               Partners
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem as="div">
-              <NavLink to="/fans/about-fevo" activeClassName="active-link" exact >
+              <NavLink to="/partners/clients" activeClassName="active-link" exact >
                 Clients
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans" activeClassName="active-link" exact>
+              <NavLink to="/partners/integrations" activeClassName="active-link" exact>
                 Integrations
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans" activeClassName="active-link" exact>
+              <NavLink to="/partners/case-studies" activeClassName="active-link" exact>
                 Case Studies
               </NavLink>
             </DropdownItem>
@@ -173,28 +179,28 @@ const NewHeader = ({history}) => {
         </Dropdown>
         <Dropdown>
           <DropdownToggle as="div">
-            <NavLink to="/fans" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
+            <NavLink to="/about" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               About
             </NavLink>
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem as="div">
-              <NavLink to="/fans/about-fevo" activeClassName="active-link" exact >
+              <NavLink to="/about/team" activeClassName="active-link" exact >
                 Team
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans" activeClassName="active-link" exact>
+              <NavLink to="/about/press" activeClassName="active-link" exact>
                 Press
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans" activeClassName="active-link" exact>
+              <NavLink to="/about/blog" activeClassName="active-link" exact>
                 Blog
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/fans" activeClassName="active-link" exact>
+              <NavLink to="/about/content" activeClassName="active-link" exact>
                 Connect
               </NavLink>
             </DropdownItem>
