@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars} from "@fortawesome/free-solid-svg-icons";
 const NewHeader = ({history}) => {
   const [show, setShow]=useState(false);
-  const dark=(history.location.pathname === "/case-study")?true:false;
+  const dark=(history.location.pathname === "/partners/case-study")?true:false;
   const [top, setTop]=useState(true);
   
   const scrollEvent = () => {
@@ -74,7 +74,7 @@ const NewHeader = ({history}) => {
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
-            <NavLink to="/partners/case-studies" activeClassName="active-link" exact>
+            <NavLink to="/partners/case-study" activeClassName="active-link" exact>
               Case Studies
             </NavLink>
           </DropdownItem>
@@ -89,7 +89,7 @@ const NewHeader = ({history}) => {
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
-            <NavLink to="/about/blog" activeClassName="active-link" exact>
+            <NavLink to="/about/brands" activeClassName="active-link" exact>
               Blog
             </NavLink>
           </DropdownItem>
@@ -171,7 +171,7 @@ const NewHeader = ({history}) => {
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/partners/case-studies" activeClassName="active-link" exact>
+              <NavLink to="/partners/case-study" activeClassName="active-link" exact>
                 Case Studies
               </NavLink>
             </DropdownItem>
@@ -195,7 +195,7 @@ const NewHeader = ({history}) => {
               </NavLink>
             </DropdownItem>
             <DropdownItem as="div">
-              <NavLink to="/about/blog" activeClassName="active-link" exact>
+              <NavLink to="/about/brands" activeClassName="active-link" exact>
                 Blog
               </NavLink>
             </DropdownItem>

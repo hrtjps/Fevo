@@ -13,7 +13,7 @@ const Newsletter = ({data, curId}) => {
       <div className="next-item">
         <img src={item.heroImg} className="next-item-img" alt=""/>
         <div className="post-item">
-          <NavLink to={`/brands/view/${id}`} className="blog-title">{item.title}</NavLink>
+          <NavLink to={`/about/brands/view/${id}`} className="blog-title">{item.title}</NavLink>
           <div className="info">
             By <span className="author">{item.author}</span> - {item.posted}
           </div>

@@ -8,7 +8,7 @@ import { withRouter } from "react-router-dom";
 const BlogSummary = ({ darkTheme, item, history}) => {
   
   const viewDetail = (id) => {
-    const url = (darkTheme?'/fans':'/brands') + '/view/'+id;
+    const url = (darkTheme?'/fans':'/about/brands') + '/view/'+id;
     history.push(url);
   }
   return (

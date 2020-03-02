@@ -21,7 +21,7 @@ const Newsletter = ({data, darkTheme}) => {
         {
           data.blogItems.map((item, i)=>(
             <div className="post-item" key={i}>
-              <NavLink to={`/${darkTheme?'fans':'brands'}/view/${i}`} className="blog-title">{item.title}</NavLink>
+              <NavLink to={`/${darkTheme?'fans':'about/brands'}/view/${i}`} className="blog-title">{item.title}</NavLink>
               <div className="info">
                 By <span className="author">{item.author}</span> - {item.posted}
               </div>
