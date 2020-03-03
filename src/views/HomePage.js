@@ -27,8 +27,8 @@ const HomePage = () => {
           <img src={halfComputer} alt="computer" />
         </div>
         <div className="hero-container right-pan" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
-          <h1>The Buy Button<span className="of-the">of the</span></h1>
-          <h1>Experience Economy</h1>
+          <h1>The Social Cart<span className="of-the">of the</span></h1>
+          <h1>the Experience Economy</h1>
           <div className="content">
             Rally your buyers and turn any moment into an 
             unforgettable shared experience on your brand.
