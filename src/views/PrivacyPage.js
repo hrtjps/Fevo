@@ -304,8 +304,7 @@ const PrivacyPage = () => {
                 information for such affiliates and/or third parties. If you are
                 a California resident and would like a copy of this notice,
                 please submit a written request to the following address: Host
-                Committee, Inc. d/b/a Fevo, 135 W. 26th Street, 2nd Floor, New
-                York, NY 10007.
+                Committee, Inc. d/b/a Fevo, 12 Little West 12th Street, New York, NY 10014.
                 <br />
                 <br />
                 HOW CAN I DEACTIVATE MY ACCOUNT?
