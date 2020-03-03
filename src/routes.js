@@ -51,13 +51,13 @@ const routes = [
   { path: "/about/press", exact: true, name: "Press", component: PressPage },
   { path: "/about/brands", exact: true, name: "Blog Brands", component: BrandsBlogPage },
   { path: "/about/brands/view/:id", exact: true, name: "Blog Single - Brand", component: BrandsBlogSinglePage },
-  
+  { path: "/about/team", exact: true, name: "Team", component: CompanyPage },
+
   { path: "/partners/case-study", exact: true, name: "Case Study", component: CaseStudyPage },
   { path: "/partners/case-study/:id", exact: true, name: "Case Study - Single", component: CaseStudySinglePage },
   
   { path: "/order-support", exact: true, name: "Order Support", component: OrderSupportPage },
   
-  { path: "/company", exact: true, name: "Company", component: CompanyPage },
   { path: "/terms", exact: true, name: "Terms", component: TermsPage },
   { path: "/privacy-policy", exact: true, name: "Privacy Policy", component: PrivacyPage },
 ];

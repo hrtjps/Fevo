@@ -36,8 +36,8 @@ const HomePage = () => {
           <SliderNavDot dots={4} />
         </div>
       </section>
-      <section className="collective-section common-4-6-pan">
-        <div className="sub-title left-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
+      <section className="collective-section common-4-6-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
+        <div className="sub-title left-pan" >
           <div className="sub-title-content">
             <h2>Collective Commerce:</h2>
             <h2 className="sub-content">
@@ -56,8 +56,8 @@ const HomePage = () => {
         </div>
       </section>
       <section className="fevo-way-section"  style={{backgroundImage: `url(${fevoWayBgImg})`}}>
-        <div className="row">
-          <div className="col-12 col-md-6 d-flex align-items-center">
+        <div className="row flex-column-reverse flex-md-row">
+          <div className="col-12 col-md-6 d-flex align-items-center ">
             <div className="content-container" >
               <div className="content">
                 Fevo works as a button that pops open
@@ -66,16 +66,6 @@ const HomePage = () => {
                 the backend, our clients can customize
                 their offers, track metrics, and capture
                 data. It’s a win for fans and brands.
-              </div>
-              <div className="for-content-navs">
-                <NavLink to="/brands">
-                  For Brands 
-                  <FontAwesomeIcon icon={faArrowAltCircleRight} />
-                </NavLink>
-                <NavLink to="/fans">
-                  For Fans
-                  <FontAwesomeIcon icon={faArrowAltCircleRight} />
-                </NavLink>
               </div>
             </div>
           </div>

@@ -177,7 +177,7 @@ h1, .h1 {
 
 h2, .h2 {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-size: 48px;
   
   @media (max-width: 890px) {
@@ -222,14 +222,22 @@ section {
       height: 3px;
       background-color: #ffffff;
     }
-  
-    &.top-bar {
+    @media (max-width: 890px) {
       padding-bottom: 0;
-      padding-top: 60px;
+      padding-top: 30px;
       &::after {
         top: 0;
       }
-  
+    }
+    &.top-bar {
+      padding-bottom: 0;
+      padding-top: 60px;
+      @media (max-width: 890px) {
+        padding-top: 30px;
+      }
+      &::after {
+        top: 0;
+      }
     }
     &.center {
       &::after {

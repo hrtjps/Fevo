@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="menu">
           <div className="sub-menu">
             <NavLink to="/" activeClassName="active-link" exact>Home</NavLink>
-            <NavLink to="/company" activeClassName="active-link" exact>Company</NavLink>
+            <NavLink to="/about/team" activeClassName="active-link" exact>Team</NavLink>
             <NavLink to="/partners/case-study" activeClassName="active-link" exact>Case Studies</NavLink>
             <NavLink to="/order-support" activeClassName="active-link" exact>Support</NavLink>
           </div>
