@@ -902,8 +902,7 @@ const TermsPage = () => {
                 <p className="terms-section">Contact.</p>
                 <br />
                 <p className="terms-section-part">
-                  You may contact us at the following address: 373 Park Ave South,
-                  Floor 5, New York, NY 10016
+                  You may contact us at the following address: 12 Little West 12th Street, New York, NY 10014
                 </p>
                 <br />
                 <p className="terms-section-part">
