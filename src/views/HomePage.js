@@ -1,8 +1,6 @@
 import React from "react";
 
 import { connect } from "react-redux";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
 
 import './HomePage.scss';
 import halfComputer from '../assets/bg-images/home/group-4.png';
@@ -15,7 +13,6 @@ import learfieldImg from '../assets/icons/learfield.png';
 import {dataSelector} from "../modules/app";
 
 import SliderNavDot from "../components/SliderNavDot";
-import { NavLink } from "react-router-dom";
 import PleasureWorking from "../components/PleasureWorking";
 
 const HomePage = () => {

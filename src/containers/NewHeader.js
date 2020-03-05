@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars} from "@fortawesome/free-solid-svg-icons";
 const NewHeader = ({history}) => {
   const [show, setShow]=useState(false);
-  const dark=(history.location.pathname === "/partners/case-study")?true:false;
+  const dark=(history.location.pathname === "/partners/case-study" || history.location.pathname === "/purpose")?true:false;
   const [top, setTop]=useState(true);
   
   const scrollEvent = () => {
@@ -36,7 +36,17 @@ const NewHeader = ({history}) => {
         <FontAwesomeIcon icon={faBars} size="2x"/>
       </div>
       <Modal show={show} onHide={()=>setShow(false)} size="sm" id="menuModal" backdrop>
-        <div className="">
+        <div className="" onClick={()=>setShow(false)}>
+          <DropdownItem as="div">
+            <NavLink to="/" activeClassName="active-link" exact>
+              Home
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem as="div">
+            <NavLink to="/purpose" activeClassName="active-link" exact>
+              Purpose
+            </NavLink>
+          </DropdownItem>
           <DropdownItem as="div">
             <NavLink to="/purpose/live-events" activeClassName="active-link" exact>
               Live Events
@@ -110,7 +120,11 @@ const NewHeader = ({history}) => {
         <NavLink to="/" activeClassName="active-link" exact>
           Home
         </NavLink>
-        <Dropdown>
+        
+        <NavLink to="/purpose" activeClassName="active-link" exact>
+          Purpose
+        </NavLink>
+        {/* <Dropdown>
           <DropdownToggle as="div">
             <NavLink to="/purpose" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               Purpose
@@ -133,7 +147,7 @@ const NewHeader = ({history}) => {
               </NavLink>
             </DropdownItem>
           </DropdownMenu>
-        </Dropdown>
+        </Dropdown> */}
         <Dropdown>
           <DropdownToggle as="div">
             <NavLink to="/product" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>

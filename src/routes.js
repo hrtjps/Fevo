@@ -18,6 +18,7 @@ const FansBlogPage = React.lazy(() => import("./views/Fans/FansBlogPage"));
 const FansBlogSinglePage = React.lazy(() => import("./views/Fans/FansBlogSinglePage"));
 
 const PressPage = React.lazy(() => import("./views/PressPage"));
+const PurposePage = React.lazy(() => import("./views/PurposePage"));
 
 // const routes = [
 //   { path: "/", exact: true, name: "Home", component: HomePage },
@@ -59,6 +60,7 @@ const routes = [
   { path: "/order-support", exact: true, name: "Order Support", component: OrderSupportPage },
   
   { path: "/terms", exact: true, name: "Terms", component: TermsPage },
+  { path: "/purpose", exact: true, name: "Purpose", component: PurposePage },
   { path: "/privacy-policy", exact: true, name: "Privacy Policy", component: PrivacyPage },
 ];
 

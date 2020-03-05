@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import Loading from "../components/Loading";
 import { Switch, Redirect, Route } from "react-router-dom";
 import routes from "../routes";
-import Header from "./Header";
 import Footer from "./Footer";
 import NewHeader from "./NewHeader";
 const Layout = () => {
