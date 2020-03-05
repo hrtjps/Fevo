@@ -28,10 +28,26 @@
       width: 100%;
     }
     @media (max-width: 890px) {
-      height: 50vh;
+      // height: 50vh;
+      align-items: center;
+      padding: 40px;
       img {
-        width: unset;
-        height: 100%;
+        // width: unset;
+        // height: 100%;
+      }
+    }
+    
+    .show-laptop {
+      display: block;
+      @media (max-width: 890px) {
+        display: none;
+      }
+    }
+    
+    .show-mobile {
+      display: none;
+      @media (max-width: 890px) {
+        display: block;
       }
     }
   }

@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 
 import './HomePage.scss';
 import halfComputer from '../assets/bg-images/home/group-4.png';
+import fullComputer from '../assets/bg-images/home/laptop-bucks_full.png';
 import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
 import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
 
@@ -21,7 +22,8 @@ const HomePage = () => {
     <>
       <section className="hero-section common-4-6-pan">
         <div className="hero-container left-pan">
-          <img src={halfComputer} alt="computer" />
+          <img src={halfComputer} alt="computer" className="show-laptop"/>
+          <img src={fullComputer} alt="computer" className="show-mobile"/>
         </div>
         <div className="hero-container right-pan" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
           <h1>The Social Cart<span className="of-the">of the</span></h1>
