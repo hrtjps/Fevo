@@ -28,10 +28,10 @@ const HomePage = () => {
         </div>
         <div className="hero-container right-pan" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
           <h1>The Social Cart<span className="of-the">of the</span></h1>
-          <h1>the Experience Economy</h1>
+          <h1>Experience Economy</h1>
           <div className="content">
-            Rally your buyers and turn any moment into an 
-            unforgettable shared experience on your brand.
+            Rally your consumers and turn any moment 
+            into an unforgettable shared experience on your brand.
           </div>
           <SliderNavDot dots={4} />
         </div>
@@ -39,19 +39,18 @@ const HomePage = () => {
       <section className="collective-section common-4-6-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
         <div className="sub-title left-pan" >
           <div className="sub-title-content">
-            <h2>Collective Commerce:</h2>
+            <h2>Collective Commerce™:</h2>
             <h2 className="sub-content">
-              This is How It’s Done. 
+              This is How It’s Done
             </h2>
           </div>
         </div>
         <div className="right-pan" >
           <div className="content">
-            The game has changed for social experiences. Using 
-            Fevo, consumers buy as individuals, share purchases 
-            with others, and live it up together. This is collective
-            commerce—the easiest way to bring people together
-            for shared experiences.
+            The game has changed for social experiences. Using FEVO, 
+            consumers buy as individuals, share purchases with others, 
+            and live it up together. This is Collective Commerce™—the 
+            easiest way to bring people together for shared experiences.
           </div>
         </div>
       </section>
@@ -60,12 +59,11 @@ const HomePage = () => {
           <div className="col-12 col-md-6 d-flex align-items-center ">
             <div className="content-container" >
               <div className="content">
-                Fevo works as a button that pops open
-                on a brand’s page, simplifying every
-                transaction into a seamless process. On
-                the backend, our clients can customize
-                their offers, track metrics, and capture
-                data. It’s a win for fans and brands.
+                FEVO is the Social Cart that lives on 
+                your brand’s page and simplifies every 
+                transaction into a shareable experience. 
+                Increase your sales. Capture more data. 
+                Expand your reach.
               </div>
             </div>
           </div>
@@ -81,16 +79,14 @@ const HomePage = () => {
       <section className="recommend-section" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
         <div className="sub-title-content top-bar title">
           <h2>
-            “I’d recommend Fevo to anybody that 
-            likes to make money, enjoys selling 
-            tickets, and wants to make their team 
-            owner happy.”
+            “FEVO’s Social Cart massively expanded our 
+            sales and is so easy to use. Our consumers love it.”
           </h2>
           <div className="d-flex jake">
             <img src={learfieldImg} alt="" />
             <div className="jake-bye">
-              <div>Jake Bye</div>
-              <div className="evp-of-sales">EVP of Sales & Service at Learfield IMG College</div>
+              <div>Brian Norman</div>
+              <div className="evp-of-sales">VP of Sales & Service at New Jersey Devils</div>
             </div>
           </div>
         </div>
