@@ -3,6 +3,7 @@
   min-height: 100vh;
   display: flex;
   width: 100%;
+  background-color: #070606;
   @media (max-width: 890px) {
     height: unset;
     min-height: unset;
@@ -20,7 +21,6 @@
     }
   }
   .left-pan {
-    background-color: #070606;
     display: flex;
     align-items: flex-end;
     padding-right: 0;
@@ -73,6 +73,18 @@
       }
     }
   }
+  position: relative;
+  .slider-dots {
+    position: absolute;
+    bottom: 120px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    @media (max-width: 890px) {
+      position: unset;
+      margin-bottom: 30px;
+    }
+  }
 }
 .collective-section {
   display: flex;
@@ -89,6 +101,9 @@
       padding-bottom: 0;
       justify-content: flex-start;
     }
+  }
+  .right-pan {
+    padding-bottom: 45px;
   }
 }
 
@@ -130,7 +145,7 @@
       margin-bottom: 60px;
       @media (max-width: 890px) {
         text-align: left;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
       }
     }
     .for-content-navs {

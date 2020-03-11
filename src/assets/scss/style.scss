@@ -147,6 +147,29 @@ body {
   color: white;
 }
 
+.app {
+  position: relative;
+  min-height: 100vh;
+  .app-body {
+    padding-bottom: 280px;
+    
+    @media (max-width: 890px) {
+      padding-bottom: 500px;
+    }
+    @media (max-width: 750px) {
+      padding-bottom: 520px;
+    }
+    @media (max-width: 545px) {
+      padding-bottom: 640px;
+    }
+  }
+  .footer-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
 h1, .h1 {
   font-size: 60px;
   line-height: 1.1;

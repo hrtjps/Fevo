@@ -21,6 +21,9 @@ const HomePage = () => {
   return (
     <>
       <section className="hero-section common-4-6-pan">
+        <div className="slider-dots">
+          <SliderNavDot dots={4}/>
+        </div>
         <div className="hero-container left-pan">
           <img src={halfComputer} alt="computer" className="show-laptop"/>
           <img src={fullComputer} alt="computer" className="show-mobile"/>
@@ -32,7 +35,6 @@ const HomePage = () => {
             Rally your consumers and turn any moment 
             into an unforgettable shared experience on your brand.
           </div>
-          <SliderNavDot dots={4} />
         </div>
       </section>
       <section className="collective-section common-4-6-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
@@ -69,7 +71,7 @@ const HomePage = () => {
           <div className="col-12 col-md-6">
             <div className="sub-title">
               <div className="sub-title-content top-bar">
-                <h2>The Fevo Way</h2>
+                <h2>The FEVO Way</h2>
               </div>
             </div>
           </div>

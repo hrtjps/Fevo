@@ -72,7 +72,7 @@ const PleasureWorking = ({data}) => {
   return (
     <div className="working-container">
       <div className="title">
-        Our Clients
+        Featured Partners
       </div>
       <div className="carousel-body">
         <Carousel indicators={false} controls={false} activeIndex={index}
