@@ -202,7 +202,7 @@ const NewHeader = ({history}) => {
                 Team
               </NavLink>
             </DropdownItem>
-            <DropdownItem as="div">
+            {/* <DropdownItem as="div">
               <NavLink to="/about/press" activeClassName="active-link" exact>
                 Press
               </NavLink>
@@ -211,10 +211,10 @@ const NewHeader = ({history}) => {
               <NavLink to="/about/brands" activeClassName="active-link" exact>
                 Blog
               </NavLink>
-            </DropdownItem>
+            </DropdownItem> */}
             <DropdownItem as="div">
               <NavLink to="/about/content" activeClassName="active-link" exact>
-                Connect
+                Contact Us
               </NavLink>
             </DropdownItem>
           </DropdownMenu>
