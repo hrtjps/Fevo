@@ -17,10 +17,8 @@ const CompanyPage = ({ data}) => {
             <h1>Meet Our Team</h1>
           </div>
           <div className="right-pan">
-            <strong>Fevo is a company with a purpose. </strong> 
-            We’re a 120 person, venture-backed startup headquartered 
-            in New York City. If you’re passionate about changing 
-            the way people connect, join us.
+            <strong>FEVO is a company with a purpose headquartered in New York City. </strong> 
+            If you’re passionate about changing the way people connect, join us.
           </div>
         </div>
       </section>
