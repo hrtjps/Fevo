@@ -32,7 +32,7 @@ const Header = ({history}) => {
           <img src={Logo} alt="FEVO LOGO" />
         </NavLink>
       </div>
-      <div className={(!dark || !top)?"menu-toggle-btn":"menu-toggle-btn dark"} onClick={()=>setShow(true)}>
+      <div className="menu-toggle-btn" onClick={()=>setShow(true)}>
         <FontAwesomeIcon icon={faBars} size="2x"/>
       </div>
       <Modal show={show} onHide={()=>setShow(false)} size="sm" id="menuModal" backdrop>
@@ -100,7 +100,7 @@ const Header = ({history}) => {
         </div>
       </Modal>
       
-      <div className={(!dark || !top)?"menu":"menu dark"} >
+      <div className="menu" >
         <NavLink to="/" activeClassName="active-link" exact>
           Home
         </NavLink>

@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars} from "@fortawesome/free-solid-svg-icons";
 const NewHeader = ({history}) => {
   const [show, setShow]=useState(false);
-  const dark=(history.location.pathname === "/partners/case-study" || history.location.pathname === "/purpose")?true:false;
   const [top, setTop]=useState(true);
   
   const scrollEvent = () => {
@@ -32,7 +31,7 @@ const NewHeader = ({history}) => {
           <img src={Logo} alt="FEVO LOGO" />
         </NavLink>
       </div>
-      <div className={(!dark || !top)?"menu-toggle-btn":"menu-toggle-btn dark"} onClick={()=>setShow(true)}>
+      <div className="menu-toggle-btn" onClick={()=>setShow(true)}>
         <FontAwesomeIcon icon={faBars} size="2x"/>
       </div>
       <Modal show={show} onHide={()=>setShow(false)} size="sm" id="menuModal" backdrop>
@@ -116,7 +115,7 @@ const NewHeader = ({history}) => {
         </div>
       </Modal>
       
-      <div className={(!dark || !top)?"menu":"menu dark"} >
+      <div className="menu">
         <NavLink to="/" activeClassName="active-link" exact>
           Home
         </NavLink>
