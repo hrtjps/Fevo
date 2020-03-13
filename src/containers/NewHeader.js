@@ -60,7 +60,7 @@ const NewHeader = ({history}) => {
           </DropdownItem>
           <DropdownItem as="div">
             <NavLink to="/purpose/consumer-goods" activeClassName="active-link" exact>
-              partners
+              Partners
             </NavLink>  
           </DropdownItem>
           <DropdownItem as="div">
