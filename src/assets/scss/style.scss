@@ -407,3 +407,6 @@ section {
   background-color: white;
   position: relative;
 }
+.modal-backdrop.show {
+  opacity: .1;
+}

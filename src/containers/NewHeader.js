@@ -48,12 +48,12 @@ const NewHeader = ({history}) => {
               Home
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div"  className="none-bottom-border">
+          <DropdownItem as="div">
             <NavLink to="/purpose" activeClassName="active-link" exact>
               Purpose
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div"  className="none-bottom-border">
+          <DropdownItem as="div">
             <NavLink to="/purpose/live-events" activeClassName="active-link" exact>
               Product
             </NavLink>
