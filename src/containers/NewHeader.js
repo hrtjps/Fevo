@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Header.scss";
 import Logo from "../assets/icons/fevo.png";
 import { NavLink, withRouter } from "react-router-dom";
-import { Dropdown, Modal } from "react-bootstrap";
+import { Dropdown, Modal, Button } from "react-bootstrap";
 import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
 import DropdownItem from "react-bootstrap/DropdownItem";
@@ -36,82 +36,44 @@ const NewHeader = ({history}) => {
       </div>
       <Modal show={show} onHide={()=>setShow(false)} size="sm" id="menuModal" backdrop>
         <div className="" onClick={()=>setShow(false)}>
+          
+          <div className="menu-toggle-btn" onClick={()=>setShow(false)}>
+            <FontAwesomeIcon icon={faBars} size="2x"/>
+          </div>
+          <div className="menu-logo">
+            FEVO
+          </div>
           <DropdownItem as="div">
             <NavLink to="/" activeClassName="active-link" exact>
               Home
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div">
+          <DropdownItem as="div"  className="none-bottom-border">
             <NavLink to="/purpose" activeClassName="active-link" exact>
               Purpose
             </NavLink>
           </DropdownItem>
-          <DropdownItem as="div">
+          <DropdownItem as="div"  className="none-bottom-border">
             <NavLink to="/purpose/live-events" activeClassName="active-link" exact>
-              Live Events
+              Product
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
             <NavLink to="/purpose/consumer-goods" activeClassName="active-link" exact>
-              Consumer Goods
+              partners
             </NavLink>  
           </DropdownItem>
           <DropdownItem as="div">
             <NavLink to="/purpose/content" activeClassName="active-link" exact>
-              Content
-            </NavLink>
-          </DropdownItem>
-          
-          <DropdownItem as="div">
-            <NavLink to="/product/coco" activeClassName="active-link" exact >
-              Coco
+              About
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
-            <NavLink to="/product/wefevo" activeClassName="active-link" exact>
-              WeFevo
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/partners/clients" activeClassName="active-link" exact >
-              Clients
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/partners/integrations" activeClassName="active-link" exact>
-              Integrations
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/partners/case-study" activeClassName="active-link" exact>
-              Case Studies
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/about/team" activeClassName="active-link" exact >
-              Team
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/about/press" activeClassName="active-link" exact>
-              Press
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/about/brands" activeClassName="active-link" exact>
-              Blog
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div">
-            <NavLink to="/about/content" activeClassName="active-link" exact>
-              Connect
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem as="div" onClick={()=>setShow(false)}>
             <NavLink to="/order-support" activeClassName="active-link" exact>
-              Order Support
+              Support
             </NavLink>
           </DropdownItem>
+          <Button variant="light" block onClick={()=>setShow(false)} className="close-btn">Close</Button>
         </div>
       </Modal>
       
