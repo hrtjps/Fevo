@@ -23,7 +23,8 @@ const PurposePage = () => {
           <h1>Experience Together</h1>
           <div className="content">
             <strong>Life is meant to be shared together. </strong>
-            We all have our tribes.  Our tribes embody us and lead us into adventure.  FEVO is how tribes buy.
+            We all have our tribes.  Our tribes embody us and lead us into adventure.  <br /><br />
+            FEVO is how tribes buy.
           </div>
         </div>
       </section>

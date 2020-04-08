@@ -5,6 +5,8 @@ import TermsPage from "./views/TermsPage";
 import PrivacyPage from "./views/PrivacyPage";
 
 const HomePage = React.lazy(() => import("./views/HomePage"));
+const ProductPage = React.lazy(() => import("./views/ProductPage"));
+const PartnersPage = React.lazy(() => import("./views/PartnersPage"));
 const CaseStudySinglePage = React.lazy(() => import("./views/CaseStudies/CaseStudySinglePage"));
 const CaseStudyPage = React.lazy(() => import("./views/CaseStudies/CaseStudyPage"));
 
@@ -45,9 +47,32 @@ const PurposePage = React.lazy(() => import("./views/PurposePage"));
 // ];
 
 
+// const routes = [
+//   { path: "/", exact: true, name: "Home", component: HomePage },
+//   { path: "/home", exact: true, name: "Home", component: HomePage },
+  
+//   { path: "/about/press", exact: true, name: "Press", component: PressPage },
+//   { path: "/about/brands", exact: true, name: "Blog Brands", component: BrandsBlogPage },
+//   { path: "/about/brands/view/:id", exact: true, name: "Blog Single - Brand", component: BrandsBlogSinglePage },
+//   { path: "/about/team", exact: true, name: "Team", component: CompanyPage },
+
+//   { path: "/partners/case-study", exact: true, name: "Case Study", component: CaseStudyPage },
+//   { path: "/partners/case-study/:id", exact: true, name: "Case Study - Single", component: CaseStudySinglePage },
+  
+//   { path: "/order-support", exact: true, name: "Order Support", component: OrderSupportPage },
+  
+//   { path: "/terms", exact: true, name: "Terms", component: TermsPage },
+//   { path: "/purpose", exact: true, name: "Purpose", component: PurposePage },
+//   { path: "/privacy-policy", exact: true, name: "Privacy Policy", component: PrivacyPage },
+// ];
+
 const routes = [
   { path: "/", exact: true, name: "Home", component: HomePage },
   { path: "/home", exact: true, name: "Home", component: HomePage },
+  { path: "/partners", exact: true, name: "Home", component: PartnersPage },
+  { path: "/purpose", exact: true, name: "Home", component: PurposePage },
+  { path: "/product", exact: true, name: "Home", component: ProductPage },
+  { path: "/team", exact: true, name: "Team", component: CompanyPage },
   
   { path: "/about/press", exact: true, name: "Press", component: PressPage },
   { path: "/about/brands", exact: true, name: "Blog Brands", component: BrandsBlogPage },
@@ -60,7 +85,6 @@ const routes = [
   { path: "/order-support", exact: true, name: "Order Support", component: OrderSupportPage },
   
   { path: "/terms", exact: true, name: "Terms", component: TermsPage },
-  { path: "/purpose", exact: true, name: "Purpose", component: PurposePage },
   { path: "/privacy-policy", exact: true, name: "Privacy Policy", component: PrivacyPage },
 ];
 

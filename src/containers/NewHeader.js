@@ -54,18 +54,18 @@ const NewHeader = ({history}) => {
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
-            <NavLink to="/purpose/live-events" activeClassName="active-link" exact>
+            <NavLink to="/product" activeClassName="active-link" exact>
               Product
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
-            <NavLink to="/purpose/consumer-goods" activeClassName="active-link" exact>
+            <NavLink to="/partners" activeClassName="active-link" exact>
               Partners
             </NavLink>  
           </DropdownItem>
           <DropdownItem as="div">
-            <NavLink to="/purpose/content" activeClassName="active-link" exact>
-              About
+            <NavLink to="/team" activeClassName="active-link" exact>
+              Team
             </NavLink>
           </DropdownItem>
           <DropdownItem as="div">
@@ -81,9 +81,17 @@ const NewHeader = ({history}) => {
         <NavLink to="/" activeClassName="active-link" exact>
           Home
         </NavLink>
-        
         <NavLink to="/purpose" activeClassName="active-link" exact>
           Purpose
+        </NavLink>
+        <NavLink to="/product" activeClassName="active-link" exact>
+          Product
+        </NavLink>
+        <NavLink to="/partners" activeClassName="active-link" exact>
+          Partners
+        </NavLink>
+        <NavLink to="/team" activeClassName="active-link" exact>
+          Team
         </NavLink>
         {/* <Dropdown>
           <DropdownToggle as="div">
@@ -109,7 +117,7 @@ const NewHeader = ({history}) => {
             </DropdownItem>
           </DropdownMenu>
         </Dropdown> */}
-        <Dropdown>
+        {/* <Dropdown>
           <DropdownToggle as="div">
             <NavLink to="/product" activeClassName="active-link" onClick={(e)=>{e.preventDefault()}}>
               Product
@@ -164,7 +172,7 @@ const NewHeader = ({history}) => {
                 Team
               </NavLink>
             </DropdownItem>
-            {/* <DropdownItem as="div">
+            <DropdownItem as="div">
               <NavLink to="/about/press" activeClassName="active-link" exact>
                 Press
               </NavLink>
@@ -173,14 +181,14 @@ const NewHeader = ({history}) => {
               <NavLink to="/about/brands" activeClassName="active-link" exact>
                 Blog
               </NavLink>
-            </DropdownItem> */}
+            </DropdownItem>
             <DropdownItem as="div">
               <NavLink to="/about/content" activeClassName="active-link" exact>
                 Contact Us
               </NavLink>
             </DropdownItem>
           </DropdownMenu>
-        </Dropdown>
+        </Dropdown> */}
         <NavLink to="/order-support" activeClassName="active-link" exact>
           Support
         </NavLink>

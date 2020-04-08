@@ -1,0 +1,201 @@
+.product-hero-section {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  background-color: #070606;
+  @media (max-width: 890px) {
+    height: unset;
+    min-height: unset;
+    flex-direction: column-reverse;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    @media (max-width: 890px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  .left-pan {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 0;
+    img {
+      width: 100%;
+    }
+    @media (max-width: 890px) {
+      // height: 50vh;
+      align-items: center;
+      padding: 40px;
+      img {
+        // width: unset;
+        // height: 100%;
+      }
+    }
+    
+    .show-laptop {
+      display: block;
+      @media (max-width: 890px) {
+        display: none;
+      }
+    }
+    
+    .show-mobile {
+      display: none;
+      @media (max-width: 890px) {
+        display: block;
+      }
+    }
+  }
+  .right-pan {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    @media (max-width: 890px) {
+      padding-top: 130px;
+    }
+    .content {
+      margin-top: 30px;
+      margin-bottom: 180px;
+      max-width: 525px;
+      font-size: 24px;
+      line-height: 1.42;
+      color: #ffffff;
+      font-family: "Colfax Light";
+      
+      @media (max-width: 890px) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+  position: relative;
+  .slider-dots {
+    position: absolute;
+    bottom: 120px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    @media (max-width: 890px) {
+      position: unset;
+      margin-bottom: 30px;
+    }
+  }
+}
+.product-collective-section {
+  width: 100%;
+  background-color: var(--fevo-blue);
+
+  .left-pan {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    @media (max-width: 890px) {
+      padding: 30px;
+      padding-top: 30px;
+      padding-bottom: 60px;
+      justify-content: flex-start;
+    }
+    .sub-title-content {
+      &::after {
+        content: none;
+      }
+    }
+  }
+  .right-pan {
+    padding-bottom: 45px;
+  }
+}
+
+.content-container {
+  padding: 130px;
+  @media (max-width: 890px) {
+    padding: 60px
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .content {
+    max-width: 603px;
+    font-family: "Colfax Light";
+    font-size: 24px;
+    line-height: 1.42;
+  }
+}
+.product-fevo-way-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  color: black;
+  .content-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 65px;
+    @media (max-width: 890px) {
+      padding: 15px 15px 15px 15px;
+    }
+    align-items: flex-end;
+    @media (max-width: 890px) {
+      align-items: flex-start;
+    }
+    width: 100%;
+    .content {
+      text-align: right;
+      max-width: 440px;
+      margin-bottom: 60px;
+      @media (max-width: 890px) {
+        text-align: left;
+        margin-bottom: 30px;
+      }
+    }
+    .for-content-navs {
+      a {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.38;
+        color: var(--fevo-blue);
+        text-decoration: none;
+        margin-right: 60px;
+        &:last-child {
+          margin-right: 0;
+        }
+        svg {
+          color: var(--fevo-gray);
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .sub-title {
+    // padding-top: 200px;
+    // padding-left: 65px;
+    // @media (max-width: 890px) {
+    //   padding: 15px 15px 15px 15px;
+    //   padding-top: 60px;
+    // }
+    padding: 80px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    @media (max-width: 890px) {
+      padding: 30px;
+      padding-top: 30px;
+      padding-bottom: 60px;
+      justify-content: flex-start;
+    }
+    .sub-title-content {
+      &::after {
+        content: none;
+      }
+    }
+    justify-content: flex-start;
+  }
+
+}
