@@ -7,6 +7,7 @@ import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
 
 import whiteBgImg from '../assets/bg-images/case-study-home/fevo-bg-white.png';
 import heroImg from '../assets/bg-images/about_fevo-brands/group-4.png';
+import ticketImg from '../assets/icons/ticket.png';
 
 import {dataSelector} from "../modules/app";
 
@@ -52,8 +53,10 @@ const PartnersPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6">
-            
+          <div className="col-12 col-md-6 ">
+            <div className="content-container">
+              <img src={ticketImg} alt="" className="mb-4"/>
+            </div>
           </div>
         </div>
       </section>
