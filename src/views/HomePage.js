@@ -32,8 +32,7 @@ const HomePage = () => {
           <h1>The Social Cart<span className="of-the">of the</span></h1>
           <h1>Experience Economy</h1>
           <div className="content">
-            Rally your consumers and turn any moment 
-            into an unforgettable shared experience on your brand.
+            Rally your consumers and turn every purchase into a collective commerce experience right on your brand.
           </div>
         </div>
       </section>
@@ -48,10 +47,9 @@ const HomePage = () => {
         </div>
         <div className="right-pan" >
           <div className="content">
-            The game has changed for social experiences. Using FEVO, 
-            consumers buy as individuals, share purchases with others, 
-            and live it up together. This is Collective Commerce™—the 
-            easiest way to bring people together for shared experiences.
+            Using FEVO, consumers buy as individuals, share purchases with others, 
+            and live it up together.  This is Collective Commerce - the easiest 
+            way to bring people together for shared commerce and experiences.
           </div>
         </div>
       </section>
@@ -60,11 +58,9 @@ const HomePage = () => {
           <div className="col-12 col-md-6 d-flex align-items-center ">
             <div className="content-container" >
               <div className="content">
-                FEVO is the Social Cart that lives on 
-                your brand’s page and simplifies every 
-                transaction into a shareable experience. 
-                Increase your sales. Capture more data. 
-                Expand your reach.
+                FEVO is the Social Cart that lives on your brand's page 
+                and simplifies every transaction into a shareable experience.  
+                Increase your sales.  Capture more data.  Expand your reach.
               </div>
             </div>
           </div>

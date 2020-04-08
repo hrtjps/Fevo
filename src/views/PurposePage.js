@@ -22,9 +22,8 @@ const PurposePage = () => {
         <div className="right-pan" >
           <h1>Experience Together</h1>
           <div className="content">
-            <strong>We come alive when we are together. </strong>
-            Our tribes propel us forward and draw us into adventure. 
-            We are all tribes. FEVO is how tribes buy.
+            <strong>Life is meant to be shared together. </strong>
+            We all have our tribes.  Our tribes embody us and lead us into adventure.  FEVO is how tribes buy.
           </div>
         </div>
       </section>
@@ -36,10 +35,10 @@ const PurposePage = () => {
         </div>
         <div className="right-pan" >
           <div className="content">
-            The game has changed for social experiences. Using FEVO, 
-            consumers buy as individuals, share purchases with others, 
-            and live it up together. This is Collective Commerce™—the 
-            easiest way to bring people together for shared experiences.
+            It's time to break the barriers of traditional ecommerce.  
+            A purchase is no longer just a transaction, it's an opportunity 
+            for people to connect and share.  Collective Commerce™ turns every 
+            purchase into an experience buyers enjoy together on your brand.
           </div>
         </div>
       </section>
@@ -49,10 +48,11 @@ const PurposePage = () => {
         <div className="right-pan" >
           <h2>Turn Every Purchase Into An Adventure</h2>
           <div className="content">
-            The game has changed for social experiences. Using FEVO, 
-            consumers buy as individuals, share purchases with others, 
-            and live it up together. This is Collective Commerce™—the 
-            easiest way to bring people together for shared experiences.
+            People are looking for ways to connect their passions with others.  
+            When they love it, they'll tell their friends.  When they're 
+            passionate about it, they'll share it with the world.  
+            With FEVO, every purchase is a chance to turn one 
+            person into a tribe -- and that purchase into a movement.
           </div>
         </div>
       </section>
