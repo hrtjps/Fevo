@@ -13,7 +13,6 @@ import learfieldImg from '../assets/icons/learfield.png';
 
 import {dataSelector} from "../modules/app";
 
-import SliderNavDot from "../components/SliderNavDot";
 import PleasureWorking from "../components/PleasureWorking";
 
 const HomePage = () => {
