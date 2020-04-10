@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import './PartnersPage.scss';
 
 import whiteBgImg from '../assets/bg-images/case-study-home/fevo-bg-white.png';
-import heroImg from '../assets/bg-images/about_fevo-brands/group-4.png';
+import heroImg from '../assets/bg-images/fevo_shot.jpeg';
 import ticketImg from '../assets/icons/ticket.png';
 
 import {dataSelector} from "../modules/app";
@@ -15,7 +15,9 @@ const PartnersPage = () => {
 
   return (
     <>
-      <section className="partners-hero-section" style={{backgroundImage: `url(${heroImg})`}}>
+      <section className="partners-hero-section" 
+        style={{backgroundImage: `linear-gradient(#000000ad, #000000cc), url(${heroImg})`}}
+      >
         <div className="row w-100">
           <div className="col-12 col-md-6">
             <div className="content-container">
