@@ -5,8 +5,6 @@ import { connect } from "react-redux";
 import './CompanyPage.scss';
 import heroBgImg from '../assets/bg-images/company/group-2.png';
 import { dataSelector } from "../modules/app";
-import clothImg from '../assets/bg-images/home/fevo-black-cloth.png'
-import PleasureWorking from "../components/PleasureWorking";
 
 const CompanyPage = ({ data}) => {
   return (
@@ -21,9 +19,6 @@ const CompanyPage = ({ data}) => {
             If you’re passionate about changing the way people connect, join us.
           </div>
         </div>
-      </section>
-      <section className="working-section" style={{backgroundImage: `url(${clothImg})`}}>
-        <PleasureWorking />
       </section>
       <section className="member-section">
         <div className="member-container">

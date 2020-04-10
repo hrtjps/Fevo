@@ -1,26 +1,23 @@
 import React from "react";
 import "./Footer.scss";
 import Logo from "../assets/icons/fevo.png";
-import Facebook from "../assets/icons/facebook.png";
-import Twitter from "../assets/icons/twitter.png";
-import Instagram from "../assets/icons/instagram.png";
-import Linkedin from "../assets/icons/linkedin.png";
+import Instagram from "../assets/icons/instagram_white.png";
+import Linkedin from "../assets/icons/linkedin_white.png";
 import { NavLink } from "react-router-dom";
-import { FormControl } from "react-bootstrap";
 const Footer = () => {
   return (
     <section className="footer-section">
-      <div className="signup-form">
+      {/* <div className="signup-form">
         <div className="sign-up">Sign Up for the FEVO Email Newsletter</div>
         <FormControl as="input" placeholder="Your email address" />
         <button className="form-control custom-button">SUBSCRIBE NOW</button>
-      </div>
+      </div> */}
       <div className="footer">
         <div className="logo-container">
           <div className="logo">
             <img src={Logo} alt="FEVO LOGO" />
           </div>
-          <div className="fevo">© 2019 Fevo. All rights reserved.</div>
+          <div className="fevo">© 2020 Fevo. All rights reserved.</div>
         </div>
         <div className="menu">
           <div className="sub-menu">
@@ -38,13 +35,7 @@ const Footer = () => {
         </div>
         <div className="socials">
           <NavLink to="#">
-            <img src={Facebook} alt="Facebook" />
-          </NavLink>
-          <NavLink to="#">
             <img src={Instagram} alt="Instagram" />
-          </NavLink>
-          <NavLink to="#">
-            <img src={Twitter} alt="Twitter" />
           </NavLink>
           <NavLink to="#">
             <img src={Linkedin} alt="Linkedin" />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import { connect } from "react-redux";
 
@@ -13,6 +13,14 @@ import { dataSelector } from "../modules/app";
 import { Button } from "react-bootstrap";
 
 const OrderSupportPage = ({ data}) => {
+  const faqSection = useRef();
+  const scropllToFaq=()=>{
+    console.log(faqSection);
+    window.scrollTo({
+      top: faqSection.current.offsetTop - 55,
+      behavior: 'smooth'
+    })
+  }
   return (
     <>
       <section className="support-hero-section" style={{backgroundImage: `url(${heroBgImg})`}}>
@@ -20,7 +28,7 @@ const OrderSupportPage = ({ data}) => {
           <h1>Need help with an order? </h1>
           <div className="subtitle">Give us a shout to support@fevo.com</div>
           <div className="overview-link">
-            <NavLink to="#" >
+            <NavLink to="#" onClick={scropllToFaq}>
               <FontAwesomeIcon icon={faArrowDown}/>
               Jump to FAQ’s 
             </NavLink>
@@ -104,6 +112,10 @@ const OrderSupportPage = ({ data}) => {
 
             </div>
           </div>
+        </div>
+      </section>
+      <section className="faq-section" ref={faqSection}>
+        <div className="faq-container">
           {
             data.faqItems.map((item, i) => (
               <div className="faq-item" key={i}>

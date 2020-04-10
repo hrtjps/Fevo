@@ -9,21 +9,14 @@ import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
 import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
 
 import whiteBgImg from '../assets/bg-images/case-study-home/fevo-bg-white.png';
-import learfieldImg from '../assets/icons/learfield.png';
 
 import {dataSelector} from "../modules/app";
-
-import SliderNavDot from "../components/SliderNavDot";
-import PleasureWorking from "../components/PleasureWorking";
 
 const ProductPage = () => {
 
   return (
     <>
       <section className="product-hero-section common-4-6-pan">
-        <div className="slider-dots">
-          <SliderNavDot dots={4}/>
-        </div>
         <div className="hero-container left-pan">
           <img src={halfComputer} alt="computer" className="show-laptop"/>
           <img src={fullComputer} alt="computer" className="show-mobile"/>

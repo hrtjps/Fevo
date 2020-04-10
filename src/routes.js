@@ -10,14 +10,8 @@ const PartnersPage = React.lazy(() => import("./views/PartnersPage"));
 const CaseStudySinglePage = React.lazy(() => import("./views/CaseStudies/CaseStudySinglePage"));
 const CaseStudyPage = React.lazy(() => import("./views/CaseStudies/CaseStudyPage"));
 
-const AboutFevoBrandsPage = React.lazy(() => import("./views/Brands/AboutFevoBrandsPage"));
 const BrandsBlogPage = React.lazy(() => import("./views/Brands/BrandsBlogPage"));
 const BrandsBlogSinglePage = React.lazy(() => import("./views/Brands/BrandsBlogSinglePage"));
-const VideoTetimonialsPage = React.lazy(() => import("./views/Brands/VideoTetimonialsPage"));
-
-const AboutFevoFansPage = React.lazy(() => import("./views/Fans/AboutFevoFansPage"));
-const FansBlogPage = React.lazy(() => import("./views/Fans/FansBlogPage"));
-const FansBlogSinglePage = React.lazy(() => import("./views/Fans/FansBlogSinglePage"));
 
 const PressPage = React.lazy(() => import("./views/PressPage"));
 const PurposePage = React.lazy(() => import("./views/PurposePage"));

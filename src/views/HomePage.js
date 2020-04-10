@@ -91,7 +91,7 @@ const HomePage = () => {
         <div className="slider-navs">
           <PleasureWorking />
         </div>
-      </section>
+    </section>
     </>
   );
 };

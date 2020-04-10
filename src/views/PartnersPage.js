@@ -3,7 +3,6 @@ import React from "react";
 import { connect } from "react-redux";
 
 import './PartnersPage.scss';
-import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
 
 import whiteBgImg from '../assets/bg-images/case-study-home/fevo-bg-white.png';
 import heroImg from '../assets/bg-images/about_fevo-brands/group-4.png';
@@ -71,7 +70,7 @@ const PartnersPage = () => {
                 why the biggest brands in the world trust us with their consumer experience.
               </div>
               <div className="for-content-navs mb-4">
-                <a>Connect with FEVO.</a>
+                <a href="/">Connect with FEVO.</a>
               </div>
             </div>
           </div>

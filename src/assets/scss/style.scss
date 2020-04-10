@@ -151,16 +151,22 @@ body {
   position: relative;
   min-height: 100vh;
   .app-body {
-    padding-bottom: 280px;
+    padding-bottom: 137px;
     
-    @media (max-width: 890px) {
-      padding-bottom: 500px;
+    @media (max-width: 1350px) {
+      padding-bottom: 172px;
     }
-    @media (max-width: 750px) {
-      padding-bottom: 520px;
+    @media (max-width: 990px) {
+      padding-bottom: 196px;
+    }
+    @media (max-width: 890px) {
+      padding-bottom: 256px;
+    }
+    @media (max-width: 635px) {
+      padding-bottom: 291px;
     }
     @media (max-width: 545px) {
-      padding-bottom: 640px;
+      padding-bottom: 350px;
     }
   }
   .footer-section {
@@ -409,4 +415,8 @@ section {
 }
 .modal-backdrop.show {
   opacity: .1;
+}
+
+.u-userLauncherColor:not([disabled]) {
+  background-color: var(--fevo-blue);
 }
