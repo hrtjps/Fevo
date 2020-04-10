@@ -22,13 +22,13 @@ const Footer = () => {
         <div className="menu">
           <div className="sub-menu">
             <NavLink to="/" activeClassName="active-link" exact>Home</NavLink>
-            <NavLink to="/about/team" activeClassName="active-link" exact>Team</NavLink>
-            <NavLink to="/partners/case-study" activeClassName="active-link" exact>Case Studies</NavLink>
-            <NavLink to="/order-support" activeClassName="active-link" exact>Support</NavLink>
+            <NavLink to="/purpose" activeClassName="active-link" exact>Purpose</NavLink>
+            <NavLink to="/product" activeClassName="active-link" exact>Product</NavLink>
+            <NavLink to="/partners" activeClassName="active-link" exact>Partners</NavLink>
           </div>
           <div className="sub-menu">
-            <NavLink to="/about/press" activeClassName="active-link" exact>Press</NavLink>
-            <NavLink to="/career" activeClassName="active-link" exact>Careers</NavLink>
+            <NavLink to="/team" activeClassName="active-link" exact>Team</NavLink>
+            <NavLink to="/order-support" activeClassName="active-link" exact>Support</NavLink>
             <NavLink to="/terms" activeClassName="active-link" exact>Terms</NavLink>
             <NavLink to="/privacy-policy" activeClassName="active-link" exact>Privacy Policy</NavLink>
           </div>

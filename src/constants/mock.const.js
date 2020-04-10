@@ -289,7 +289,7 @@ export const faqItems = [
 export const teamMembers = [
   {
     img: "",
-    name: "Ari Daie",
+    name: "Ari Dae",
     role: "CEO"
   },
   {
@@ -299,13 +299,13 @@ export const teamMembers = [
   },
   {
     img: "",
-    name: "Roman Gun   ",
+    name: "Roman Gun",
     role: "CPO"
   },
   {
     img: "",
-    name: "Doug Fowler",
-    role: "EVP, Partner Success"
+    name: "Geordie Stewart",
+    role: "CSO"
   },
   {
     img: "",

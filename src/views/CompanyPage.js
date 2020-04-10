@@ -15,8 +15,8 @@ const CompanyPage = ({ data}) => {
             <h1>Meet Our Team</h1>
           </div>
           <div className="right-pan">
-            <strong>FEVO is a company with a purpose headquartered in New York City. </strong> 
-            If you’re passionate about changing the way people connect, join us.
+            <strong>FEVO is a company on a mission to bring us all together with our tribe. </strong> 
+            Located in New York City, if you’re passionate about advancing the way people connect, join us!
           </div>
         </div>
       </section>
@@ -25,9 +25,9 @@ const CompanyPage = ({ data}) => {
           <div className="team">
             <div className="our-team">Our Team</div>
             <div>
-              consectetur adipiscing elit. Integer 
-              bibendum ut ligula vel lacinia. Donec 
-              blandit tincidunt felis non rhoncus. consectetur
+              FEVO is a company on a mission to bring us all together with our tribe. 
+              Located in New York City, if you’re passionate about advancing the way 
+              people connect, join us!
             </div>
           </div>
           {

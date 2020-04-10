@@ -21,9 +21,9 @@ const HomePage = () => {
   return (
     <>
       <section className="hero-section common-4-6-pan">
-        <div className="slider-dots">
+        {/* <div className="slider-dots">
           <SliderNavDot dots={4}/>
-        </div>
+        </div> */}
         <div className="hero-container left-pan">
           <img src={halfComputer} alt="computer" className="show-laptop"/>
           <img src={fullComputer} alt="computer" className="show-mobile"/>
