@@ -2,7 +2,7 @@
     .state-item {
       display: flex;
       margin-bottom: 100px;
-      // @media (max-width: 890px) {
+      // @media (max-width: 768px) {
         flex-wrap: wrap;
       // }
       .circular-progress {
@@ -51,7 +51,7 @@
           @media (max-width: 1200px) {
             font-size: 32px;
           }
-          @media (max-width: 890px) {
+          @media (max-width: 768px) {
             font-size: 28px;
           }
           line-height: 1.22;

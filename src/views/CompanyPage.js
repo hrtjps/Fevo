@@ -10,11 +10,11 @@ const CompanyPage = ({ data}) => {
   return (
     <>
       <section className="company-hero-section" style={{backgroundImage: `url(${heroBgImg})`}}>
-        <div className="company-hero-container common-4-6-pan" >
-          <div className="left-pan">
+        <div className="company-hero-container d-flex flex-column flex-md-row justify-content-evenly w-100">
+          <div className="left-pan px-4">
             <h1>Meet Our Team</h1>
           </div>
-          <div className="right-pan">
+          <div className="right-pan px-4">
             <strong>FEVO is a company on a mission to bring us all together with our tribe. </strong> 
             Located in New York City, if you’re passionate about advancing the way people connect, join us!
           </div>

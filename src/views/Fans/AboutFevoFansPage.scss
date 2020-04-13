@@ -2,7 +2,7 @@
   width: 100%;
   padding-top: 85px;
   height: 700px;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     height: unset;
   }
   display: flex;
@@ -23,7 +23,7 @@
 .experience-section {
   height: 700px;
   
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     height: unset;
   }
   color: #070707;
@@ -34,7 +34,7 @@
     @media (max-width: 1200px) {
       padding: 60px 60px;
     }
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       text-align: left;
       padding: 30px 30px;
     }
@@ -47,7 +47,7 @@
 }
 .planning-section {
   height: 700px;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     height: unset;
   }
   background-color: #1c1c1c;

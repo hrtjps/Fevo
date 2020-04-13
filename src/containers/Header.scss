@@ -11,7 +11,7 @@
   background-color: black;
   box-shadow: 0 1px 6px 0 rgba(110, 113, 120, 0.78);
   
-  // @media (max-width: 890px) {
+  // @media (max-width: 768px) {
     padding: 15px 30px;
   // }
   // background-color: transparent;
@@ -19,7 +19,7 @@
   box-shadow: none;
   &.top {
     padding: 5px 30px;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       padding: 5px 20px;
     }
   }
@@ -73,7 +73,7 @@
 
   .menu {
     display: flex;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       display: none;
     }
     .btn-link {
@@ -159,7 +159,7 @@
     display: none;
   }
 
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     
     display: flex;
     align-items: center;      

@@ -9,11 +9,11 @@
     margin-right: 40px;
     margin-bottom: 0 !important;
     
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       margin-right: 0;
     }
   }
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     flex-wrap: wrap;    
     .next-item-img {
       margin-bottom: 20px !important;

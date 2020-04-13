@@ -58,7 +58,7 @@ const ProductPage = () => {
             </div>
           </div>
           <div className="col-12 col-md-6">
-            <div className="d-flex justify-content-center align-items-center h-100 w-100">
+            <div className="d-flex justify-content-center align-items-center h-100 w-100 py-0 px-4 py-md-5">
               <img src={phones} alt="" className="w-100 phone-img" style={{maxWidth: '550px'}}/>
             </div>
           </div>
@@ -67,7 +67,7 @@ const ProductPage = () => {
       <section className="product-fevo-way-section"  style={{backgroundImage: `url(${whiteBgImg})`}}>
         <div className="row flex-column-reverse flex-md-row">
           <div className="col-12 col-md-6">
-            <div className="d-flex justify-content-center align-items-center h-100 w-100">
+            <div className="d-flex justify-content-center align-items-center h-100 w-100 py-0 px-4 py-md-5">
               <img src={desktop} alt="" className="w-100 desktop-img"  style={{maxWidth: '550px'}}/>
             </div>
           </div>

@@ -61,7 +61,7 @@
 .bucks-content-section {
   padding: 30px;
   display: flex;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     flex-wrap: wrap;
   }
   background-color: white;
@@ -71,7 +71,7 @@
     @media (max-width: 1200px) {
       padding: 60px 60px;
     }
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       padding: 50px 0px;
     }
     .bucks-content-header {
@@ -80,7 +80,7 @@
       font-size: 21px;
       line-height: 1.33;
       color: #0c0c0c;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         flex-wrap: wrap;
       }
       img {
@@ -110,7 +110,7 @@
   height: 500px;
   display: flex;
   
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     flex-wrap: wrap;;
   }
   .img-1 {
@@ -118,13 +118,13 @@
     // height: 500px;
     border-right: solid 2px white;
     border-bottom: solid 2px white;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       width: 100%;
     }
   }
   .img-2 {
     width: 67%;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       width: 100%;
     }
     border-bottom: solid 2px white;
@@ -135,7 +135,7 @@
   @media (max-width: 1200px) {
     padding: 60px 60px;
   }
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     padding: 60px 30px;
   }
   border-bottom: 5px solid #383939;

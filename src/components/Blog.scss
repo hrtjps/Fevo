@@ -33,11 +33,11 @@
   @media (max-width: 1200px) {
     padding: 60px 0px;
   }
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     padding: 50px 0px;
   }
   display: flex;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     flex-wrap: wrap;
   }
   .blog {

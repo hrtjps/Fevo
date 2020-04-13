@@ -1,7 +1,7 @@
 .footer-section {
   padding: 48px;
   background-color: black;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     padding: 30px;
   }
   .signup-form {
@@ -18,7 +18,7 @@
       line-height: 1.44;
       color: #ffffff;
       margin-bottom: 20px;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-right: 0;
         width: 100%;
         max-width: 100%;
@@ -35,7 +35,7 @@
       height: 53px;
       margin-bottom: 20px;
       
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-right: 0;
         max-width: 100%;
       }
@@ -55,24 +55,24 @@
       letter-spacing: -0.36px;
       color: #555353;
       margin-right: 40px;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-bottom: 20px;
       }
     }
     .logo-container {
       display: flex;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         flex-direction: column;
       }
     }
     .menu {
       display: flex;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-bottom: 20px;
       }
       .sub-menu {
         display: flex;
-        @media (max-width: 890px) {
+        @media (max-width: 768px) {
           flex-direction: column;
         }
       }
@@ -84,7 +84,7 @@
         text-align: left;
         margin-right: 40px;
         white-space: nowrap;
-        @media (max-width: 890px) {
+        @media (max-width: 768px) {
           padding: 10px 0;
         }
       }
@@ -100,7 +100,7 @@
         margin-right: 10px;
       }
 
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-left: unset;
       }
     }

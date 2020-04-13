@@ -1,3 +1,20 @@
+
+.content-container {
+  padding: 130px;
+  @media (max-width: 768px) {
+    padding: 60px
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .content {
+    max-width: 603px;
+    font-family: "Colfax Light";
+    font-size: 24px;
+    line-height: 1.42;
+  }
+}
 .partners-hero-section {
   height: 700px;
   display: flex;
@@ -8,7 +25,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 70px;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     height: unset;
     min-height: unset;
     flex-direction: column-reverse;
@@ -16,11 +33,13 @@
   .content-container {
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-right: 65px;
-    @media (max-width: 890px) {
+    padding-right: 0;
+    padding-left: 0;
+    @media (max-width: 768px) {
       padding: 15px 15px 15px 15px;
     }
     .content {
+      max-width: 333px;
       font-size: 35px;
     }
   }
@@ -71,9 +90,12 @@
   .content-container {
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-right: 65px;
-    @media (max-width: 890px) {
-      padding: 15px 15px 15px 15px;
+    padding-right: 0;
+    padding-left: 0;
+    @media (max-width: 768px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      align-items: flex-start;
     }
     img {
       width: 100%;
@@ -81,7 +103,7 @@
     }
   }
   .content {
-    
+    max-width: 520px;
     h2 {
       font-weight: bold;
     }
@@ -89,22 +111,6 @@
   }
 }
 
-.content-container {
-  padding: 130px;
-  @media (max-width: 890px) {
-    padding: 60px
-  }
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .content {
-    max-width: 603px;
-    font-family: "Colfax Light";
-    font-size: 24px;
-    line-height: 1.42;
-  }
-}
 .partners-fevo-way-section {
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,16 +118,17 @@
   .content-container {
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-right: 65px;
-    @media (max-width: 890px) {
-      padding: 15px 15px 15px 15px;
-    }
+    padding-right: 0;
+    padding-left: 0;
     align-items: flex-start;
-    width: 100%;
+    @media (max-width: 768px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
     .content {
       // max-width: 440px;
       margin-bottom: 60px;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         text-align: left;
         margin-bottom: 30px;
       }
@@ -147,11 +154,29 @@
   .sub-title {
     padding-top: 200px;
     padding-left: 65px;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       padding: 15px 15px 15px 15px;
       padding-top: 60px;
     }
+  }
+  .right-pan {
+    max-width: 600px;
+  }
+  .left-pan {
     justify-content: flex-start;
+    @media (max-width: 768px) {
+      align-items: flex-start;
+      padding-top: 60px;
+      padding-bottom: 0;
+    }
+    .sub-title {
+      padding: 0;
+      min-width: 530px;
+      @media (max-width: 1400px) {
+        min-width: 330px;
+      }
+      justify-content: flex-start;
+    }
   }
 
 }

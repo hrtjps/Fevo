@@ -21,8 +21,8 @@ const PartnersPage = () => {
       <section className="partners-hero-section" 
         style={{backgroundImage: `linear-gradient(#000000ad, #000000cc), url(${heroImg})`}}
       >
-        <div className="row w-100">
-          <div className="col-12 col-md-6">
+        <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
+          <div className="">
             <div className="content-container">
               <div className="content">
                 <h1 className="mb-4">Our Partners</h1>
@@ -30,7 +30,7 @@ const PartnersPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 hero-right py-4">
+          <div className="hero-right py-4">
             <div className="hero-content mb-5">
               Watching groups form organically within FEVO made our festival even more social.
             </div>
@@ -41,50 +41,46 @@ const PartnersPage = () => {
         </div>
       </section>
       <section className="partners-collective-section" style={{backgroundImage: `url(${whiteBgImg})`}}>
-        <div className="row w-100">
-          <div className="col-12 col-md-6 ">
-            <div className="d-flex flex-column justify-content-center align-items-center h-100 w-100">
-              <div className="d-flex flex-column p-4">
-                <img src={ticketImg1} alt="" className="mb-5 w-100"/>
-                <img src={ticketImg2} alt="" className="mb-5 w-100"/>
-                <img src={ticketImg3} alt="" className="w-100"/>
-              </div>
+        <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
+          <div className="d-flex flex-column justify-content-center align-items-center h-100">
+            <div className="d-flex flex-column pt-5 px-4">
+              <img src={ticketImg1} alt="" className="mb-5 w-100"/>
+              <img src={ticketImg2} alt="" className="mb-5 w-100"/>
+              <img src={ticketImg3} alt="" className="w-100"/>
             </div>
           </div>
-          <div className="col-12 col-md-6 ">
-            <div className="content-container">
-              <div className="content" >
-                <h2 className="pt-4">FEVO  Integrations</h2>
-                <div className="my-4">
-                  We integrate into the major  inventory systems, including  
-                  Ticketmaster, Paciolan, and  Tickets.com. This allows our  
-                  clients to offer experiences, goods,  and services all in 
-                  one place—  giving consumers the most  seamless digital 
-                  experience all fully integrated with your existing inventory system. 
-                </div>
+          <div className="content-container px-4">
+            <div className="content" >
+              <h2 className="pt-4">FEVO  Integrations</h2>
+              <div className="my-4">
+                We integrate into the major  inventory systems, including  
+                Ticketmaster, Paciolan, and  Tickets.com. This allows our  
+                clients to offer experiences, goods,  and services all in 
+                one place—  giving consumers the most  seamless digital 
+                experience all fully integrated with your existing inventory system. 
               </div>
             </div>
           </div>
         </div>
       </section>
       <section className="partners-fevo-way-section"  style={{backgroundImage: `url(${lastImg})`}}>
-        <div className="row flex-column-reverse flex-md-row">
-          <div className="col-12 col-md-6">
-            <div className="content-container" >
-              <div className="content">
-                With our proprietary Social Cart, we turn consumers 
-                into communities of buyers right on your brand. Proven 
-                to deliver results for our partners, it’s easy to see 
-                why the biggest brands in the world trust us with their consumer experience.
-              </div>
-              <div className="for-content-navs mb-4">
-                <a href="mailto:support@fevo.com">Connect with FEVO.</a>
-              </div>
+        <div className="d-flex flex-column-reverse flex-md-row justify-content-evenly w-100">
+          <div className="content-container px-4" >
+            <div className="content right-pan">
+              With our proprietary Social Cart, we turn consumers 
+              into communities of buyers right on your brand. Proven 
+              to deliver results for our partners, it’s easy to see 
+              why the biggest brands in the world trust us with their consumer experience.
+            </div>
+            <div className="for-content-navs mb-4">
+              <a href="mailto:support@fevo.com">Connect with FEVO.</a>
             </div>
           </div>
-          <div className="col-12 col-md-6 pt-4 pt-md-0">
-            <div className="content-container" >
-              <h2>FEVO Clients</h2>
+          <div className="content-container left-pan px-4" >
+            <div className="sub-title" >
+              <div className="sub-title-content top-bar">
+                <h2>FEVO Clients</h2> 
+              </div>
             </div>
           </div>
         </div>

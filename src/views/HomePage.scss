@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   background-color: #070606;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     height: unset;
     min-height: unset;
     flex-direction: column-reverse;
@@ -15,7 +15,7 @@
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 80px;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       padding-top: 50px;
       padding-bottom: 50px;
     }
@@ -27,7 +27,7 @@
     img {
       width: 100%;
     }
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       // height: 50vh;
       align-items: center;
       padding: 40px;
@@ -39,14 +39,14 @@
     
     .show-laptop {
       display: block;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         display: none;
       }
     }
     
     .show-mobile {
       display: none;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         display: block;
       }
     }
@@ -56,7 +56,7 @@
     background-repeat: no-repeat;
     background-position: center;
     
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       padding-top: 130px;
     }
     h2 {
@@ -72,7 +72,7 @@
       color: #ffffff;
       font-family: "Colfax Light";
       
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-bottom: 50px;
       }
     }
@@ -84,31 +84,33 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       position: unset;
       margin-bottom: 30px;
     }
   }
 }
 .collective-section {
-  display: flex;
   width: 100%;
   background-color: var(--fevo-blue);
 
-  .left-pan {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    @media (max-width: 890px) {
-      padding: 30px;
-      padding-top: 60px;
-      padding-bottom: 0;
-      justify-content: flex-start;
+  .content-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 0;
+    padding-left: 0;
+    @media (max-width: 768px) {
+      padding: 50px 15px 0px 15px;
     }
-    .sub-title-content {
-      padding-bottom: 0;
-      &::after {
-        content: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .content {
+      // text-align: right;
+      max-width: 440px;
+      margin-bottom: 60px;
+      @media (max-width: 768px) {
+        text-align: left;
+        margin-bottom: 30px;
       }
     }
     h2 {
@@ -116,7 +118,12 @@
     }
   }
   .right-pan {
-    padding-bottom: 45px;
+    padding: 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    @media (max-width: 768px) {
+      padding: 15px 15px 15px 15px;
+    }
     .content {
       max-width: 365px;
     }
@@ -125,7 +132,7 @@
 
 .content-container {
   padding: 130px;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     padding: 60px
   }
   display: flex;
@@ -144,22 +151,22 @@
   background-repeat: no-repeat;
   background-position: center; 
   .content-container {
+    padding: 0;
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-right: 65px;
-    @media (max-width: 890px) {
+    
+    @media (max-width: 768px) {
       padding: 15px 15px 15px 15px;
     }
     align-items: flex-end;
-    @media (max-width: 890px) {
+    @media (max-width: 768px) {
       align-items: flex-start;
     }
-    width: 100%;
     .content {
       // text-align: right;
       max-width: 440px;
       margin-bottom: 60px;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         text-align: left;
         margin-bottom: 30px;
       }
@@ -182,14 +189,15 @@
       }
     }
   }
-  .sub-title {
-    padding-top: 200px;
-    padding-left: 65px;
-    @media (max-width: 890px) {
-      padding: 15px 15px 15px 15px;
-      padding-top: 60px;
-    }
+  .right-pan {
     justify-content: flex-start;
+    .sub-title {
+      padding: 0;
+      @media (max-width: 768px) {
+        padding-top: 40px;
+      }
+      justify-content: flex-start;
+    }
   }
 
 }
@@ -200,7 +208,7 @@
   background-repeat: no-repeat;
   background-position: center; 
   padding: 120px 30px;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -212,15 +220,16 @@
     h2 {
       text-align: center;
       margin-bottom: 80px;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-bottom: 30px;
       }
     }
     .jake {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       margin-bottom: 50px;
-      @media (max-width: 890px) {
+      @media (max-width: 768px) {
         margin-bottom: 30px;
       }
       img {

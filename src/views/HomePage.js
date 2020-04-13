@@ -35,32 +35,31 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="collective-section common-4-6-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
-        <div className="sub-title left-pan" >
-          <div className="sub-title-content">
-            <h2>This is </h2>
-            <h2 >
-              Collective Commerce™
-            </h2>
+      <section className="collective-section" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
+        <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
+          <div className="content-container px-4">
+            <div className="content">
+              <h2>This is </h2>
+              <h2 >
+                Collective Commerce™
+              </h2>
+            </div>
           </div>
-        </div>
-        <div className="right-pan" >
-          <div className="content">
-            Using FEVO, consumers buy as individuals, share purchases with others, and live it up together. This is Collective Commerce™ — the easiest way to bring people together for shared commerce and experiences.
+          <div className="content-container right-pan px-4" >
+            <div className="content">
+              Using FEVO, consumers buy as individuals, share purchases with others, and live it up together. This is Collective Commerce™ — the easiest way to bring people together for shared commerce and experiences.              </div>
           </div>
         </div>
       </section>
       <section className="fevo-way-section"  style={{backgroundImage: `url(${fevoWayBgImg})`}}>
-        <div className="row flex-column-reverse flex-md-row">
-          <div className="col-12 col-md-6 d-flex align-items-center ">
-            <div className="content-container" >
-              <div className="content">
-                FEVO is the Social Cart that lives on your brand’s page and simplifies every transaction into a shareable experience.
-                Increase your sales.  Capture more data. Expand your reach.
-              </div>
+        <div className="d-flex flex-column-reverse flex-md-row justify-content-evenly w-100">
+          <div className="content-container px-4" >
+            <div className="content">
+              FEVO is the Social Cart that lives on your brand’s page and simplifies every transaction into a shareable experience.
+              Increase your sales.  Capture more data. Expand your reach.
             </div>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="content-container right-pan px-4" >
             <div className="sub-title">
               <div className="sub-title-content top-bar">
                 <h2>The FEVO Way</h2>

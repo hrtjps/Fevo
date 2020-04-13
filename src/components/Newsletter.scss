@@ -1,7 +1,7 @@
 .newsletter-container {
   max-width: 320px;
   min-width: 320px;
-  @media (max-width: 890px) {
+  @media (max-width: 768px) {
     min-width: unset;
   }
   width: 100%;
