@@ -1,8 +1,10 @@
 import React from "react";
 import "./Footer.scss";
 import Logo from "../assets/icons/fevo.png";
-import Instagram from "../assets/icons/instagram_white.png";
-import Linkedin from "../assets/icons/linkedin_white.png";
+import Instagram from "../assets/icons/instagram.png";
+import Facebook from "../assets/icons/facebook.png";
+import Twitter from "../assets/icons/twitter.png";
+import Linkedin from "../assets/icons/linkedin.png";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
@@ -35,7 +37,13 @@ const Footer = () => {
         </div>
         <div className="socials">
           <NavLink to="#">
+            <img src={Facebook} alt="Facebook" />
+          </NavLink>
+          <NavLink to="#">
             <img src={Instagram} alt="Instagram" />
+          </NavLink>
+          <NavLink to="#">
+            <img src={Twitter} alt="Twitter" />
           </NavLink>
           <NavLink to="#">
             <img src={Linkedin} alt="Linkedin" />

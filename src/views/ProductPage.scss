@@ -199,3 +199,14 @@
   }
 
 }
+
+.phone-img {
+  @media (max-width: 890px) {
+    margin-bottom: 50px;
+  }
+}
+.desktop-img {
+  @media (max-width: 890px) {
+    margin-bottom: 70px;
+  }
+}

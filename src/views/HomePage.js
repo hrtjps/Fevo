@@ -28,8 +28,8 @@ const HomePage = () => {
           <img src={fullComputer} alt="computer" className="show-mobile"/>
         </div>
         <div className="hero-container right-pan" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
-          <h1>The Social Cart<span className="of-the">of the</span></h1>
-          <h1>Experience Economy</h1>
+          <h1 className="mb-3">The Social Cart:</h1>
+          <h2>FEVO  is changing the way ecommerce works</h2>
           <div className="content">
             Rally your consumers and turn every purchase into a collective commerce experience right on your brand.
           </div>
@@ -38,17 +38,15 @@ const HomePage = () => {
       <section className="collective-section common-4-6-pan" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
         <div className="sub-title left-pan" >
           <div className="sub-title-content">
-            <h2>Collective Commerce™:</h2>
-            <h2 className="sub-content">
-              This is How It’s Done
+            <h2>This is </h2>
+            <h2 >
+              Collective Commerce™
             </h2>
           </div>
         </div>
         <div className="right-pan" >
           <div className="content">
-            Using FEVO, consumers buy as individuals, share purchases with others, 
-            and live it up together.  This is Collective Commerce - the easiest 
-            way to bring people together for shared commerce and experiences.
+            Using FEVO, consumers buy as individuals, share purchases with others, and live it up together. This is Collective Commerce™ — the easiest way to bring people together for shared commerce and experiences.
           </div>
         </div>
       </section>
@@ -57,9 +55,8 @@ const HomePage = () => {
           <div className="col-12 col-md-6 d-flex align-items-center ">
             <div className="content-container" >
               <div className="content">
-                FEVO is the Social Cart that lives on your brand's page 
-                and simplifies every transaction into a shareable experience.  
-                Increase your sales.  Capture more data.  Expand your reach.
+                FEVO is the Social Cart that lives on your brand’s page and simplifies every transaction into a shareable experience.
+                Increase your sales.  Capture more data. Expand your reach.
               </div>
             </div>
           </div>
@@ -75,8 +72,7 @@ const HomePage = () => {
       <section className="recommend-section" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
         <div className="sub-title-content top-bar title">
           <h2>
-            “FEVO’s Social Cart massively expanded our 
-            sales and is so easy to use. Our consumers love it.”
+            “FEVO’s Social Cart massively expanded our sales and is so easy to use.  Our consumers love it.”
           </h2>
           <div className="d-flex jake">
             <img src={learfieldImg} alt="" />

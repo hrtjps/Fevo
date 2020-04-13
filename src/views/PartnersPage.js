@@ -6,7 +6,10 @@ import './PartnersPage.scss';
 
 import whiteBgImg from '../assets/bg-images/case-study-home/fevo-bg-white.png';
 import heroImg from '../assets/bg-images/fevo_shot.jpeg';
-import ticketImg from '../assets/icons/ticket.png';
+import lastImg from '../assets/bg-images/about_fevo-brands/group-4.png';
+import ticketImg1 from '../assets/bg-images/partners/ticketmaster-5-logo.png';
+import ticketImg2 from '../assets/bg-images/partners/tickets.com.png';
+import ticketImg3 from '../assets/bg-images/partners/paciolan-fc-wbg.png';
 
 import {dataSelector} from "../modules/app";
 
@@ -29,17 +32,25 @@ const PartnersPage = () => {
           </div>
           <div className="col-12 col-md-6 hero-right py-4">
             <div className="hero-content mb-5">
-              “FEVO’s Social Cart massively  expanded our sales and 
-              is so easy  to use. Our consumers love it.”
+              Watching groups form organically within FEVO made our festival even more social.
             </div>
             <div className="hero-subcontent mb-4">
-              Brian Norman, VP of Sales &  Service at New Jersey Devils
+              Ashley Foster, Director of Ticketing at C3 Presents
             </div>
           </div>
         </div>
       </section>
       <section className="partners-collective-section" style={{backgroundImage: `url(${whiteBgImg})`}}>
         <div className="row w-100">
+          <div className="col-12 col-md-6 ">
+            <div className="d-flex flex-column justify-content-center align-items-center h-100 w-100">
+              <div className="d-flex flex-column p-4">
+                <img src={ticketImg1} alt="" className="mb-5 w-100"/>
+                <img src={ticketImg2} alt="" className="mb-5 w-100"/>
+                <img src={ticketImg3} alt="" className="w-100"/>
+              </div>
+            </div>
+          </div>
           <div className="col-12 col-md-6 ">
             <div className="content-container">
               <div className="content" >
@@ -54,14 +65,9 @@ const PartnersPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 ">
-            <div className="content-container">
-              <img src={ticketImg} alt="" className="mb-4"/>
-            </div>
-          </div>
         </div>
       </section>
-      <section className="partners-fevo-way-section"  style={{backgroundImage: `url(${heroImg})`}}>
+      <section className="partners-fevo-way-section"  style={{backgroundImage: `url(${lastImg})`}}>
         <div className="row flex-column-reverse flex-md-row">
           <div className="col-12 col-md-6">
             <div className="content-container" >
@@ -72,7 +78,7 @@ const PartnersPage = () => {
                 why the biggest brands in the world trust us with their consumer experience.
               </div>
               <div className="for-content-navs mb-4">
-                <a href="/">Connect with FEVO.</a>
+                <a href="mailto:support@fevo.com">Connect with FEVO.</a>
               </div>
             </div>
           </div>
