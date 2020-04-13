@@ -38,9 +38,9 @@ const ProductPage = () => {
         </div>
       </section>
       <section className="product-collective-section" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
-        <div className="row">
-          <div className="col-12 col-md-6 ">
-            <div className="sub-title left-pan" >
+        <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
+          <div className="d-flex justify-content-center align-items-center ">
+            <div className="sub-title left-pan px-4" >
               <div className="sub-title-content">
                 <h2>Keep Your Brand at the Center</h2>
                 <div className="content mt-4">
@@ -57,7 +57,7 @@ const ProductPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="">
             <div className="d-flex justify-content-center align-items-center h-100 w-100 py-0 px-4 py-md-5">
               <img src={phones} alt="" className="w-100 phone-img" style={{maxWidth: '550px'}}/>
             </div>
@@ -65,14 +65,14 @@ const ProductPage = () => {
         </div>
       </section>
       <section className="product-fevo-way-section"  style={{backgroundImage: `url(${whiteBgImg})`}}>
-        <div className="row flex-column-reverse flex-md-row">
-          <div className="col-12 col-md-6">
+        <div className="d-flex flex-column-reverse flex-md-row justify-content-evenly w-100">
+          <div className="">
             <div className="d-flex justify-content-center align-items-center h-100 w-100 py-0 px-4 py-md-5">
               <img src={desktop} alt="" className="w-100 desktop-img"  style={{maxWidth: '550px'}}/>
             </div>
           </div>
-          <div className="col-12 col-md-6">
-            <div className="sub-title">
+          <div className="d-flex justify-content-center align-items-center">
+            <div className="sub-title px-4">
               <div className="sub-title-content">
                 <h2>One Location for Everything. Fully Integrated. </h2>
                 <div className="content mt-4">

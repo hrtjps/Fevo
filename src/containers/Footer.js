@@ -36,18 +36,18 @@ const Footer = () => {
           </div>
         </div>
         <div className="socials">
-          <NavLink to="#">
+          <a href="https://www.facebook.com/hellofevo/" rel="noopener noreferrer" target="_blank">
             <img src={Facebook} alt="Facebook" />
-          </NavLink>
-          <NavLink to="#">
+          </a>
+          <a href="https://www.instagram.com/hellofevo/?hl=en" rel="noopener noreferrer"  target="_blank">
             <img src={Instagram} alt="Instagram" />
-          </NavLink>
-          <NavLink to="#">
+          </a>
+          <a href="https://twitter.com/hellofevo" rel="noopener noreferrer" target="_blank">
             <img src={Twitter} alt="Twitter" />
-          </NavLink>
-          <NavLink to="#">
+          </a>
+          <a href="https://www.linkedin.com/company/fevo/" rel="noopener noreferrer" target="_blank">
             <img src={Linkedin} alt="Linkedin" />
-          </NavLink>
+          </a>
         </div>
       </div>
     </section>

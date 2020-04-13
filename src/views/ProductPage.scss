@@ -95,8 +95,9 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px;
+    padding: 0;
     padding-top: 60px;
-    padding-bottom: 0;
+    max-width: 600px;
     @media (max-width: 768px) {
       padding: 30px;
       padding-top: 30px;
@@ -181,9 +182,10 @@
     //   padding: 15px 15px 15px 15px;
     //   padding-top: 60px;
     // }
-    padding: 80px;
+    padding: 0px;
     padding-top: 60px;
     padding-bottom: 0;
+    max-width: 600px;
     @media (max-width: 768px) {
       padding: 30px;
       padding-top: 30px;
