@@ -15,7 +15,7 @@ const CompanyPage = ({ data}) => {
             <h1>Meet Our Team</h1>
           </div>
           <div className="right-pan px-4">
-            <strong>FEVO is a company on a mission to bring us all together with our tribe. </strong> 
+            FEVO is a company on a mission to bring us all together with our tribe.
             Located in New York City, if you’re passionate about advancing the way people connect, join us!
           </div>
         </div>
@@ -24,11 +24,6 @@ const CompanyPage = ({ data}) => {
         <div className="member-container">
           <div className="team">
             <div className="our-team">Our Team</div>
-            <div>
-              FEVO is a company on a mission to bring us all together with our tribe. 
-              Located in New York City, if you’re passionate about advancing the way 
-              people connect, join us!
-            </div>
           </div>
           {
             data.teamMembers.map((item, i) => (

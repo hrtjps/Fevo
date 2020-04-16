@@ -41,9 +41,9 @@ const PartnersPage = () => {
         </div>
       </section>
       <section className="partners-collective-section" style={{backgroundImage: `url(${whiteBgImg})`}}>
-        <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
+        <div className="d-flex flex-column-reverse flex-md-row justify-content-evenly w-100">
           <div className="d-flex flex-column justify-content-center align-items-center ">
-            <div className="d-flex flex-column pt-5 pt-md-0 px-4 imgs">
+            <div className="d-flex flex-column pb-5 pb-md-0 px-4 imgs">
               <div className="img-content">
                 <img src={ticketImg1} alt="" className="mb-5"/>
                 <img src={ticketImg2} alt="" className="mb-5"/>
@@ -53,8 +53,8 @@ const PartnersPage = () => {
           </div>
           <div className="content-container px-4">
             <div className="content" >
-              <h2 className="pt-4">FEVO  Integrations</h2>
-              <div className="my-4">
+              <h2 className="py-4">FEVO  Integrations</h2>
+              <div className="mb-3 mb-md-0">
                 We integrate into the major  inventory systems, including  
                 Ticketmaster, Paciolan, and  Tickets.com. This allows our  
                 clients to offer experiences, goods,  and services all in 

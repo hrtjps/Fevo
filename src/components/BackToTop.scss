@@ -3,6 +3,10 @@
   right: 100px;
   bottom: 50px;
 
+  @media (max-width: 690px) {
+    right: calc(50% - 65px);
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;

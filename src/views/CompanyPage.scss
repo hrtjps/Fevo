@@ -74,19 +74,24 @@
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     .team {
-      max-width: 314px;
+      min-width: 220px;
       font-family: "Colfax Light";
       font-size: 21px;
       line-height: 1.33;
       letter-spacing: -0.62px;
       color: var(--very-light-grey);
       margin-bottom: 50px;
+      margin: 0 34px;
+      @media (max-width: 690px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
       .our-team {
         font-family: "Colfax Regular";
         color: white;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
       }
     }
     .member-item {
@@ -95,8 +100,8 @@
       font-size: 21px;
       line-height: 1.33;
       color: #9c9c9c;
+      margin: 0 34px;
       margin-bottom: 50px;
-      margin-left: 68px;
       @media (max-width: 690px) {
         margin-left: auto;
         margin-right: auto;
