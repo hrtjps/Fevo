@@ -38,7 +38,7 @@ const HomePage = () => {
       <section className="collective-section" style={{backgroundImage: `url(${fevoBlueCloth})`}}>
         <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
           <div className="content-container px-4">
-            <div className="content">
+            <div className="content title">
               <h2>This is </h2>
               <h2 >
                 Collective Commerce™
@@ -73,7 +73,7 @@ const HomePage = () => {
           <h2>
             “FEVO’s Social Cart massively expanded our sales and is so easy to use.  Our consumers love it.”
           </h2>
-          <div className="d-flex jake">
+          <div className="jake">
             <img src={learfieldImg} alt="" />
             <div className="jake-bye">
               <div>Brian Norman</div>

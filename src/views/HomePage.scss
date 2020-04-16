@@ -1,5 +1,5 @@
 .hero-section {
-  height: 100vh;
+  // height: 100vh;
   min-height: 100vh;
   display: flex;
   width: 100%;
@@ -60,12 +60,11 @@
       padding-top: 130px;
     }
     h2 {
-      font-size: 45px;
+      // font-size: 45px;
       max-width: 630px;
     }
     .content {
       margin-top: 30px;
-      margin-bottom: 180px;
       max-width: 525px;
       font-size: 24px;
       line-height: 1.42;
@@ -73,7 +72,7 @@
       font-family: "Colfax Light";
       
       @media (max-width: 768px) {
-        margin-bottom: 50px;
+        // margin-bottom: 50px;
       }
     }
   }
@@ -103,14 +102,18 @@
       padding: 50px 15px 0px 15px;
     }
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     .content {
       // text-align: right;
       max-width: 440px;
       margin-bottom: 60px;
       @media (max-width: 768px) {
         text-align: left;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+      }
+      &.title {
+        margin-bottom: 0;
+
       }
     }
     h2 {
@@ -226,17 +229,24 @@
     }
     .jake {
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
       margin-bottom: 50px;
+      justify-content: center;
+      align-items: center;
       @media (max-width: 768px) {
         margin-bottom: 30px;
+        flex-direction: column;
       }
       img {
         margin-right: 33px;
         margin-bottom: 20px;
+        @media (max-width: 768px) {
+          margin-right: 0;
+        }
       }
       .jake-bye {
+        @media (max-width: 768px) {
+          text-align: center;
+        }
         font-size: 21px;
         line-height: 1.33;
         .evp-of-sales{

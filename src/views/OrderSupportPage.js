@@ -107,7 +107,7 @@ const OrderSupportPage = ({ data}) => {
             </div>
             <div className="row my-5">
               <div className="col-12">
-                <button className="ml-auto form-control custom-button">SUBMIT</button>
+                <button className="form-control custom-button">SUBMIT</button>
               </div>
 
             </div>

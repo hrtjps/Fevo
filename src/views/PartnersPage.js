@@ -42,11 +42,13 @@ const PartnersPage = () => {
       </section>
       <section className="partners-collective-section" style={{backgroundImage: `url(${whiteBgImg})`}}>
         <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
-          <div className="d-flex flex-column justify-content-center align-items-center h-100">
-            <div className="d-flex flex-column pt-5 px-4">
-              <img src={ticketImg1} alt="" className="mb-5 w-100"/>
-              <img src={ticketImg2} alt="" className="mb-5 w-100"/>
-              <img src={ticketImg3} alt="" className="w-100"/>
+          <div className="d-flex flex-column justify-content-center align-items-center ">
+            <div className="d-flex flex-column pt-5 pt-md-0 px-4 imgs">
+              <div className="img-content">
+                <img src={ticketImg1} alt="" className="mb-5"/>
+                <img src={ticketImg2} alt="" className="mb-5"/>
+                <img src={ticketImg3} alt="" className=""/>
+              </div>
             </div>
           </div>
           <div className="content-container px-4">

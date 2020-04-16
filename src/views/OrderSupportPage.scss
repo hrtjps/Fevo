@@ -87,6 +87,10 @@
       .form-control, .input-group {
         max-width: 320px;
         height: 40px;
+        
+        @media (max-width: 578px) {
+          max-width: unset;
+        }
       }
       .input-group-append .btn{
         z-index: unset;
@@ -120,6 +124,10 @@
       .custom-button {
         height: 53px;
         width: 220px;
+        margin-left: auto;
+        @media (max-width: 768px) {
+          margin-right: auto;
+        }
       }
 
     }

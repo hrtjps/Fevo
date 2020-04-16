@@ -36,12 +36,18 @@
     @media (max-width: 768px) {
       min-height: unset;
       padding: 30px;
-      padding-top: 60px;
+      padding-top: 30px;
       padding-bottom: 0;
       justify-content: flex-start;
     }
     .sub-title-content {
       // max-width: 245px;
+      
+      &::after {
+        content: none;
+      }
+      padding-bottom: 0;
+      padding-top: 0;
     }
   }
 }
@@ -62,6 +68,9 @@
   .right-pan {
     h2 {
       margin-bottom: 50px;
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 .product-hero-section {
-  height: 100vh;
+  // height: 100vh;
   min-height: 100vh;
   display: flex;
   width: 100%;
@@ -69,7 +69,7 @@
       font-family: "Colfax Light";
       
       @media (max-width: 768px) {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
       }
     }
   }
@@ -100,8 +100,6 @@
     max-width: 600px;
     @media (max-width: 768px) {
       padding: 30px;
-      padding-top: 30px;
-      padding-bottom: 60px;
       justify-content: flex-start;
     }
     .sub-title-content {
@@ -182,17 +180,14 @@
     //   padding: 15px 15px 15px 15px;
     //   padding-top: 60px;
     // }
-    padding: 0px;
-    padding-top: 60px;
-    padding-bottom: 0;
+    padding: 60px 0px;
     max-width: 600px;
     @media (max-width: 768px) {
       padding: 30px;
-      padding-top: 30px;
-      padding-bottom: 60px;
       justify-content: flex-start;
     }
     .sub-title-content {
+      padding-bottom: 0;
       &::after {
         content: none;
       }
@@ -209,6 +204,6 @@
 }
 .desktop-img {
   @media (max-width: 768px) {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 }
