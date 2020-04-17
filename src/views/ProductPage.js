@@ -3,7 +3,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 import './ProductPage.scss';
-import halfComputer from '../assets/bg-images/home/group-4.png';
+import halfComputer from '../assets/bg-images/product/hero-half-desktop.png';
 import fullComputer from '../assets/bg-images/home/laptop-bucks_full.png';
 import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
 import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';

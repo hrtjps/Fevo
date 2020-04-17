@@ -311,12 +311,7 @@ export const teamMembers = [
   {
     img: Roman,
     name: "Roman Gun",
-    role: "CPO"
-  },
-  {
-    img: "",
-    name: "Geordie Stewart",
-    role: "CSO"
+    role: "CIO"
   },
   {
     img: Himanshu,
@@ -329,48 +324,53 @@ export const teamMembers = [
     role: "CBO"
   },
   {
+    img: "",
+    name: "Geordie Stewart",
+    role: "COO"
+  },
+  {
     img: Betty,
     name: "Betty Tran",
     role: "CMO"
   },
   {
+    img: Hannah,
+    name: "Hannah Alter ",
+    role: "EVP - Operations"
+  },
+  {
     img: Colin,
     name: "Colin Casey",
-    role: "EVP, Partner Development"
+    role: "EVP - Partner Development"
   },
   {
     img: "",
-    name: "Geordie Stewart",
-    role: "CSO",
-  },
-  {
-    img: "",
-    name: "Kristine Ko",
-    role: "EVP, Partner Solutions"
+    name: "Senthil Chidambaram",
+    role: "EVP - Music Partnerships"
   },
   {
     img: Jared,
     name: "Jared Effron",
-    role: "EVP, Investor R&P"
+    role: "EVP - Investor R&P"
   },
   {
-    img: Hannah,
-    name: "Hannah Alter ",
-    role: "EVP, Operations"
-  },
-  {
-    img: "",
-    name: "Marguerite Pravata",
-    role: "SVP, Operations"
+    img: Doug,
+    name: "Doug (Douglas) Fowler",
+    role: "EVP - Partner Success"
   },
   {
     img: "",
-    name: "Michelle Helene",
-    role: "SVP, Design"
+    name: "Bucky Heath",
+    role: "EVP - Business & Marketing"
   },
   {
-    img: Josh,
-    name: "Josh Tannenbaum",
-    role: "SVP, Settlement & Service"
+    img: "",
+    name: "Reejuta Joshi",
+    role: "EVP - Product"
+  },
+  {
+    img: "",
+    name: "Kristin (Jua) Ko",
+    role: "EVP - Partner Solutions"
   },
 ]
