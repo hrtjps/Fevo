@@ -40,6 +40,17 @@ import pressLogo4 from '../assets/icons/nytimes-logo.png';
 import pressLogo5 from '../assets/icons/la-times.png';
 import pressLogo6 from '../assets/icons/wired.png';
 
+import Ari from '../assets/bg-images/company/Ari.JPG';
+import Betty from '../assets/bg-images/company/Betty.jpg';
+import Colin from '../assets/bg-images/company/Colin.png';
+import Doug from '../assets/bg-images/company/Doug.png';
+import Eric from '../assets/bg-images/company/Eric.png';
+import Hannah from '../assets/bg-images/company/Hannah.png';
+import Himanshu from '../assets/bg-images/company/Himanshu.png';
+import Jared from '../assets/bg-images/company/Jared.png';
+import Josh from '../assets/bg-images/company/Josh.png';
+import Roman from '../assets/bg-images/company/Roman.png';
+
 export const workingItems = [
   { img: yankeesLogo },
   { img: dolphinsCategoryLogo },
@@ -288,17 +299,17 @@ export const faqItems = [
 
 export const teamMembers = [
   {
-    img: "",
+    img: Ari,
     name: "Ari Daie",
     role: "CEO"
   },
   {
-    img: "",
+    img: Eric,
     name: "Eric Chu",
     role: "CTO"
   },
   {
-    img: "",
+    img: Roman,
     name: "Roman Gun",
     role: "CPO"
   },
@@ -308,22 +319,22 @@ export const teamMembers = [
     role: "CSO"
   },
   {
-    img: "",
+    img: Himanshu,
     name: "Himanshu Kothari",
     role: "CFO"
   },
   {
-    img: "",
+    img: Josh,
     name: "Josh Rose",
     role: "CBO"
   },
   {
-    img: "",
+    img: Betty,
     name: "Betty Tran",
     role: "CMO"
   },
   {
-    img: "",
+    img: Colin,
     name: "Colin Casey",
     role: "EVP, Partner Development"
   },
@@ -338,12 +349,12 @@ export const teamMembers = [
     role: "EVP, Partner Solutions"
   },
   {
-    img: "",
+    img: Jared,
     name: "Jared Effron",
     role: "EVP, Investor R&P"
   },
   {
-    img: "",
+    img: Hannah,
     name: "Hannah Alter ",
     role: "EVP, Operations"
   },
@@ -358,7 +369,7 @@ export const teamMembers = [
     role: "SVP, Design"
   },
   {
-    img: "",
+    img: Josh,
     name: "Josh Tannenbaum",
     role: "SVP, Settlement & Service"
   },

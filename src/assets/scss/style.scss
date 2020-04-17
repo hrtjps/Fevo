@@ -26,8 +26,7 @@
   font-family: "Colfax Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("Colfax Thin"),
-    url("../fonts/Colfax-Thin.woff") format("woff");
+  src: local("Colfax Thin"), url("../fonts/Colfax-Thin.woff") format("woff");
 }
 
 @font-face {
@@ -42,8 +41,7 @@
   font-family: "Colfax Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Colfax Light"),
-    url("../fonts/Colfax-Light.woff") format("woff");
+  src: local("Colfax Light"), url("../fonts/Colfax-Light.woff") format("woff");
 }
 
 @font-face {
@@ -58,8 +56,7 @@
   font-family: "Colfax Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("Colfax Medium"),
-    url("../fonts/Colfax-Medium.woff") format("woff");
+  src: local("Colfax Medium"), url("../fonts/Colfax-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -74,8 +71,7 @@
   font-family: "Colfax Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Colfax Bold"),
-    url("../fonts/Colfax-Bold.woff") format("woff");
+  src: local("Colfax Bold"), url("../fonts/Colfax-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -90,8 +86,7 @@
   font-family: "Colfax Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Colfax Black"),
-    url("../fonts/Colfax-Black.woff") format("woff");
+  src: local("Colfax Black"), url("../fonts/Colfax-Black.woff") format("woff");
 }
 
 @font-face {
@@ -106,23 +101,20 @@
   font-family: "Georgia Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Georgia"),
-    url("../fonts/georgia.ttf") format("truetype");
+  src: local("Georgia"), url("../fonts/georgia.ttf") format("truetype");
 }
 @font-face {
   font-family: "Georgia Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Georgia Italic"),
-    url("../fonts/georgiai.ttf") format("truetype");
+  src: local("Georgia Italic"), url("../fonts/georgiai.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Georgia Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Georgia Bold"),
-    url("../fonts/georgiab.ttf") format("truetype");
+  src: local("Georgia Bold"), url("../fonts/georgiab.ttf") format("truetype");
 }
 @font-face {
   font-family: "Georgia Bold Italic";
@@ -140,9 +132,41 @@
     url("../fonts/HelveticaNeueLt.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "canela Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("canela Regular"), url("../fonts/canela_roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "canela Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("canela Light"), url("../fonts/canela_light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "canela Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("canela Bold"), url("../fonts/canela_bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Founders Grotesk Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Founders Grotesk Regular"), url("../fonts/Founders_Grotesk-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Founders Grotesk Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Founders Grotesk Light"), url("../fonts/Founders_Grotesk-Light.otf") format("otf");
+}
 body {
   margin: 0;
-  font-family: "Colfax Regular";
+  font-family: "Founders Grotesk Regular";
   background-color: black;
   color: white;
 }
@@ -152,7 +176,7 @@ body {
   // min-height: 100vh;
   .app-body {
     padding-bottom: 137px;
-    
+
     @media (max-width: 1350px) {
       padding-bottom: 200px;
     }
@@ -173,7 +197,9 @@ body {
   }
 }
 
-h1, .h1 {
+h1,
+.h1 {
+  font-family: "canela Regular";
   font-size: 60px;
   line-height: 1.1;
   letter-spacing: -1.38px;
@@ -189,7 +215,7 @@ h1, .h1 {
   @media (max-width: 500px) {
     font-size: 40px;
   }
-  .of-the {    
+  .of-the {
     display: inline-block;
     font-family: "Georgia Italic";
     font-size: 16px;
@@ -200,23 +226,21 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   margin: 0;
   margin-bottom: 0px;
   font-size: 48px;
-  
+  font-family: "canela Regular";
   @media (max-width: 768px) {
     font-size: 40px;
   }
   @media (max-width: 500px) {
-    font-size: 36px;
+    font-size: 32px;
   }
   // font-family: "Colfax Light";
   line-height: 1.21;
   letter-spacing: -1.1px;
-  &.sub-content {
-    font-family: "Colfax Light";
-  }
 }
 .row {
   margin-right: 0;
@@ -227,7 +251,6 @@ section {
   background-size: cover;
   background-position: center;
 }
-
 
 .sub-title {
   padding-bottom: 180px;
@@ -241,7 +264,7 @@ section {
     &::after {
       position: absolute;
       bottom: 0px;
-      content: "";  
+      content: "";
       width: 70px;
       min-width: 70px;
       height: 3px;
@@ -272,11 +295,10 @@ section {
   }
 }
 
-
 .content {
   font-size: 21px;
   line-height: 1.48;
-  font-family: "Colfax Light";
+  font-family: "Founders Grotesk Light";
   max-width: 600px;
 }
 
@@ -299,7 +321,8 @@ section {
   }
   @media (max-width: 768px) {
     flex-direction: column;
-    .left-pan, .right-pan {
+    .left-pan,
+    .right-pan {
       width: 100%;
       padding: 30px 30px;
     }
@@ -309,7 +332,7 @@ section {
 .common-5-5-pan {
   display: flex;
   width: 100%;
-  
+
   .left-pan {
     width: 50%;
     padding: 240px 120px;
@@ -330,14 +353,15 @@ section {
   }
   @media (max-width: 768px) {
     flex-direction: column;
-    .left-pan, .right-pan {
+    .left-pan,
+    .right-pan {
       width: 100%;
       padding: 30px 30px;
     }
   }
 }
 
-.social-item {  
+.social-item {
   min-width: 40px;
   width: 40px;
   height: 40px;
@@ -356,12 +380,11 @@ section {
     svg {
       color: var(--fevo-blue);
     }
-
   }
 }
 
 .blog-title {
-  font-family: "Colfax Medium";
+  font-weight: bold;
   font-size: 18px;
   line-height: 1.44;
   color: #171717;
@@ -377,12 +400,12 @@ section {
       color: var(--fevo-blue);
     }
   }
-  .info {  
+  .info {
     font-size: 16px;
     color: #666666;
     margin-bottom: 25px;
     .author {
-      font-family: "Colfax Medium";
+      font-weight: bold;
       color: var(--fevo-blue);
     }
   }
@@ -394,7 +417,7 @@ section {
 .custom-button {
   background-color: var(--fevo-blue);
   color: white;
-  font-family: "Colfax Medium";
+  font-weight: bold;
   border: none;
   transition: border-color background-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
@@ -404,14 +427,13 @@ section {
   }
 }
 
-
 .bottom {
   height: 85px;
   background-color: white;
   position: relative;
 }
 .modal-backdrop.show {
-  opacity: .1;
+  opacity: 0.1;
 }
 
 .u-userLauncherColor:not([disabled]) {

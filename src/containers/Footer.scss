@@ -13,7 +13,7 @@
     align-items: center;
     .sign-up {
       width: 210px;
-      font-family: "Colfax Medium";
+      font-weight: bold;
       font-size: 18px;
       line-height: 1.44;
       color: #ffffff;
@@ -78,7 +78,7 @@
       }
       a {
         text-decoration: none;
-        font-family: "Colfax Light";
+        font-family: "Founders Grotesk Light";
         color: white;
         letter-spacing: -0.3px;
         text-align: left;
@@ -89,7 +89,7 @@
         }
       }
       .active-link {
-        font-family: "Colfax Bold";
+        font-weight: bold;
         color: var(--fevo-blue);
       }
     }

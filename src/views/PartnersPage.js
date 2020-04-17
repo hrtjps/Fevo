@@ -75,7 +75,7 @@ const PartnersPage = () => {
               why the biggest brands in the world trust us with their consumer experience.
             </div>
             <div className="for-content-navs mb-4">
-              <a href="mailto:support@fevo.com">Connect with FEVO.</a>
+              <a href="mailto:bd@fevo.com">Connect with FEVO.</a>
             </div>
           </div>
           <div className="content-container left-pan px-4" >

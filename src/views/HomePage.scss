@@ -31,10 +31,10 @@
       // height: 50vh;
       align-items: center;
       padding: 40px;
-      img {
-        // width: unset;
-        // height: 100%;
-      }
+      // img {
+      //   // width: unset;
+      //   // height: 100%;
+      // }
     }
     
     .show-laptop {
@@ -69,7 +69,7 @@
       font-size: 24px;
       line-height: 1.42;
       color: #ffffff;
-      font-family: "Colfax Light";
+      font-family: "Founders Grotesk Light";
       
       @media (max-width: 768px) {
         // margin-bottom: 50px;
@@ -144,7 +144,7 @@
   justify-content: center;
   .content {
     max-width: 603px;
-    font-family: "Colfax Light";
+    font-family: "Founders Grotesk Light";
     font-size: 24px;
     line-height: 1.42;
   }
@@ -223,8 +223,13 @@
     h2 {
       text-align: center;
       margin-bottom: 80px;
+      font-size: 36px;
       @media (max-width: 768px) {
         margin-bottom: 30px;
+        font-size: 32px;
+      }
+      @media (max-width: 500px) {
+        font-size: 30px;
       }
     }
     .jake {
@@ -250,7 +255,7 @@
         font-size: 21px;
         line-height: 1.33;
         .evp-of-sales{
-          font-family: "Colfax Thin";
+          font-weight: 300;
         }
       }
     }

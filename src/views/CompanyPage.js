@@ -28,7 +28,10 @@ const CompanyPage = ({ data}) => {
           {
             data.teamMembers.map((item, i) => (
               <div className="member-item" key={i}>
-                <div className="member-photo"></div>
+                <div className="member-photo"
+                  style={{backgroundImage: `url(${item.img})`}}
+                >
+                </div>
                 <div className="member-name">{item.name}</div>
                 <div>{item.role}</div>
               </div>

@@ -76,16 +76,14 @@ const ProductPage = () => {
               <div className="sub-title-content">
                 <h2>One Location for Everything. Fully Integrated. </h2>
                 <div className="content mt-4">
-                  WeFevo is the user-friendly, intuitive platform that serves 
-                  as one central location for all your needs. Log into WeFevo 
-                  to manage inventory, build campaigns, launch offers, 
-                  and access your  data in real time. You can add custom 
-                  tracking  pixels, view consumer data with WeFevo Analytics, 
-                  and publish offers within minutes and it fully integrates with 
-                  your existing inventory management system. 
+                  WeFevo serves as one central location for all your needs. 
+                  Log into WeFevo to manage inventory, build campaigns, 
+                  launch offers, and access your data in real time. Add custom 
+                  tracking  pixels, view consumer data with WeFevo Analytics, and 
+                  publish offers within minutes and it fully integrates with 
+                  your existing inventory management system.
                   <br /><br />
-                  Own your data, know your consumer, maximize  your brand. 
-                  It’s  easy, efficient, and effective. 
+                  Own your data, know your consumer, maximize your brand. It’s  easy, efficient, and effective. 
                 </div>
               </div>
             </div>
