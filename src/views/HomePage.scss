@@ -242,8 +242,9 @@
         flex-direction: column;
       }
       img {
+        width: 80px;
         margin-right: 33px;
-        margin-bottom: 20px;
+        // margin-bottom: 20px;
         @media (max-width: 768px) {
           margin-right: 0;
         }

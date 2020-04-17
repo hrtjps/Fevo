@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 
 import './CompanyPage.scss';
 import heroBgImg from '../assets/bg-images/company/group-2.png';
+import blackClothImg from '../assets/bg-images/home/fevo-black-cloth.png'
 import { dataSelector } from "../modules/app";
 
 const CompanyPage = ({ data}) => {
@@ -29,7 +30,7 @@ const CompanyPage = ({ data}) => {
             data.teamMembers.map((item, i) => (
               <div className="member-item" key={i}>
                 <div className="member-photo"
-                  style={{backgroundImage: `url(${item.img})`}}
+                  style={{backgroundImage: `url(${item.img?item.img:blackClothImg})`}}
                 >
                 </div>
                 <div className="member-name">{item.name}</div>

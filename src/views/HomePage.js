@@ -9,7 +9,7 @@ import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
 import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
 
 import fevoWayBgImg from '../assets/bg-images/home/group-2.png';
-import learfieldImg from '../assets/icons/learfield.png';
+import logoImg from '../assets/icons/img3665.png';
 
 import {dataSelector} from "../modules/app";
 
@@ -74,7 +74,7 @@ const HomePage = () => {
             “FEVO’s Social Cart massively expanded our sales and is so easy to use.  Our consumers love it.”
           </h2>
           <div className="jake">
-            <img src={learfieldImg} alt="" />
+            <img src={logoImg} alt="" />
             <div className="jake-bye">
               <div>Brian Norman</div>
               <div className="evp-of-sales">VP of Sales & Service at New Jersey Devils</div>
