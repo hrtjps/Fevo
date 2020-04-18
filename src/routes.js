@@ -1,20 +1,33 @@
-import React from "react";
-import OrderSupportPage from "./views/OrderSupportPage";
+import HomePage from "./views/HomePage";
+import PartnersPage from "./views/PartnersPage";
+import PurposePage from "./views/PurposePage";
+import ProductPage from "./views/ProductPage";
 import CompanyPage from "./views/CompanyPage";
+import PressPage from "./views/PressPage";
+import BrandsBlogPage from "./views/Brands/BrandsBlogPage";
+import BrandsBlogSinglePage from "./views/Brands/BrandsBlogSinglePage";
+import CaseStudyPage from "./views/CaseStudies/CaseStudyPage";
+import CaseStudySinglePage from "./views/CaseStudies/CaseStudySinglePage";
+import OrderSupportPage from "./views/OrderSupportPage";
 import TermsPage from "./views/TermsPage";
 import PrivacyPage from "./views/PrivacyPage";
 
-const HomePage = React.lazy(() => import("./views/HomePage"));
-const ProductPage = React.lazy(() => import("./views/ProductPage"));
-const PartnersPage = React.lazy(() => import("./views/PartnersPage"));
-const CaseStudySinglePage = React.lazy(() => import("./views/CaseStudies/CaseStudySinglePage"));
-const CaseStudyPage = React.lazy(() => import("./views/CaseStudies/CaseStudyPage"));
+// const OrderSupportPage = React.lazy(() => import("./views/OrderSupportPage"));
+// const CompanyPage = React.lazy(() => import("./views/CompanyPage"));
+// const TermsPage = React.lazy(() => import("./views/TermsPage"));
+// const PrivacyPage = React.lazy(() => import("./views/PrivacyPage"));
 
-const BrandsBlogPage = React.lazy(() => import("./views/Brands/BrandsBlogPage"));
-const BrandsBlogSinglePage = React.lazy(() => import("./views/Brands/BrandsBlogSinglePage"));
+// const HomePage = React.lazy(() => import("./views/HomePage"));
+// const ProductPage = React.lazy(() => import("./views/ProductPage"));
+// const PartnersPage = React.lazy(() => import("./views/PartnersPage"));
+// const CaseStudySinglePage = React.lazy(() => import("./views/CaseStudies/CaseStudySinglePage"));
+// const CaseStudyPage = React.lazy(() => import("./views/CaseStudies/CaseStudyPage"));
 
-const PressPage = React.lazy(() => import("./views/PressPage"));
-const PurposePage = React.lazy(() => import("./views/PurposePage"));
+// const BrandsBlogPage = React.lazy(() => import("./views/Brands/BrandsBlogPage"));
+// const BrandsBlogSinglePage = React.lazy(() => import("./views/Brands/BrandsBlogSinglePage"));
+
+// const PressPage = React.lazy(() => import("./views/PressPage"));
+// const PurposePage = React.lazy(() => import("./views/PurposePage"));
 
 // const routes = [
 //   { path: "/", exact: true, name: "Home", component: HomePage },

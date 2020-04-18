@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 import './ProductPage.scss';
 import halfComputer from '../assets/bg-images/product/hero-half-desktop.png';
-import fullComputer from '../assets/bg-images/home/laptop-bucks_full.png';
+import fullComputer from '../assets/bg-images/product/ios-full-laptop.png';
 import fevoBlackCloth from '../assets/bg-images/home/fevo-black-cloth.png';
 import fevoBlueCloth from '../assets/bg-images/home/rectangle.png';
 

@@ -133,6 +133,13 @@
 }
 
 @font-face {
+  font-family: "Canela-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Canela-Light"), url("../fonts/Canela-Light.otf") format("otf");
+}
+
+@font-face {
   font-family: "canela Regular";
   font-style: normal;
   font-weight: normal;
@@ -166,14 +173,14 @@
 }
 body {
   margin: 0;
-  font-family: "Founders Grotesk Regular";
+  font-family: "Colfax Regular";
   background-color: black;
   color: white;
 }
 
 .app {
   position: relative;
-  // min-height: 100vh;
+  min-height: 100vh;
   .app-body {
     padding-bottom: 137px;
 
@@ -199,7 +206,7 @@ body {
 
 h1,
 .h1 {
-  font-family: "canela Regular";
+  font-family: "Canela-Light";
   font-size: 60px;
   line-height: 1.1;
   letter-spacing: -1.38px;
@@ -231,7 +238,7 @@ h2,
   margin: 0;
   margin-bottom: 0px;
   font-size: 48px;
-  font-family: "canela Regular";
+  font-family: "Canela-Light";
   @media (max-width: 768px) {
     font-size: 40px;
   }
