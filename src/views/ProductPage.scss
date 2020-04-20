@@ -57,7 +57,8 @@
     background-position: center;
     
     @media (max-width: 768px) {
-      padding-top: 130px;
+      padding-top: 100px;
+      padding-bottom: 30px;
     }
     .content {
       margin-top: 30px;
@@ -67,10 +68,6 @@
       line-height: 1.42;
       color: #ffffff;
       font-family: "Colfax Light";
-      
-      @media (max-width: 768px) {
-        margin-bottom: 20px;
-      }
     }
   }
   position: relative;
@@ -90,19 +87,21 @@
   width: 100%;
   background-color: var(--fevo-blue);
 
+  h1 {
+    margin-bottom: 30px;
+  }
   .left-pan {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 80px;
-    padding: 0;
-    padding-top: 60px;
+    padding: 60px;
     max-width: 600px;
     @media (max-width: 768px) {
       padding: 30px;
       justify-content: flex-start;
     }
     .sub-title-content {
+      padding: 0;
       &::after {
         content: none;
       }
@@ -134,6 +133,9 @@
   background-repeat: no-repeat;
   background-position: center; 
   color: black;
+  h1 {
+    margin-bottom: 30px;
+  }
   .content-container {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -187,7 +189,7 @@
       justify-content: flex-start;
     }
     .sub-title-content {
-      padding-bottom: 0;
+      padding: 0;
       &::after {
         content: none;
       }
@@ -199,7 +201,7 @@
 
 .phone-img {
   @media (max-width: 768px) {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 .desktop-img {

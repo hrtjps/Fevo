@@ -31,7 +31,7 @@ const PurposePage = () => {
       <section className="purpose-unlock-section common-5-5-pan" style={{backgroundImage: `url(${redBg})`}}>
         <div className="sub-title left-pan" >
           <div className="sub-title-content">
-            <h2>Unlock Your Tribe</h2>
+            <h1>Unlock Your Tribe</h1>
           </div>
         </div>
         <div className="right-pan" >
@@ -48,7 +48,7 @@ const PurposePage = () => {
         <div className="left-pan" style={{backgroundImage: `url(${lastImg})`}}>  
         </div>
         <div className="right-pan" >
-          <h2>Turn Every Purchase Into An Adventure</h2>
+          <h1>Turn Every Purchase Into An Adventure</h1>
           <div className="content">
             People are looking for ways to connect their passions 
             with others.  When they love it, they’ll tell their 

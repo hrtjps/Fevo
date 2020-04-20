@@ -15,7 +15,7 @@
   .right-pan {
     color: #0c0b0b;
     h1 {
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
   }
 }
@@ -65,11 +65,8 @@
     background-position: center;  
   }
   .right-pan {
-    h2 {
-      margin-bottom: 50px;
-      @media (max-width: 768px) {
-        margin-bottom: 20px;
-      }
+    h1 {
+      margin-bottom: 30px;
     }
   }
 }

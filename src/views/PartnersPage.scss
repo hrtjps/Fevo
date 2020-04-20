@@ -2,7 +2,7 @@
 .content-container {
   padding: 130px;
   @media (max-width: 768px) {
-    padding: 60px
+    padding: 30px
   }
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
     padding-right: 0;
     padding-left: 0;
     @media (max-width: 768px) {
-      padding: 15px 15px 15px 15px;
+      padding: 30px 15px 0px 15px;
     }
     .content {
       max-width: 333px;
@@ -46,11 +46,15 @@
     align-items: center;
     justify-content: center;
     padding: 0 60px;
+    @media (max-width: 768px) {
+      padding: 30px 60px;
+    }
     .hero-content {
       max-width: 400px;
       text-align: center;
       position: relative;
       font-size: 24px;
+      margin-bottom: 30px;
       &::before {
         position: absolute;
         left: -40px;
@@ -115,8 +119,8 @@
   }
   .content {
     max-width: 520px;
-    h2 {
-      font-weight: bold;
+    h1 {
+      margin-bottom: 30px;
     }
 
   }
@@ -177,7 +181,7 @@
     justify-content: flex-start;
     @media (max-width: 768px) {
       align-items: flex-start;
-      padding-top: 60px;
+      padding-top: 40px;
       padding-bottom: 0;
     }
     .sub-title {

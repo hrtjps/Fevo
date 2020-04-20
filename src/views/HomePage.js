@@ -39,10 +39,10 @@ const HomePage = () => {
         <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
           <div className="content-container px-4">
             <div className="content title">
-              <h2>This is </h2>
-              <h2 >
+              <h1>This is </h1>
+              <h1 >
                 Collective Commerce™
-              </h2>
+              </h1>
             </div>
           </div>
           <div className="content-container right-pan px-4" >
@@ -62,7 +62,7 @@ const HomePage = () => {
           <div className="content-container right-pan px-4" >
             <div className="sub-title">
               <div className="sub-title-content top-bar">
-                <h2>The FEVO Way</h2>
+                <h1>The FEVO Way</h1>
               </div>
             </div>
           </div>

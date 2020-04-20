@@ -30,11 +30,11 @@ const PartnersPage = () => {
               </div>
             </div>
           </div>
-          <div className="hero-right py-4">
-            <div className="hero-content mb-5">
+          <div className="hero-right">
+            <div className="hero-content">
               Watching groups form organically within FEVO made our festival even more social.
             </div>
-            <div className="hero-subcontent mb-4">
+            <div className="hero-subcontent">
               Ashley Foster, Director of Ticketing at C3 Presents
             </div>
           </div>
@@ -53,8 +53,8 @@ const PartnersPage = () => {
           </div>
           <div className="content-container px-4">
             <div className="content" >
-              <h2 className="py-4">FEVO  Integrations</h2>
-              <div className="mb-3 mb-md-0">
+              <h1>FEVO  Integrations</h1>
+              <div>
                 We integrate into the major  inventory systems, including  
                 Ticketmaster, Paciolan, and  Tickets.com. This allows our  
                 clients to offer experiences, goods,  and services all in 
@@ -74,14 +74,14 @@ const PartnersPage = () => {
               to deliver results for our partners, it’s easy to see 
               why the biggest brands in the world trust us with their consumer experience.
             </div>
-            <div className="for-content-navs mb-4">
+            <div className="for-content-navs">
               <a href="mailto:bd@fevo.com">Connect with FEVO.</a>
             </div>
           </div>
           <div className="content-container left-pan px-4" >
             <div className="sub-title" >
               <div className="sub-title-content top-bar">
-                <h2>FEVO Clients</h2> 
+                <h1>FEVO Clients</h1> 
               </div>
             </div>
           </div>

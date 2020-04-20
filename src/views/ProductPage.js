@@ -42,8 +42,8 @@ const ProductPage = () => {
           <div className="d-flex justify-content-center align-items-center ">
             <div className="sub-title left-pan px-4" >
               <div className="sub-title-content">
-                <h2>Keep Your Brand at the Center</h2>
-                <div className="content mt-4">
+                <h1>Keep Your Brand at the Center</h1>
+                <div className="content ">
                   Collective Commerce™ is designed to ensure all consumer activity 
                   lives on your site.  Your Social Cart is intuitive, optimized for 
                   mobile, and never redirects or forces the consumer to create an account.  
@@ -74,8 +74,8 @@ const ProductPage = () => {
           <div className="d-flex justify-content-center align-items-center">
             <div className="sub-title px-4">
               <div className="sub-title-content">
-                <h2>One Location for Everything. Fully Integrated. </h2>
-                <div className="content mt-4">
+                <h1>One Location for Everything. Fully Integrated. </h1>
+                <div className="content">
                   WeFevo serves as one central location for all your needs. 
                   Log into WeFevo to manage inventory, build campaigns, 
                   launch offers, and access your data in real time. Add custom 
