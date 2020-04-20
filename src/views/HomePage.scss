@@ -60,16 +60,19 @@
       padding-top: 130px;
     }
     .main-title {
-      position: relative;
-      &::after {
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        width: 92px;
-        height: 3px;
-        background-color: white;
-
+      span {
+        position: relative;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          background-color: white;
+        }
       }
     }
     h1 {
