@@ -351,11 +351,11 @@ export const teamMembers = [
   {
     img: Jared,
     name: "Jared Effron",
-    role: "EVP - Investor R&P"
+    role: "EVP - Investor Relations & Strategic Partnerships"
   },
   {
     img: Doug,
-    name: "Doug (Douglas) Fowler",
+    name: "Doug Fowler",
     role: "EVP - Partner Success"
   },
   {
@@ -370,7 +370,7 @@ export const teamMembers = [
   },
   {
     img: "",
-    name: "Kristin (Jua) Ko",
+    name: "Kristin Ko",
     role: "EVP - Partner Solutions"
   },
 ]
