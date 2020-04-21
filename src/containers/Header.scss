@@ -179,11 +179,9 @@
     justify-content: flex-end;
   }
   .menu-logo {
-    font-weight: bold;
-    font-weight: bolder;
-    font-size: 45px;
-    text-align: center;
-    transform: scaleX(1.8);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
   }
   .none-bottom-border {
     border-bottom: none;

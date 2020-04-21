@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Header.scss";
 import Logo from "../assets/icons/fevo.png";
+import LogoMob from "../assets/icons/fevo_mob.png";
 import { NavLink, withRouter } from "react-router-dom";
 import { Modal, Button } from "react-bootstrap";
 import DropdownItem from "react-bootstrap/DropdownItem";
@@ -38,8 +39,8 @@ const NewHeader = ({history}) => {
           <div className="menu-toggle-btn" onClick={()=>setShow(false)}>
             <FontAwesomeIcon icon={faBars} size="2x"/>
           </div>
-          <div className="menu-logo">
-            FEVO
+          <div className="menu-logo" >
+            <img src={LogoMob} alt="FEVO LOGO" />
           </div>
           <DropdownItem as="div">
             <NavLink to="/" activeClassName="active-link" exact>

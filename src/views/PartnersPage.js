@@ -58,7 +58,7 @@ const PartnersPage = () => {
                 We integrate into the major  inventory systems, including  
                 Ticketmaster, Paciolan, and  Tickets.com. This allows our  
                 clients to offer experiences, goods,  and services all in 
-                one place—  giving consumers the most  seamless digital 
+                one place — giving consumers the most  seamless digital 
                 experience all fully integrated with your existing inventory system. 
               </div>
             </div>
