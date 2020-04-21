@@ -31,7 +31,7 @@ const PurposePage = () => {
       <section className="purpose-unlock-section common-5-5-pan" style={{backgroundImage: `url(${redBg})`}}>
         <div className="sub-title left-pan" >
           <div className="sub-title-content">
-            <h1>Unlock Your Tribe</h1>
+            <h1>Unlock <br/>Your Tribe</h1>
           </div>
         </div>
         <div className="right-pan" >
