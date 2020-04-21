@@ -121,6 +121,7 @@
   }
   .content {
     max-width: 520px;
+    font-family: "Founders Grotesk Light" !important;
     h1 {
       margin-bottom: 30px;
     }
@@ -144,6 +145,7 @@
     }
     .content {
       // max-width: 440px;
+      font-family: "Founders Grotesk Light" !important;
       margin-bottom: 60px;
       @media (max-width: 768px) {
         text-align: left;
