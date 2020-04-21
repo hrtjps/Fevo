@@ -20,8 +20,8 @@ const PurposePage = () => {
           
         </div>
         <div className="right-pan" >
-          <h1>Experience Together</h1>
           <div className="content">
+            <h1>Experience Together</h1>
             Life is meant to be shared together. 
             We all have our tribes.  Our tribes embody us and lead us into adventure.<br /><br />
             FEVO is how tribes buy.

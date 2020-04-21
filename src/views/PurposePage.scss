@@ -2,7 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+  
   @media (max-width: 768px) {
     height: unset;
   }
@@ -14,9 +14,21 @@
   }
   .right-pan {
     color: #0c0b0b;
-    padding-top: 120px;
+    padding: 0 30px;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    
     @media (max-width: 768px) {
-      padding-top: 30px;
+      padding: 30px;
+    } 
+    .content {
+      padding-top: 240px;
+      padding-bottom: 240px;
+      @media (max-width: 768px) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      } 
     }
     h1 {
       margin-bottom: 30px;
