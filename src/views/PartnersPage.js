@@ -24,7 +24,7 @@ const PartnersPage = () => {
         <div className="d-flex flex-column flex-md-row justify-content-evenly w-100">
           <div className="">
             <div className="content-container">
-              <div className="content">
+              <div className="content px-4">
                 <h1 className="mb-4">Our Partners</h1>
                 Proud to support our growing community of FEVO partners
               </div>
