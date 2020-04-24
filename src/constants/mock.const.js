@@ -50,6 +50,8 @@ import Himanshu from '../assets/bg-images/company/Himanshu.png';
 import Jared from '../assets/bg-images/company/Jared.png';
 import Josh from '../assets/bg-images/company/Josh.png';
 import Roman from '../assets/bg-images/company/Roman.png';
+import Geordie from '../assets/bg-images/company/Geordie.jpg';
+import Senthil from '../assets/bg-images/company/Senthil.jpg';
 
 export const workingItems = [
   { img: yankeesLogo },
@@ -324,7 +326,7 @@ export const teamMembers = [
     role: "CBO"
   },
   {
-    img: "",
+    img: Geordie,
     name: "Geordie Stewart",
     role: "COO"
   },
@@ -344,7 +346,7 @@ export const teamMembers = [
     role: "EVP - Partner Development"
   },
   {
-    img: "",
+    img: Senthil,
     name: "Senthil Chidambaram",
     role: "EVP - Music Partnerships"
   },
@@ -370,7 +372,7 @@ export const teamMembers = [
   },
   {
     img: "",
-    name: "Kristin Ko",
+    name: "Kristine Ko",
     role: "EVP - Partner Solutions"
   },
 ]

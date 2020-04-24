@@ -46,24 +46,24 @@ const OrderSupportPage = ({ data}) => {
                 <div className="label">Issue Type</div>
                 <FormControl as="select">
                   <option>- Select one -</option>
-                  <option>1</option>
-                  <option>2</option>
+                  <option>Issue with a ticket</option>
+                  <option>Other</option>
                 </FormControl>
               </div>
               <div className="col-12 col-md-8">
                 <div className="label">Please select the option that most closely applies to your situation:</div>
                 <div className="row">
                   <div className="col-12 col-sm-6 ">
-                    <FormCheck custom type="radio" id="situation1" name="situation" label="Haven’t received my ticket(s)"></FormCheck>
-                    <FormCheck custom type="radio" id="situation2" name="situation" label="Can’t access my ticket(s)"></FormCheck>
-                    <FormCheck custom type="radio" id="situation3" name="situation" label="Trouble purchasing my ticket(s)"></FormCheck>
-                    <FormCheck custom type="radio" id="situation4" name="situation" label="Group-related question"></FormCheck>
-                    <FormCheck custom type="radio" id="situation5" name="situation" label="Seating adjustment"></FormCheck>
+                    <FormCheck custom type="radio" id="situation1" name="situation" label="Haven’t received my ticket/product(s)"></FormCheck>
+                    <FormCheck custom type="radio" id="situation2" name="situation" label="Can’t access my ticket/product(s)"></FormCheck>
+                    <FormCheck custom type="radio" id="situation3" name="situation" label="Trouble purchasing"></FormCheck>
+                    <FormCheck custom type="radio" id="situation4" name="situation" label="Group Question"></FormCheck>
+                    <FormCheck custom type="radio" id="situation5" name="situation" label="Seating Adjustment"></FormCheck>
                   </div>
                   <div className="col-12 col-sm-6 ">
-                    <FormCheck custom type="radio" id="situation6" name="situation" label="Benefit redemption"></FormCheck>
-                    <FormCheck custom type="radio" id="situation7" name="situation" label="Refund request"></FormCheck>
-                    <FormCheck custom type="radio" id="situation8" name="situation" label="General question"></FormCheck>
+                    <FormCheck custom type="radio" id="situation6" name="situation" label="Benefit Redemption"></FormCheck>
+                    <FormCheck custom type="radio" id="situation7" name="situation" label="Refund Request"></FormCheck>
+                    <FormCheck custom type="radio" id="situation8" name="situation" label="General Question"></FormCheck>
                     <FormCheck custom type="radio" id="situation9" name="situation" label="Other"></FormCheck>
                   </div>
                 </div>
