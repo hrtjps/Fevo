@@ -28,7 +28,8 @@ const HomePage = () => {
           <img src={fullComputer} alt="computer" className="show-mobile"/>
         </div>
         <div className="hero-container right-pan" style={{backgroundImage: `url(${fevoBlackCloth})`}}>
-          <h1 className="mb-3 main-title">FEVO: The Social Cart Changing the Way Ecommerce Works</h1>
+          <h1 className="mb-3 main-title">FEVO: The Social Cart</h1>
+          <h1> Changing the Way Ecommerce Works</h1>
           <div className="content">
             Rally your consumers and turn every purchase into a collective commerce experience right on your brand.
           </div>
