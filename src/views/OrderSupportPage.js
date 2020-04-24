@@ -42,22 +42,7 @@ const OrderSupportPage = ({ data}) => {
               Order Support
             </div>
             <div className="row">
-              <div className="col-12 col-md-4">
-                <div className="label">Issue Type</div>
-                <FormControl as="select">
-                  <option>- Select one -</option>
-                  <option>Haven’t received my ticket/product(s)</option>
-                  <option>Can’t access my ticket/product(s)</option>
-                  <option>Trouble purchasing</option>
-                  <option>Group Question</option>
-                  <option>Seating Adjustment</option>
-                  <option>Benefit Redemption</option>
-                  <option>Refund Request</option>
-                  <option>General Question</option>
-                  <option>Other</option>
-                </FormControl>
-              </div>
-              <div className="col-12 col-md-8">
+              <div className="col-12">
                 <div className="label">Please select the option that most closely applies to your situation:</div>
                 <div className="row">
                   <div className="col-12 col-sm-6 ">
